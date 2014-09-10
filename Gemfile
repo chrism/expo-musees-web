@@ -14,6 +14,9 @@ gem 'foreman', '~> 0.75.0'
 # app server
 gem 'unicorn', '~> 4.8.3'
 
+# grabbing data
+gem 'typhoeus', '~> 0.6.9'
+
 # FRONT END
 
 # Use SCSS for stylesheets
@@ -34,6 +37,7 @@ end
 # TESTING
 
 group :development, :test do
+  gem 'figaro', '~> 0.7.0'
   gem 'rspec-rails', '~> 3.1.0'
   gem 'factory_girl_rails', '~> 4.4.1'
 end
@@ -74,4 +78,4 @@ end
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
