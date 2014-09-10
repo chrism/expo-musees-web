@@ -44,6 +44,7 @@ group :test do
   gem 'database_cleaner', '~> 1.3.0'
   gem 'launchy', '~> 2.4.2'
   gem 'selenium-webdriver', '~> 2.42.0'
+  gem 'rspec-collection_matchers', '~> 1.0.0'
 end
 
 # UNUSED GEMS COME WITH RAILS

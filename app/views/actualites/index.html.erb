@@ -1,0 +1,10 @@
+<h1>Actualites</h1>
+
+<ul class="recent-actualites-list">
+  <%= @recent_actualites.each do | actualite | %>
+    <li class="recent-actualites-list-item">
+      <h3><%= actualite.name %></h3>
+      <h5><%= actualite.title %></h5>
+    </li>
+</ul>
+
