@@ -1,7 +1,7 @@
 <h1>Actualites</h1>
 
 <ul class="recent-actualites-list">
-  <% @recent_actualites.each do |actualite| %>
+  <% @recent_actualites[:items].each do |actualite| %>
     <li class="recent-actualites-list-item"><%= actualite.title %></li>
   <% end %>
 </ul>

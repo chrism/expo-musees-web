@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 11 Sep 2014 11:01:59 GMT
+      - Thu, 11 Sep 2014 14:55:33 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=s2u3teclqk09fp7gr94qlk2sl0; path=/
+      - PHPSESSID=h41o6ggr37fe8v99f9c2ac9bl5; path=/
       Via:
       - 1.1 orangemusee.uniteam.fr
       Transfer-Encoding:
@@ -316,5 +316,5 @@ http_interactions:
         aXF1aXRlLWEtbGFlcm9uYXV0aXF1ZSJ9XSwib2Zmc2V0IjowLCJ0b3RhbENv
         dW50IjoxMSwiY291bnQiOjMsImVycm9yIjowfQ==
     http_version: 
-  recorded_at: Thu, 11 Sep 2014 11:03:00 GMT
+  recorded_at: Thu, 11 Sep 2014 14:56:35 GMT
 recorded_with: VCR 2.9.3
