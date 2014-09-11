@@ -1,8 +1,9 @@
 module UniteamAPI
+  
   class Actualite
     def self.recent
-      credentials = "#{ENV['UNITEAM_API_USERNAME']}:#{ENV['UNITEAM_API_PASSWORD']}"
-      response = Typhoeus::Request.get('http://orangemusee.uniteam.fr/api/getActu?count=3', userpwd: credentials)
+      auth = {:username => ENV['UNITEAM_API_USERNAME'], :password => ENV['UNITEAM_API_PASSWORD']}
+      response = HTTParty.get("http://orangemusee.uniteam.fr/api/getActu?count=3", {:basic_auth => auth})
       actualites = JSON.parse(response.body, :quirks_mode => true)
       actualites["news"].collect do |item|
         {

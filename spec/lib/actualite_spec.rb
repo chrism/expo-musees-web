@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe UniteamAPI::Actualite do
-  describe '.recent' do
+  describe '.recent', :vcr do
     before do
       @actualites = UniteamAPI::Actualite.recent
     end

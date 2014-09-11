@@ -15,7 +15,8 @@ gem 'foreman', '~> 0.75.0'
 gem 'unicorn', '~> 4.8.3'
 
 # grabbing data
-gem 'typhoeus', '~> 0.6.9'
+# gem 'typhoeus', '~> 0.6.9'
+gem 'httparty', '~> 0.13.1'
 
 # FRONT END
 
@@ -49,6 +50,8 @@ group :test do
   gem 'launchy', '~> 2.4.2'
   gem 'selenium-webdriver', '~> 2.42.0'
   gem 'rspec-collection_matchers', '~> 1.0.0'
+  gem 'vcr', '~> 2.9.3'
+  gem 'webmock', '~> 1.18.0'
 end
 
 # UNUSED GEMS COME WITH RAILS
