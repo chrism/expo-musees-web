@@ -1,9 +1,10 @@
 class Actualite < ActiveRecord::Base
-  attr_accessor :name, :title
+  attr_accessor :name, :title, :uniteam_id
 
   def initialize(attributes)
     self.name = attributes[:name]
     self.title = attributes[:title]
+    self.uniteam_id = attributes[:uniteam_id]
   end
 
   def self.recent(count = 3)
@@ -15,7 +16,6 @@ class Actualite < ActiveRecord::Base
     { :items => items, :total_count => total_count }
   end
 
-
   def self.list(count = 10, offset = 0)
     actualites = UniteamAPI::Actualite.list(count, offset)
     total_count  = actualites[:total_count]
@@ -25,6 +25,11 @@ class Actualite < ActiveRecord::Base
       new actualite
     end
     { :items => items, :total_count => total_count, :offset => offset, :count => count }
+  end
+
+  def self.find(id)
+    actualite = UniteamAPI::Actualite.find(id)
+    new actualite
   end
   
 end

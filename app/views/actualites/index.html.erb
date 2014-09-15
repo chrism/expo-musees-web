@@ -1,8 +1,8 @@
 <h1>Actualites</h1>
 
-<ul class="recent-actualites-list">
-  <% @recent_actualites[:items].each do |actualite| %>
-    <li class="recent-actualites-list-item"><%= actualite.title %></li>
+<ul class="actualites-list">
+  <% @list_actualites[:items].each do |actualite| %>
+    <li class="actualites-list-item"><%= link_to actualite.title, actualite_path(actualite.uniteam_id) %></li>
   <% end %>
 </ul>
 

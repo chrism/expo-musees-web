@@ -2,6 +2,43 @@
 http_interactions:
 - request:
     method: get
+    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=2&type=news
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 15 Sep 2014 17:02:08 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=cno6bro7mpqb3caik4asea6ok3; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      base64_string: |
+        eyJlcnJvciI6NywiZGVidWciOiJOZXdzIG5vdCBmb3VuZCJ9
+    http_version: 
+  recorded_at: Mon, 15 Sep 2014 17:02:11 GMT
+- request:
+    method: get
     uri: http://username:password@expomusees.orange.com/api/getActu?count=10&offset=0
     body:
       encoding: US-ASCII
@@ -19,8 +56,8 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=98hqevurqbo7gpsb8oqqritvv5; path=/
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=ue2lf257bici1dsl6elpgmvoa0; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -559,6 +596,96 @@ http_interactions:
         aGUtZGUtbGFydC1jb250ZW1wb3JhaW4tYXZlYy1teWFydG1ha2VycyJ9XSwi
         b2Zmc2V0IjowLCJ0b3RhbENvdW50Ijo2NTksImNvdW50IjoxMCwiZXJyb3Ii
         OjB9
+    http_version: 
+  recorded_at: Mon, 15 Sep 2014 17:03:00 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=704&type=news
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 15 Sep 2014 17:02:56 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=1fni2cg6t5rcf7jl5m6ra9mao4; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2422'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      base64_string: |
+        eyJ0eXBlIjoibmV3cyIsImlkIjo3MDQsInVybCI6Imh0dHA6XC9cL2V4cG9t
+        dXNlZXMub3JhbmdlLmNvbVwvYWN0dS03MDRcL2xhdXRvbW5lLWxhLXNhaXNv
+        bi1kZS1idXJlbiIsIm5hbWUiOiJMXHUyMDE5YXV0b21uZSwgbGEgc2Fpc29u
+        IGRlIEJ1cmVuIiwidGl0bGUiOiJMZXMgZXhwb3NpdGlvbnMgZGUgQnVyZW4g
+        ZW4gRnJhbmNlIiwidmlkZW8iOiIiLCJjb250ZW50IjoiPHA+Q2V0IGF1dG9t
+        bmUsIERhbmllbCBCdXJlbiBzXHUyMDE5YW11c2UuIE5vbiBjb250ZW50IGRc
+        dTIwMTlcdTAwZWF0cmUgdW5lIGZpZ3VyZSBtYWpldXJlIGRlIGxcdTIwMTlh
+        cnQgY29udGVtcG9yYWluLCBjb25udSBldCBleHBvc1x1MDBlOSBkYW5zIGxl
+        IG1vbmRlIGVudGllciwgbGUgbWFpdHJlIGRlIGxcdTIwMTlpbiBzaXR1IHBy
+        ZW5kIHBvc3Nlc3Npb24gZGUgZGV1eCBtdXNcdTAwZTllcyBmcmFuXHUwMGU3
+        YWlzLiBSXHUwMGU5Y2l0IGRcdTIwMTl1bmUgaW52YXNpb24uPFwvcD5cclxu
+        PHA+XHUwMGEwPFwvcD5cclxuPHA+U3RyYXNib3VyZy4gQnVyZW4gZmFpdCBs
+        XHUyMDE5ZW5mYW50IGVuIHJldmlzaXRhbnQgbGUgTUFNQyBkZSBTdHJhc2Jv
+        dXJnLiBDZWx1aSBxdWkgZFx1MDBlOWZlbmQgcXVlIFx1MDBhYiBbU29uXSB0
+        cmF2YWlsIGVzdCBsdWRpcXVlIFx1MDBiYiBcdTAwYWIgXHUwMGEwamUgbFx1
+        MjAxOWFpIHRvdWpvdXJzIGRpdCBcdTAwYmIsIGFzc3VyZSBcdTAwZTlnYWxl
+        bWVudCBxdWUgbGEgZnJhaWNoZXVyIGRlIGxcdTIwMTllbmZhbmNlIGVzdCBl
+        biByXHUwMGU5YWxpdFx1MDBlOSB1bmUgcXVhbGl0XHUwMGU5IGNyXHUwMGU5
+        YXRpdmUgcXVlIGJlYXVjb3VwIGRcdTIwMTlhcnRpc3RlcyBvbnQgcmVjaGVy
+        Y2hcdTAwZTllIFx1MDBlMCBsYSBmaW4gZGUgbGV1ciBjYXJyaVx1MDBlOHJl
+        LCBcdTAwZTAgbFx1MjAxOWltYWdlIGRlIE1hdGlzc2UgZXQgZGUgc2VzIFx1
+        MDBhYiBwYXBpZXJzIGRcdTAwZTljb3VwXHUwMGU5cyBcdTAwYmIuIEJ1cmVu
+        IGdvXHUwMGZidGUgYXV4IHBsYWlzaXJzIGR1IGpldSBzdXIgbGEgZmFcdTAw
+        ZTdhZGUgZHUgTUFNQyBldCBcdTAwZTAgdHJhdmVycyBkZXMgY3ViZXMgY29s
+        b3JcdTAwZTlzLiBJbCBwb3NzXHUwMGU4ZGUgbFx1MjAxOWVzcGFjZSBhdXRh
+        bnQgcXVcdTIwMTlpbCBub3VzIGxcdTIwMTlvZmZyZS5cdTAwYTA8XC9wPlxy
+        XG48cD5NYXJzZWlsbGUuIENcdTIwMTllc3QgdW4gcHJvamV0IGZvdS4gQ2Vs
+        dWkgZFx1MjAxOU9yYSBJdG8sIGxcdTIwMTllbmZhbnQgdGVycmlibGUgZHUg
+        ZGVzaWduIGZyYW5cdTAwZTdhaXMsIHBhc3Npb25uXHUwMGU5IGRlIExlIENv
+        cmJ1c2llciBldCBxdWkgYSBkXHUwMGU5Y2lkXHUwMGU5IGRlIGZhaXJlIGRl
+        IHNhIFx1MDBhYiBDaXRcdTAwZTkgUmFkaWV1c2UgXHUwMGJiIFx1MDBlMCBN
+        YXJzZWlsbGUgdW4gY2VudHJlIGRcdTIwMTlhcnQgY29udGVtcG9yYWluLCBs
+        ZSBNYU1vLiBOZXctWW9yayBldCBzb24gTW9NYSBuXHUyMDE5b250IHF1XHUy
+        MDE5XHUwMGUwIGJpZW4gc2UgdGVuaXIuIExhIGNpdFx1MDBlOSBNb2R1bG9y
+        LCBwb3VyIFx1MDBhYiBtb2R1bGUgXHUwMGJiIGV0IFx1MDBhYiBub21icmUg
+        ZFx1MjAxOW9yIFx1MDBiYiwgYXZhaXQgXHUwMGU5dFx1MDBlOSBpbWFnaW5c
+        dTAwZTllIHBhciBsXHUyMDE5YXJjaGl0ZWN0ZSBjXHUwMGU5bFx1MDBlOWJy
+        aXNzaW1lIGNvbW1lIHVuIHZhaXNzZWF1IHJlc3BlY3RhbnQgbGVzIHJhcHBv
+        cnRzIGlkXHUwMGU5YXV4IHBvdXIgbFx1MjAxOW9yZ2FuaXNhdGlvbiBkZSBs
+        YSB2aWUgZW4gc29jaVx1MDBlOXRcdTAwZTkuIFNvbiB0b2l0IHRlcnJhc3Nl
+        IGVzdCBsZSB0ZXJyYWluIGRlIGpldSBkZSBCdXJlbiB0b3V0IGxcdTIwMTlh
+        dXRvbW5lLiBMXHUyMDE5YXJ0aXN0ZSBlbiBhIHByaXMgcG9zc2Vzc2lvbiBw
+        b3VyIGpvdWVyIGF2ZWMgbGVzIG9tYnJlcywgbFx1MjAxOWhvcml6b24gZXQg
+        ZWxzIGRpbWVuc2lvbnMgcXVpIGVudG91cmVudCBsZSBtb251bWVudC4gQ2Ug
+        c29udCA3IFx1MDE1M3V2cmVzIGluXHUwMGU5ZGl0ZXMgcXVpIHZpZW5kcm9u
+        dCBsdWkgZG9ubmVyIGNvcnBzLCBhY2Nlc3NpYmxlcyBncmF0dWl0ZW1lbnQu
+        IExhIFx1MDBhYiBtYWlzb24gZHUgZmFkYSBcdTAwYmIgYSB1bmUgYXJhaWdu
+        XHUwMGU5ZSBhdSBwbGFmb25kLCBEYW5pZWwgQnVyZW4uXHUwMGEwPFwvcD5c
+        clxuPHA+RGUgbFx1MjAxOWluIHNpdHUgaW4gdml2byBwYXIgbGUgbWFpdHJl
+        IGZyYW5cdTAwZTdhaXMgZHUgZ2VucmUsIGNcdTIwMTllc3QgdG91dCBsXHUy
+        MDE5YXV0b21uZS5cdTAwYTA8XC9wPlxyXG48cD48YnIgXC8+PGJyIFwvPkxh
+        dXJhIEdpYWNoZXJpbzxcL3A+IiwiaW1hZ2VzIjpbIm5ld3MtNTQxMTY2MDNl
+        NzQxYi5qcGciXSwiY2F0ZWdvcmllcyI6W3sibmFtZSI6Ilx1MDBlMCBsYSBk
+        ZWNvdXZlcnRlIGRlLi4uIiwiaWQiOjE4fV0sImVycm9yIjowfQ==
     http_version: 
   recorded_at: Mon, 15 Sep 2014 17:03:00 GMT
 recorded_with: VCR 2.9.3

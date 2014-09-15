@@ -32,4 +32,15 @@ describe UniteamAPI::Actualite do
       expect(@actualites[:offset]).to be(5)
     end
   end
+
+  describe '.find', :vcr, record: :all do
+
+    it 'returns the full actualite details' do
+      @actualite = UniteamAPI::Actualite.find(1)
+      expect(@actualite[:uniteam_id]).to eq(1)
+      expect(@actualite[:name]).to eq("Les journ\u00e9es du patrimoine 2012")
+      expect(@actualite[:title]).to eq("A la d\u00e9couverte des tr\u00e9sors cach\u00e9s ...")
+    end
+
+  end
 end
