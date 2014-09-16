@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature 'Actualites Page', :vcr, record: :all do
+RSpec.feature 'Actualites Page', :vcr do
   background do
      visit actualites_path
   end
@@ -13,6 +13,7 @@ RSpec.feature 'Actualites Page', :vcr, record: :all do
   scenario 'List item links to detail page' do
     title = first('.actualites-list-item > a').text
     first('.actualites-list-item > a').click
-    expect(page).to have_content(title)
+    expect(first 'h1').to have_content(/[^\s]/)
+    expect(first '.content').to have_content(/[^\s]/)
   end
 end

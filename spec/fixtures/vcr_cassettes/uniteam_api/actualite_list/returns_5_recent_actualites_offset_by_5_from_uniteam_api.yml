@@ -5,7 +5,7 @@ http_interactions:
     uri: http://username:password@expomusees.orange.com/api/getActu?count=5&offset=5
     body:
       encoding: US-ASCII
-      base64_string: ''
+      string: ''
     headers: {}
   response:
     status:
@@ -13,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Sep 2014 17:00:50 GMT
+      - Tue, 16 Sep 2014 15:37:10 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=34rbm5e9c426sl5ctnfahsek31; path=/
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=3utfvkq93f8f9qqeaij29ton85; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -33,312 +33,147 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      base64_string: |
-        eyJuZXdzIjpbeyJpZCI6NjkzLCJuYW1lIjoiVm90cmUgYXV0b21uZSBjdWx0
-        dXJlbCA6IGNlIHF1XHUyMDE5aWwgZmF1dCBzYXZvaXIiLCJ0aXRsZSI6Ikxl
-        cyBleHBvc2l0aW9ucyBkZSBsJ2F1dG9tbmUgXHUwMGUwIG5lIHBhcyBtYW5x
-        dWVyIiwidmlkZW8iOiIiLCJjb250ZW50IjoiPHA+TFx1MjAxOWFublx1MDBl
-        OWUgMjAxNCBuXHUyMDE5ZXN0IHBhcyBlbmNvcmUgZmluaWUgISBPXHUwMGY5
-        IGVuIFx1MDBlYXRlcy12b3VzIGRlIHZvdHJlIFx1MDBhYiB0byBkbyBcdTAw
-        YmIgZGVzIGV4cG9zIFx1MDBlMCBuZSBwYXMgbWFucXVlciA/IFBvdXIgY2V1
-        eCBxdWUgbFx1MjAxOVx1MDBlOXRcdTAwZTkgYXVyYWl0IFx1MDBlOWdhclx1
-        MDBlOXMgZGVzIGNoZW1pbnMgZGVzIG11c1x1MDBlOWVzLCB2b2ljaSB1biBy
-        YXBwZWwgZGUgY2UgcXVpIHZvdXMgYXR0ZW5kIGRhbnMgbGVzIG1vaXMgcXVp
-        IHZpZW5uZW50ICE8XC9wPlxyXG48cD5TZXB0ZW1icmUuIFBvdXIgbGEgcmVu
-        dHJcdTAwZTllLCB1biBjb3VycyBkXHUyMDE5aGlzdG9pcmUgbWFnaXN0cmFs
-        IHZvdXMgYXR0ZW5kLiBMdWNyXHUwMGU4Y2UsIFJvZHJpZ29cdTIwMjYgXHUw
-        MGUwIGNlIG5vbSBub3VzIG5cdTIwMTlhc3NvY2lvbnMgZFx1MDBlOXNvcm1h
-        aXMgcXVcdTIwMTl1biBwYXRyb255bWUsIGNlbHVpIGRlcyBCb3JnaWEuIExh
-        IGdyYW5kZSBmYW1pbGxlIGVzcGFnbm9sZSBhdXNzaSBzdWxmdXJldXNlIHF1
-        XHUyMDE5aW5mbHVlbnRlLCBhIGNcdTAwZjR0b3lcdTAwZTkgbGUgZ3JhdGlu
-        IGRlIGxhIGNyXHUwMGU5YXRpb24gYXJ0aXN0aXF1ZSBkZSBsYSBSZW5haXNz
-        YW5jZS4gTGEgZmFtaWxsZSBmb3JtaWRhYmxlIHJhY29udGUgc29uIHRlbXBz
-        IFx1MDBlMCB0cmF2ZXJzIHNlcyByZWxhdGlvbnMgYXUgTXVzXHUwMGU5ZSBN
-        YWlsbG9sLCBcdTAwZTAgUGFyaXMuPFwvcD5cclxuPHA+T2N0b2JyZS4gRGlh
-        YmxlLCBlbmNvcmUgZGUgbFx1MjAxOWhpc3RvaXJlICEgTG91aXMgSVggdm91
-        cyBjb25uYWlzc2V6ID8gUGV1dC1cdTAwZWF0cmUgcXVcdTIwMTlpbCB2b3Vz
-        IGVzdCBwbHVzIGZhbWlsaWVyIHNvdXMgc29uIG5vbSBkZSBTYWludCBMb3Vp
-        cyA/IE5vdHJlIGxvaW50YWluIHJvaSBjYW5vbmlzXHUwMGU5LCBcdTAwYWIg
-        anVzdGljaWVyIHN1cHJcdTAwZWFtZSBcdTAwYmIgcXVpIHJlbmRhaXQganVz
-        dGljZSBzb3VzIHVuIGNoXHUwMGVhbmUgXHUwMGUwIFZpbmNlbm5lcyBldCBv
-        ZmZpY2lhaXQgY29tbWUganVnZSBkYW5zIHRvdXRlcyBsZXMgY291cnMgZFx1
-        MjAxOUV1cm9wZSBkdSAxM1x1MDBlOG1lIHNpXHUwMGU4Y2xlLCBhIGxhaXNz
-        XHUwMGU5IGxcdTIwMTllbXByZWludGUgZFx1MjAxOXVuIHJcdTAwZThnbmUg
-        ZGUgcmVub3V2ZWF1IGludGVsbGVjdHVlbCBldCBhcnRpc3RpcXVlLiBQb3Vy
-        IHNvbiBodWl0aVx1MDBlOG1lIGNlbnRlbmFpcmUsIGxhIENvbmNpZXJnZXJp
-        ZSwgZW4gcGFydGVuYXJpYXQgYXZlYyBsZSBtdXNcdTAwZTllIGR1IExvdXZy
-        ZSwgcmV2aWVudCBzdXIgbGEgY3JcdTAwZTlhdGlvbiBkZSBjZSBteXRoZS5c
-        dTAwYTA8XC9wPlxyXG48cD5Ob3ZlbWJyZS4gQ2hlZXNlICEgTm92ZW1icmUg
-        ZXN0IGxlIG1vaXMgZGUgbGEgcGhvdG9ncmFwaGllLiBEaWZmaWNpbGUgZGUg
-        Y2hvaXNpciB1biBcdTAwZTl2XHUwMGU4bmVtZW50IHBhcm1pIGxhIG11bHRp
-        dHVkZSBkXHUyMDE5aW5zdGl0dXRpb25zIHF1aSBjXHUwMGU5bFx1MDBlOGJy
-        ZXJvbnQgbGVzIG5vdXZlYXV4IGNsaWNoXHUwMGU5cy4gUG91cnRhbnQsIHNp
-        IGxcdTIwMTlvbiBjaGVyY2hlIGxhIGNvbmNlbnRyYXRpb24gZGUgYmxvdXNv
-        bnMgbm9pcnMsIHNpIGxcdTIwMTlvbiBhaW1lIGxlcyBwaG90b3MgcXVpIHJh
-        Y29udGVudCBsXHUyMDE5aGlzdG9pcmUsIGV0IHN1cnRvdXQsIHNpIGxcdTIw
-        MTlvbiBhaW1lIGxlIG1cdTAwZTlsYW5nZSBkZXMgZ2VucmVzIGRlIHR5cGUg
-        cGhvdG8tbXVzaWNhbCwgYWxvcnMgb24gaXJhIGF1eCBQaG90YXVtbmFsZXMg
-        ZGUgQmVhdXZhaXMuIExhIGdyYW5kZSBmYW1pbGxlIGR1IHJvY2sgb3V2cmUg
-        c2VzIGFsYnVtcywgc2FucyBjaGljaGkuPFwvcD5cclxuPHA+RFx1MDBlOWNl
-        bWJyZS4gXHUwMGFiIEl0XHUyMDE5cyBiZWdpbmluZyB0byBsb29rIGEgbG90
-        IGxpa2UgY2hyaXN0bWFzIFx1MDBiYi4gT3VpLCB2b3VzIHByXHUwMGU5cGFy
-        ZXogbGVzIGZcdTAwZWF0ZXMgZGUgZmluIGRcdTIwMTlhbm5cdTAwZTllIGVu
-        IGVudG9ubmFudCB2b3MgY2xhc3NpcXVlcy4gQ1x1MjAxOWVzdCBsZSBtb2lz
-        IG1hZ2lxdWUsIGNlbHVpIGRlcyB0clx1MDBlYXZlcywgZGVzIGdyYW5kcyBl
-        bmZhbnRzIGV0IGRlIGxhIGZcdTAwZTlcdTAwZTlyaWUgYXV0b3Jpc1x1MDBl
-        OWUuIExlIG1vbWVudCBlc3QgaWRcdTAwZTlhbCBwb3VyIHJlcGFydGlyIGR1
-        IGNcdTAwZjR0XHUwMGU5IGRlcyBjb250ZXMgZGUgZlx1MDBlOWVzIGF1IFBh
-        bGFpcyBkZXMgTHVtaVx1MDBlOHJlcyBkXHUyMDE5RXZpYW4uIExlIGdyYW5k
-        IGxpdnJlIGRlcyBjb250ZXMsIENoYXJsZXMgUGVycmF1bHQgZW4gZ3Vlc3Qg
-        c3Rhciwgbm91cyByXHUwMGU5dlx1MDBlOGxlIHF1ZSBjZXMgaGlzdG9pcmVz
-        IFx1MDBlMCBsXHUyMDE5b3JpZ2luZSB1biBwb2lsIHRlcnJpZmlhbnRlcyBv
-        bnQgXHUwMGU5dm9sdVx1MDBlOSBhdSByeXRobWUgZGUgbGEgc29jaVx1MDBl
-        OXRcdTAwZTkgZXQgZGUgc2VzIGVuZmFudHMuXHUwMGEwPFwvcD5cclxuPHA+
-        SWxzIHNlIGN1bHRpdlx1MDBlOHJlbnQgZXQgdlx1MDBlOWN1cmVudCBoZXVy
-        ZXV4LjxcL3A+XHJcbjxwPjxiciBcLz5MYXVyYSBHaWFjaGVyaW88XC9wPiIs
-        ImltYWdlcyI6WyJuZXdzLTU0MDU4OWZjNDI2YTcuanBnIl0sImRhdGUiOjE0
-        MDk2NDkxNDgsInVybCI6Imh0dHA6XC9cL2V4cG9tdXNlZXMub3JhbmdlLmNv
-        bVwvYWN0dS02OTNcL3ZvdHJlLWF1dG9tbmUtY3VsdHVyZWwtY2UtcXVpbC1m
-        YXV0LXNhdm9pciJ9LHsiaWQiOjY5MiwibmFtZSI6IlZJREVPIElJIFwiIFVu
-        ZSBvZXV2cmUsIHVuIG11c1x1MDBlOWUgXCIgXHUwMGU5cGlzb2RlIDIgOiBD
-        YW1pbGxlIENsYXVkZWwgXHUwMGFiIGxcdTIwMTlcdTAwZTJnZSBtdXIgXHUw
-        MGJiIiwidGl0bGUiOiJEZXV4aVx1MDBlOG1lIFx1MDBlOXBpc29kZSBkZSBu
-        b3RyZSBub3V2ZWxsZSBzXHUwMGU5cmllIGRlIHZpZFx1MDBlOW9zIHF1aSB2
-        b3VzIGRyZXNzZSB1biB0YWJsZWF1LCBldCBsZSBwb3J0cmFpdCBkZSBzb24g
-        YXV0ZXVyLiIsInZpZGVvIjoieDF5OWxyaiIsImNvbnRlbnQiOiI8cD48c3Ry
-        b25nPlwiVW5lIFx1MDE1M3V2cmUsIHVuIG11c1x1MDBlOWVcIiBlc3QgdW5l
-        IHNcdTAwZTlyaWUgZGUgdmlkXHUwMGU5b3MgcHJvcG9zXHUwMGU5ZXMgcGFy
-        IE9yYW5nZSBleHBvIG11c1x1MDBlOWVzIDogZFx1MDBlOWNvdXZyaXIgdW5l
-        IFx1MDE1M3V2cmUgZXQgc29uIG11c1x1MDBlOWUgXHUwMGUwIHRyYXZlcnMg
-        bGUgZFx1MDBlOWNyeXB0YWdlIGRcdTIwMTlPcmFuZ2UgRXhwbyBNdXNcdTAw
-        ZTllcyAhPFwvc3Ryb25nPjxcL3A+XHJcbjxwPlx1MDBhMDxcL3A+XHJcbjxw
-        Plx1MDBhYiBMXHUyMDE5XHUwMGUyZ2UgbVx1MDBmYnIgXHUwMGJiIGRlIENh
-        bWlsbGUgQ2xhdWRlbC48XC9wPlxyXG48cD5cdTAwYTA8XC9wPlxyXG48cD5M
-        YSBzY3VscHR1cmUgZGUgQ2FtaWxsZSBDbGF1ZGVsLCBhbGxcdTAwZTlnb3Jp
-        ZSBkZSBsYSBkZXN0aW5cdTAwZTllIGRlIGxcdTIwMTlob21tZSBxdWkgdmll
-        aWxsaXQsIGVudHJhaW5cdTAwZTkgbG9pbiBkZSBsYSBqZXVuZXNzZSwgZXN0
-        IHN1cnRvdXQgbGUgY3JpIGRcdTIwMTl1bmUgZmVtbWUgYWJhbmRvbm5cdTAw
-        ZTllLiBDZXR0ZSBmZW1tZSBlc3QgQ2FtaWxsZSBDbGF1ZGVsLCBxdWkgcmFj
-        b250ZSBwYXIgY2UgYnJvbnplIHNhIHJlbGF0aW9uIHBhc3Npb25uZWxsZSBh
-        dmVjIFJvZGluLCBxdWkgbGEgcXVpdHRhIGV0IGxhIHJlbmRpdCBmb2xsZS4g
-        VW5lIFx1MDE1M3V2cmUgZHUgbXVzXHUwMGU5ZSBSb2RpbiwgbmF0dXJlbGxl
-        bWVudC5cdTAwYTA8XC9wPlxyXG48cD5cdTAwYTA8XC9wPlxyXG48cD5PcmFu
-        Z2UgRXhwbyBNdXNcdTAwZTllcyB2b3VzIGRpdCB0b3V0IGNlIHF1ZSB2b3Vz
-        IGRldmV6IHNhdm9pciBzdXIgbGVzIGdyYW5kZXMgXHUwMTUzdXZyZXMgZGVz
-        IG11c1x1MDBlOWVzIGZyYW5cdTAwZTdhaXMgITxcL3A+XHJcbjxwPjxiciBc
-        Lz48YnIgXC8+PFwvcD4iLCJpbWFnZXMiOlsibmV3cy01M2ZlZjAxMTViYWZh
-        LmpwZyJdLCJkYXRlIjoxNDA5MjI5NjA3LCJ1cmwiOiJodHRwOlwvXC9leHBv
-        bXVzZWVzLm9yYW5nZS5jb21cL2FjdHUtNjkyXC92aWRlby1paS11bmUtb2V1
-        dnJlLXVuLW11c2VlLWVwaXNvZGUtMi1jYW1pbGxlLWNsYXVkZWwtbGFnZS1t
-        dXItIn0seyJpZCI6NjkxLCJuYW1lIjoiRGVzc2luZS1tb2kgbGEgZ3VlcnJl
-        IiwidGl0bGUiOiJFeHBvc2l0aW9uIFwiTGVzIGRcdTAwZTlzYXN0cmVzIGRl
-        IGxhIGd1ZXJyZVwiIGF1IExvdXZyZS1MZW5zIiwidmlkZW8iOiIiLCJjb250
-        ZW50IjoiPHA+U3VyIGxcdTIwMTlhZmZpY2hlLCB1biBzb2xkYXQgXHUwMGUw
-        IHRlcnJlLiBCbGVzc1x1MDBlOSBjZXJ0YWluZW1lbnQsIGlsIHJlbFx1MDBl
-        OHZlIGxlIHRvcnNlLCBsZXMgeWV1eCBmZXJtXHUwMGU5cy4gSWwgZXN0IFx1
-        MDBhYiBsXHUyMDE5b3VibGlcdTAwZTkgXHUwMGJiIGRcdTIwMTlFbWlsZSBC
-        ZXRzZWxsXHUwMGU4cmUuXHUwMGEwPFwvcD5cclxuPHA+XHUwMGEwPFwvcD5c
-        clxuPHA+QXUgbWlsaWV1IGRlcyBjXHUwMGU5bFx1MDBlOWJyYXRpb25zIGR1
-        IGNlbnRlbmFpcmUgZGUgbGEgUHJlbWlcdTAwZThyZSBHdWVycmUgbW9uZGlh
-        bGUsIGxhIHF1ZXN0aW9uIGRlIGxhIHBsYWNlIGRlIGxcdTIwMTlhcnQgZGFu
-        cyBsYSByZXByXHUwMGU5c2VudGF0aW9uIGRlcyBjb25mbGl0cyBlc3QgaW1w
-        b3J0YW50ZS4gRHUgZG9jdW1lbnRhaXJlIGF1IGRldm9pciBkZSBtXHUwMGU5
-        bW9pcmUsIGRlIGxhIHNpbXBsZSBlc3RoXHUwMGU5dGlxdWUgZXQgXHUwMGUw
-        IGxcdTIwMTlcdTAwZTl2ZWlsIGRlcyBjb25zY2llbmNlcywgZGUgbFx1MjAx
-        OVx1MDBlOW1vdGlvbiBcdTAwZTAgbGEgY29uZGFtbmF0aW9uLCBsXHUyMDE5
-        YXJ0IGV0IGxhIGd1ZXJyZSBmb250IHVuIG1cdTAwZTluYWdlIGJpZW4gY3Vy
-        aWV1eC4gUGV1dC1vbiBwZWluZHJlIGRlIFx1MDBhYiB0b3V0IFx1MDBiYiBv
-        dSBcdTAwYWIgZG9pdCBcdTAwYmItdC1vbiBsZSBmYWlyZSA/PFwvcD5cclxu
-        PHA+XHUwMGEwPFwvcD5cclxuPHA+TGUgTG91dnJlLUxlbnMgYSBsYW5jXHUw
-        MGU5IHVuZSBwaXN0ZSBkZSByXHUwMGU5cG9uc2UgZW4gcmV2ZW5hbnQgc3Vy
-        IGxhIHJlcHJcdTAwZTlzZW50YXRpb24gZGVzIGNvbmZsaXRzIGRlcHVpcyBs
-        ZSAxOVx1MDBlOG1lIHNpXHUwMGU4Y2xlLCBldCBwbHVzIHBhcnRpY3VsaVx1
-        MDBlOHJlbWVudCBsZXMgZ3VlcnJlcyBuYXBvbFx1MDBlOW9uaWVubmVzLCBv
-        dSBzXHUyMDE5b3BcdTAwZThyZSB1biBjaGFuZ2VtZW50IHJhZGljYWwgY2hl
-        eiBsZXMgYXJ0aXN0ZXMuIERlIGxhIGJhdGFpbGxlIGhcdTAwZTlyb1x1MDBl
-        ZnF1ZSBhdmVjIGxlcyBcdTAxNTN1dnJlcyBnbG9yaWZpYW50ZXMgcXVpIGdh
-        bHZhbmlzYWllbnQgbGV1ciBhdWRpZW5jZSwgb24gdm9pdCBwb2luZHJlIGRl
-        cyBcdTAxNTN1dnJlcyBxdWkgcmFjb250ZW50IGxcdTIwMTlob3JyZXVyIGRl
-        cyBjb25zXHUwMGU5cXVlbmNlcyBodW1haW5lcywgYW5pbWFsZXMsIGVudmly
-        b25uZW1lbnRhbGVzIGV0IHNvY2lcdTAwZTl0YWxlcyBkZXMgY29uZmxpdHMg
-        YXJtXHUwMGU5cy5cdTAwYTA8XC9wPlxyXG48cD5cdTAwYTA8XC9wPlxyXG48
-        cD5DZSBjaGFuZ2VtZW50IGRlIG1lbnRhbGl0XHUwMGU5IGVzdCBkaWZmaWNp
-        bGUgXHUwMGUwIGV4cGxpcXVlci4gTGVzIGFybWVzIGRlIHBsdXMgZW4gcGx1
-        cyBsXHUwMGU5dGFsZXMgY3JcdTAwZTllbnQtZWxsZXMgZGVzIGRvbW1hZ2Vz
-        IGRlIHBsdXMgZW4gcGx1cyBpbXByZXNzaW9ubmFudHMgPyBVbmUgY2hvc2Ug
-        ZXN0IGNlcnRhaW5lLCBvbiB2b2l0IGF1IGZ1ciBldCBcdTAwZTAgbWVzdXJl
-        IGRlcyBjb25mbGl0cyBkZXB1aXMgbGUgMTlcdTAwZThtZSBsYSBkaXN0YW5j
-        ZSBcdTAwZTAgbGEgc2NcdTAwZThuZSBzXHUyMDE5YW1vaW5kcmlyIGV0IGxl
-        IHNwZWN0YXRldXIgcHJpcyBkZSBwbHVzIGVuIHBsdXMgZGFucyBsYSB2aW9s
-        ZW5jZSBkZSBjZSBxdWUgbFx1MjAxOWF1dGV1ciBkXHUwMGU5cGVpbnQuIEd1
-        ZXJyZXMgbmFwb2xcdTAwZTlvbmllbm5lcywgY29sb25pYWxlcywgZGUgc1x1
-        MDBlOWNlc3Npb24sIEdyYW5kZSBndWVycmUsIGd1ZXJyZSBkdSBWaWV0bmFt
-        XHUyMDI2IG91IHNcdTIwMTlhcnJcdTAwZWF0ZSBsXHUyMDE5YXJ0IGV0IG91
-        IGRcdTAwZTlidXRlIGxlIGRvY3VtZW50YWlyZSA/IExcdTIwMTlhcHBhcml0
-        aW9uIGRlIG5vdXZlbGxlcyB0ZWNobmlxdWVzIGFydGlzdGlxdWVzLCBsYSBw
-        aG90b2dyYXBoaWUgZW4gZXN0IGxcdTIwMTlleGVtcGxlIHN1cHJcdTAwZWFt
-        ZSwgcG9zZSBsYSBxdWVzdGlvbiBkZSBsXHUyMDE5XHUwMTUzdXZyZSBmYWNl
-        IFx1MDBlMCBsYSByXHUwMGU5YWxpdFx1MDBlOSBkZSBjZSBxdVx1MjAxOWVs
-        bGUgZFx1MDBlOWNyaXQuXHUwMGEwPFwvcD5cclxuPHA+XHUwMGEwPFwvcD5c
-        clxuPHA+SGlzdG9pcmUgb3UgaGlzdG9pcmUgZGUgbFx1MjAxOWFydCwgb24g
-        bmUgc2FpdCBwbHVzIHRyXHUwMGU4cyBiaWVuLCBtYWlzIGxlIGNvdXJzIGVz
-        dCBtYWdpc3RyYWwuXHUwMGEwPFwvcD5cclxuPHA+PGJyIFwvPjxiciBcLz5M
-        YXVyYSBHaWFjaGVyaW88XC9wPiIsImltYWdlcyI6WyJuZXdzLTUzZmQ5ODQw
-        YmU0N2EuanBnIl0sImRhdGUiOjE0MDkxMzE1NTUsInVybCI6Imh0dHA6XC9c
-        L2V4cG9tdXNlZXMub3JhbmdlLmNvbVwvYWN0dS02OTFcL2Rlc3NpbmUtbW9p
-        LWxhLWd1ZXJyZSJ9LHsiaWQiOjY5MCwibmFtZSI6IkxhIHJlbnRyXHUwMGU5
-        ZSBkYW5zIGxlcyBtdXNcdTAwZTllcyBlbiB0cm9pcyBsZVx1MDBlN29ucyIs
-        InRpdGxlIjoiTGVzIGV4cG9zaXRpb25zIGRlIGxhIHJlbnRyXHUwMGU5ZSIs
-        InZpZGVvIjoiIiwiY29udGVudCI6IjxwPkRyaWlpaWlpaW5nICEgTGEgcmVu
-        dHJcdTAwZTllIGN1bHR1cmVsbGUsIGNcdTIwMTllc3QgbWFpbnRlbmFudCAh
-        XHUwMGEwPFwvcD5cclxuPHA+Vm91cyBuXHUyMDE5YXZleiByaWVuIHByXHUw
-        MGU5cGFyXHUwMGU5ID8gTmUgdm91cyBpbnF1aVx1MDBlOXRleiBwYXMsIE9y
-        YW5nZSBFeHBvIE11c1x1MDBlOWVzIHZvdXMgYSBjb25jb2N0XHUwMGU5IHVu
-        IGFnZW5kYSBwb3VyIHZvdXMgcmVtZXR0cmUgZGFucyBsZSBiYWluLiBTdWl2
-        ZXogbGUgcHJvZmVzc2V1ciA6PFwvcD5cclxuPHA+SGlzdG9pcmUuIE91dnJl
-        eiB2b3MgbGl2cmVzIGRcdTIwMTloaXN0b2lyZSBcdTAwZTAgbGEgcGFnZSBS
-        ZW5haXNzYW5jZS4gTGVzIHN0YXJzIGRlIGxcdTIwMTlcdTAwZTlwb3F1ZSwg
-        XHUwMGUwIHF1aSBvbiBhdXJhaXQgY2VydGFpbmVtZW50IHByb3Bvc1x1MDBl
-        OSB1bmUgdFx1MDBlOWxcdTAwZTlyXHUwMGU5YWxpdFx1MDBlOSBkXHUwMGU5
-        ZGlcdTAwZTllIHNcdTIwMTlpbHMgXHUwMGU5dGFpZW50IG5cdTAwZTlzIHF1
-        ZWxxdWVzIHNpXHUwMGU4Y2xlcyBwbHVzIHRhcmQsIHNvbnQgbGVzIG1lbWJy
-        ZXMgZGUgbGEgZmFtaWxsZSA8YSBocmVmPVwiZXhwby0xMjU1XC9kZS1sZW9u
-        YXJkLWRlLXZpbmNpLWEtbWljaGVsLWFuZ2UtbGVzLWJvcmdpYS1ldC1sZXVy
-        LXRlbXBzLW11c2VlLW1haWxsb2wtZm9uZGF0aW9uLWRpbmEtdmllcm55LXBh
-        cmlzLTA3LWlsZS1kZS1mcmFuY2UjLlVfdzh1UGxfdDhFXCIgdGFyZ2V0PVwi
-        X2JsYW5rXCI+Qm9yZ2lhPFwvYT4uIFRvdXQgZXN0IGxcdTAwZTAgOiBwb3V2
-        b2lyLCBhcmdlbnQsIHBlcnNvbm5hZ2VzIHN1bGZ1cmV1eCBldCBwZXUgc2Ny
-        dXB1bGV1eCBkb250IGxlcyBtXHUwMTUzdXJzIGV0IGxhIG1vcmFsZSBsXHUw
-        MGU5Z1x1MDBlOHJlcyBtYXJxdVx1MDBlOHJlbnQgbFx1MjAxOWhpc3RvaXJl
-        LiBQYXMgXHUwMGU5dG9ubmFudCBkZSBsZXMgdm9pciBlbnZhaGlyIGxlcyBz
-        XHUwMGU5cmllcyB0XHUwMGU5bFx1MDBlOXZpc1x1MDBlOWVzIGV0IGF1dHJl
-        cyBmaWxtcy4gUGFzIFx1MDBlOXRvbm5hbnQgbm9uIHBsdXMgZGUgbGVzIHJl
-        dHJvdXZlciBcdTAwZTAgbFx1MjAxOVx1MDBlOXBvcXVlIGRhbnMgbGVzIGNl
-        cmNsZXMgYXJ0aXN0aXF1ZXMgbGVzIHBsdXMgXHUwMGU5bGV2XHUwMGU5cy4g
-        R3JhbmRzIG1cdTAwZTljXHUwMGU4bmVzIGV0IGdyYW5kcyBzdHJhdFx1MDBl
-        OGdlcywgaWxzIGNcdTAwZjR0b2llbnQgTFx1MDBlOW9uYXJkIGRlIFZpbmNp
-        LCBUaXRpZW4sIFJhcGhhZWwgZXQgb250IGZhc2Npblx1MDBlOSBsZXMgZ3Jh
-        bmRzIGF1dGV1cnMgY29tbWUgVmljdG9yIEh1Z28gb3UgQWxlamFuZHJvIEpv
-        ZG9yb3dza3kuIEFsb3JzLCBMdWNyXHUwMGU4Y2UgQm9yZ2lhLCBSb2RyaWdv
-        IEJvcmdpYSAob3UgUGFwZSBBbGV4YW5kcmUgVkkpLCBxdWkgXHUwMGU5dGll
-        ei12b3VzIHZyYWltZW50ID8gTGEgZmFtaWxsZSBmb3JtaWRhYmxlIFx1MDBh
-        MHNlIGRcdTAwZTl2b2lsZSBhdSBNdXNcdTAwZTllIE1haWxsb2wsIFx1MDBl
-        MCBQYXJpcy48XC9wPlxyXG48cD5cdTAwYTA8XC9wPlxyXG48cD5HXHUwMGU5
-        b2dyYXBoaWUuIFNpIG5vdXMgdm91cyBkaXNvbnMgY2FicmlvbGV0LCBjaGV2
-        ZXV4IGF1IHZlbnQsIHRlcnJlIHJvdWdlLCBwYWxtaWVycyBldCBzdGFyIHN5
-        c3RcdTAwZThtZSwgdm91cyBub3VzIGRpdGVzID8gTGEgQ2FsaWZvcm5pZSBi
-        aWVuIHNcdTAwZmJyLiBFbGRvcmFkbyBkdSB2b3lhZ2V1ciwgclx1MDBlYXZl
-        IHVsdGltZSBkdSByb2FkIHRyaXBldXIsIGxhIENhbGlmb3JuaWUsIHRlcnJl
-        IGRlIHN0YXIsIGVuIGVzdCBlbiByXHUwMGU5YWxpdFx1MDBlOSBsYSBwbHVz
-        IGJyaWxsYW50ZSBcdTAwZTl0b2lsZS4gQ1x1MjAxOWVzdCBlbGxlIHF1ZSBs
-        XHUyMDE5b24gcGhvdG9ncmFwaGllIGRlcHVpcyBsZSAxOVx1MDBlOG1lIHNp
-        XHUwMGU4Y2xlIHBvdXIgdGVudGVyIGRcdTIwMTlpbW1vcnRhbGlzZXIgZXQg
-        ZGUgcmFwcG9ydGVyIGNlIHBhcmFkaXMsIGVuIHZhaW4uIFBvdXJ0YW50LCBc
-        dTAwZTAgdHJhdmVycyBsZXMgcGhvdG9ncmFwaGVzIHF1aSBsXHUyMDE5b250
-        IHBob3RvZ3JhcGhpXHUwMGU5ZSBvdSBxdWkgZW4gc29udCBsZXMgZW1ibFx1
-        MDBlOG1lcywgb24gY3JvcXVlIHVuIHBldSBkZSBjZXR0ZSB2aWUgZG9yXHUw
-        MGU5ZSBhdSBmaWwgZGVzIFx1MDBlMmdlcy4gUGFzIGJlc29pbiBkXHUyMDE5
-        dW5lIE11c3Rhbmcgb3UgZFx1MjAxOXVuIGJpbGxldCBkXHUyMDE5YXZpb24s
-        IEwuQS4tQm9yZGVhdXggbVx1MDBlYW1lIGNvbWJhdC4gTGUgPGEgaHJlZj1c
-        Im11c2VlLTc0OVwvbXVzZWUtZGVzLWJlYXV4LWFydHMtZGUtYm9yZGVhdXgt
-        Ym9yZGVhdXgtYXF1aXRhaW5lIy5VX3c5Sl9sX3Q4RVwiIHRhcmdldD1cIl9i
-        bGFua1wiPm11c1x1MDBlOWUgZGVzIEJlYXV4LUFydHMgZGUgQm9yZGVhdXg8
-        XC9hPiBhY2N1ZWlsbGUgXHUwMGEwbGEgY29sbGVjdGlvbiBkZSBwaG90b3Mg
-        ZHUgTEFDTUEgKExvcyBBbmdlbGVzIENvdW50eSBNdXNldW0gb2YgQXJ0KS4g
-        QWxyaWdodCB0aGVuLjxcL3A+XHJcbjxwPlx1MDBhMDxcL3A+XHJcbjxwPklu
-        c3RydWN0aW9uIGNpdmlxdWUuIFF1aSByZXZlbmRpcXVlIGxhIG1hdGVybml0
-        XHUwMGU5IGRlcyBcdTAwYWIgbmFuYXMgXHUwMGJiLCBmaWd1cmVzIGNcdTAw
-        ZTlsXHUwMGU4YnJlcyBkZSBsXHUyMDE5aGlzdG9pcmUgZGUgbFx1MjAxOWFy
-        dCBkdSAyMFx1MDBlOG1lIHNpXHUwMGU4Y2xlIHF1aSByZXByXHUwMGU5c2Vu
-        dGVudCBkZXMgZmVtbWVzIGNvbG9yXHUwMGU5ZXMgZXQgcHVscGV1c2VzID8g
-        RXQgZGVzIFx1MDBhYiB0aXJzIFx1MDBiYiwgcXVpIGV4cGxvc2VudCBcdTAw
-        ZTAgbGEgY2FyYWJpbmUgbGVzIHR1YmVzIGRlIGNvdWxldXJzIGZpeFx1MDBl
-        OXMgc3VyIGxlIGJvaXMgPyBOaWtpIGRlIFNhaW50IFBoYWxsZS4gRWxsZSBl
-        biBlc3QgbGEgbVx1MDBlOHJlLCBlbGxlIGRvbnQgbGEgcmVsYXRpb24gcGF0
-        ZXJuZWxsZSBmdXQgdHVtdWx0dWV1c2UgZXQgaW5jZXN0dWV1c2UgZXQgcXVp
-        IGNoZXJjaGEgZGFucyBzb24gXHUwMTUzdXZyZSBcdTAwZTAgc2UgZFx1MDBl
-        OWZhaXJlIGRlIHNlcyBkXHUwMGU5bW9ucy4gQ2F0aGFyc2lzIGV0IGdcdTAw
-        ZTluaWUgc1x1MjAxOWVudHJlbVx1MDBlYWxlbnQgZGFucyBsZXMgclx1MDBl
-        OWFsaXNhdGlvbnMgcGxhc3RpcXVlcyBldCBjaW5cdTAwZTltYXRvZ3JhcGhp
-        cXVlcyBkZSBjZXR0ZSBmaWd1cmUgbWFqZXVyZSBkZSBsXHUyMDE5YXJ0IG1v
-        ZGVybmUuIEVuZ2FnZW1lbnQgcG9saXRpcXVlIGV0IGZcdTAwZTltaW5pc21l
-        IGFmZmlybVx1MDBlOSwgTmlraSBkZSBTYWludC1QaGFsbGUgY3JcdTAwZTll
-        IGxcdTIwMTlcdTAwZTl2XHUwMGU4bmVtZW50IGF1IDxhIGhyZWY9XCJtdXNl
-        ZS0yMDEwXC9ncmFuZC1wYWxhaXMtcGFyaXMtMDgtaWxlLWRlLWZyYW5jZSMu
-        VV93OW1fbF90OEVcIiB0YXJnZXQ9XCJfYmxhbmtcIj5HcmFuZCBQYWxhaXM8
-        XC9hPi5cdTAwYTA8XC9wPlxyXG48cD5cdTAwYTA8XC9wPlxyXG48cD5MYSBq
-        b3Vyblx1MDBlOWUgZFx1MjAxOWludFx1MDBlOWdyYXRpb24gZXN0IHRlcm1p
-        blx1MDBlOWUsIHJlbmRlei12b3VzIGF1IG11c1x1MDBlOWUgcG91ciBsYSBz
-        dWl0ZSAhPFwvcD5cclxuPHA+PGJyIFwvPkxhdXJhIEdpYWNoZXJpbzxcL3A+
-        IiwiaW1hZ2VzIjpbIm5ld3MtNTNmYzNlNDY4NTk0OS5wbmciXSwiZGF0ZSI6
-        MTQwOTAzOTk0MiwidXJsIjoiaHR0cDpcL1wvZXhwb211c2Vlcy5vcmFuZ2Uu
-        Y29tXC9hY3R1LTY5MFwvbGEtcmVudHJlZS1kYW5zLWxlcy1tdXNlZXMtZW4t
-        dHJvaXMtbGVjb25zIn0seyJpZCI6Njg5LCJuYW1lIjoiTGUgcmV0b3VyIGRl
-        IGxcdTIwMTkgXHUwMGFiIGFydCBzdXIgY29tbWFuZGUgXHUwMGJiIG91IGNv
-        bW1lbnQgdHJvaXMgRnJhblx1MDBlN2FpcyBjb21wdGVudCByXHUwMGU5dm9s
-        dXRpb25uZXIgbGUgbWFyY2hcdTAwZTkgZGUgbFx1MjAxOWFydCBjb250ZW1w
-        b3JhaW4gYXZlYyBNeUFydE1ha2VycyIsInRpdGxlIjoiUmVuY29udHJlIGF2
-        ZWMgQWRyaWVuIFNhaXgsIGZvbmRhdGV1ciBkZSBNeUFydE1ha2VycyIsInZp
-        ZGVvIjoiIiwiY29udGVudCI6IjxwPklscyBvbnQgZmFpdCBkXHUyMDE5dW4g
-        Y29uY2VwdCBhbmNpZW4sIHVuZSBpZFx1MDBlOWUgbmV1dmUuIExcdTIwMTlh
-        cnQgc3VyIGNvbW1hbmRlIGV4aXN0YWl0LCBldCBhIGRpc3BhcnUuIExlcyBm
-        b25kYXRldXJzIGRlIE15QXJ0TWFrZXJzIGVuIG9udCByZXByaXMgbGEgdmll
-        aWxsZSByZWNldHRlIGV0IFx1MDBhMGxcdTIwMTlvbnQgc2F1cG91ZHJcdTAw
-        ZTllIGRlcyBkZXV4IHRlbmRhbmNlcyBcdTAwZTljb25vbWlxdWVzIHF1aSBy
-        XHUwMGU5dm9sdXRpb25uZW50IG5vcyBtb2RlcyBkZSB2aWUgOiBpbnRlcm5l
-        dCBldCBsZSBjb2xsYWJvcmF0aWYuXHUwMGEwPFwvcD5cclxuPHA+TGUgc2l0
-        ZSBzZSB2ZXV0IGVuIGVmZmV0IGxlIG5vdXZlYXUgXHUwMGFiIHBhcnRlbmFp
-        cmUgZGlnaXRhbCBkZXMgYXJ0aXN0ZXMgXHUwMGJiLiBDZWx1aSBxdWkgbGVz
-        IGFjY29tcGFnbmVyYSBcdTAwZTAgdHJhdmVycyBsZSBwYXNzYWdlIGRvdWxv
-        dXJldXggbWFpcyBvYmxpZ1x1MDBlOSBkZSBsYSB0cmFuc2l0aW9uIGRpZ2l0
-        YWxlLiBNeSBBcnQgTWFrZXJzIHJlcHJlbmQgXHUwMGU5Z2FsZW1lbnQgbGVz
-        IGNvZGVzIGR1IGNvbGxhYm9yYXRpZiBlbiBvdXZyYW50IGxlIGRpYWxvZ3Vl
-        IGVudHJlIGxhIGNvbW11bmF1dFx1MDBlOSBkZXMgYWNoZXRldXJzIGRcdTIw
-        MTlhcnQgZXQgY2VsbGUgZGVzIGFydGlzdGVzLjxcL3A+XHJcbjxwPkNvbW1l
-        bnQgPyBBIHRyYXZlcnMgXHUwMGEwdW4gZm9ybXVsYWlyZSBkZSBxdWFsaWZp
-        Y2F0aW9uIGJpZW4gZmljZWxcdTAwZTkgZXQgZFx1MDBlOXZlbG9wcFx1MDBl
-        OSBlbiBpbnRlcm5lLCBsXHUyMDE5YWNoZXRldXIgcG90ZW50aWVsIHBhc3Nl
-        IHVuZSBcdTAwYWIgY29tbWFuZGUgXHUwMGJiIHBvdXIgdW5lIFx1MDE1M3V2
-        cmUgZG9udCBsZSBnZW5yZSBldCBsZSBzdXBwb3J0IHNvbnQgbGFpc3NcdTAw
-        ZTlzIFx1MDBlMCBzb24gYXJiaXRyYWdlLiBEZSBsXHUyMDE5YXV0cmUgY1x1
-        MDBmNHRcdTAwZTksIGxhIGNvbW11bmF1dFx1MDBlOSBkZXMgYXJ0aXN0ZXMg
-        cHJcdTAwZTlzZW50cyBzdXIgbGEgcGxhdGVmb3JtZSByZVx1MDBlN29pdCBs
-        YSBjb21tYW5kZSBldCBjaG9pc2l0LCBvdSBub24sIGRcdTIwMTl5IHJcdTAw
-        ZTlwb25kcmUgb3UgZFx1MjAxOVx1MDBlOWNoYW5nZXIgYXZlYyBsXHUyMDE5
-        YWNoZXRldXIuXHUwMGEwPFwvcD5cclxuPHA+UG91cnF1b2kgPyBQYXJjZSBx
-        dWUgc2V1bGVtZW50IDUwIDAwMCBhcnRpc3RlcyBlbiBGcmFuY2Ugc29udCBp
-        bnNjcml0cyBcdTAwZTAgbGEgTWFpc29uIGRlcyBhcnRpc3RlcyBwb3VyIFx1
-        MDBhMGVudmlyb24gMTUwIDAwMCBwZXJzb25uZXMgclx1MDBlOWVsbGVtZW50
-        IGFjdGl2ZXMgZGFucyBsYSBwcm9kdWN0aW9uIGFydGlzdGlxdWUuIE15IEFy
-        dCBNYWtlcnMgXHUwMGEwcmVwclx1MDBlOXNlbnRlIHRvdXMgbGVzIGFydGlz
-        dGVzIHBvdXZhbnQgc2UgcHJcdTAwZTl2YWxvaXIgZFx1MjAxOXVuIHNhdm9p
-        ci1mYWlyZSBldFwvb3UgZFx1MjAxOXVuIHVuaXZlcnMgYXJ0aXN0aXF1ZS5c
-        dTAwYTA8XC9wPlxyXG48cD5MXHUyMDE5aW5ub3ZhdGlvbiA/IExlcyBpbnRl
-        cm1cdTAwZTlkaWFpcmVzLCBxdWkgblx1MjAxOW9udCBwYXMgbGUgdmVudCBl
-        biBwb3VwZSwgZGlzcGFyYWlzc2VudCBkdSBwYXlzYWdlIGV0IGxlcyBkZXV4
-        IGNvbW11bmF1dFx1MDBlOXMgXHUwMGU5Y2hhbmdlbnQgZGlyZWN0ZW1lbnQu
-        XHUwMGEwPFwvcD5cclxuPHA+TGEgcGhpbG9zb3BoaWUgPyBVbmUgbVx1MDBl
-        OWRpYXRpb24gMi4wIHF1aSByZW5kIGxcdTIwMTlhcnQgY29udGVtcG9yYWlu
-        IGZhY2lsZSBkXHUyMDE5YWNjXHUwMGU4cyBwb3VyIHRvdXMuIExhIGNyXHUw
-        MGU5YXRpb24gY29udGVtcG9yYWluZSwgcXVpIHRlbmQgXHUwMGUwIHZpdnJl
-        IGF2ZWMgc29uIHRlbXBzIGV0IGpvdWUgdW4gdlx1MDBlOXJpdGFibGUgclx1
-        MDBmNGxlIHNvY2lhbCwgYWNxdWllcnQgdW5lIHZpc2liaWxpdFx1MDBlOSBs
-        aWJyZSBkXHUyMDE5YWNjXHUwMGU4cyBzdXIgbGUgbVx1MDBlOWRpYSBsZSBw
-        bHVzIGZyXHUwMGU5cXVlbnRcdTAwZTkgZHUgbW9uZGUgOiBpbnRlcm5ldC5c
-        dTAwYTA8XC9wPlxyXG48cD5MZSByXHUwMGU5c3VsdGF0ID8gXHUwMGFiIFVu
-        IG91dGlsIGF1IHNlcnZpY2UgZGVzIGFydGlzdGVzIHBvdXIgcXVcdTIwMTlp
-        bHMgcHVpc3NlbnQgcHJvbW91dm9pciBsZXVyIGFydCBldCBzZSBjclx1MDBl
-        OWVyIHVuIHJcdTAwZTlzZWF1IHZpYSBub3RyZSBwbGF0ZWZvcm1lIFx1MDBi
-        Yiwgc2Vsb24gbGVzIG1vdHMgZGUgc29uIGZvbmRhdGV1ciwgQWRyaWVuIFNh
-        aXguXHUwMGEwPFwvcD5cclxuPHA+XHUwMGEwPFwvcD5cclxuPHA+QWxvcnMs
-        IHBvdXIgdm91cywgY2Ugc2VyYSBxdW9pID88XC9wPlxyXG48cD48YnIgXC8+
-        TGF1cmEgR2lhY2hlcmlvPFwvcD4iLCJpbWFnZXMiOlsibmV3cy01M2Y2ZmY1
-        ZTI3OGQzLmpwZyJdLCJkYXRlIjoxNDA4Njk2MzM1LCJ1cmwiOiJodHRwOlwv
-        XC9leHBvbXVzZWVzLm9yYW5nZS5jb21cL2FjdHUtNjg5XC9sZS1yZXRvdXIt
-        ZGUtbC1hcnQtc3VyLWNvbW1hbmRlLW91LWNvbW1lbnQtdHJvaXMtZnJhbmNh
-        aXMtY29tcHRlbnQtcmV2b2x1dGlvbm5lci1sZS1tYXJjaGUtZGUtbGFydC1j
-        b250ZW1wb3JhaW4tYXZlYy1teWFydG1ha2VycyJ9XSwib2Zmc2V0Ijo1LCJ0
-        b3RhbENvdW50Ijo2NTksImNvdW50Ijo1LCJlcnJvciI6MH0=
+      string: '{"news":[{"id":694,"name":"VIDEO I \" Une oeuvre, un mus\u00e9e \"
+        \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb De Toulouse Lautrec","title":"Troisi\u00e8me
+        \u00e9pisode de notre nouvelle s\u00e9rie de vid\u00e9os","video":"x1y9mqq","content":"<p><strong>\"Une
+        \u0153uvre, un mus\u00e9e\" est une s\u00e9rie de vid\u00e9os propos\u00e9es
+        par Orange expo mus\u00e9es : d\u00e9couvrir une \u0153uvre et son mus\u00e9e
+        \u00e0 travers le d\u00e9cryptage d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>Pour
+        notre troisi\u00e8me \u00e9pisode, nous avons s\u00e9lectionn\u00e9 \u00ab
+        Ad\u00e8le \u00bb, du peintre Toulouse Lautrec.<\/p>\r\n<p>\u00ab Maman, vous,
+        rien que vous \u00bb. Dans ces derniers soupirs, Toulouse-Lautrec aurait rendu
+        hommage \u00e0 celle qui le fascina toute sa vie et qu\u2019il immortalisa
+        dans de nombreux portraits comme celui-ci. L\u2019artiste albigeois d\u2019origine
+        a d\u00e9sormais son mus\u00e9e \u00e0 Albi, dans le Palais de la Berbie,
+        o\u00f9 l\u2019on peut admirer ce tableau.<\/p>\r\n<p>Orange Expo Mus\u00e9es
+        vous dit tout ce que vous devez savoir sur les grandes \u0153uvres des mus\u00e9es
+        fran\u00e7ais !<\/p>\r\n<p>\u00a0<\/p>","images":["news-5406d5cba2b3f.jpg"],"date":1409734091,"url":"http:\/\/expomusees.orange.com\/actu-694\/video-i-une-oeuvre-un-musee-episode-3-adele-de-toulouse-lautrec"},{"id":693,"name":"Votre
+        automne culturel : ce qu\u2019il faut savoir","title":"Les expositions de
+        l''automne \u00e0 ne pas manquer","video":"","content":"<p>L\u2019ann\u00e9e
+        2014 n\u2019est pas encore finie ! O\u00f9 en \u00eates-vous de votre \u00ab
+        to do \u00bb des expos \u00e0 ne pas manquer ? Pour ceux que l\u2019\u00e9t\u00e9
+        aurait \u00e9gar\u00e9s des chemins des mus\u00e9es, voici un rappel de ce
+        qui vous attend dans les mois qui viennent !<\/p>\r\n<p>Septembre. Pour la
+        rentr\u00e9e, un cours d\u2019histoire magistral vous attend. Lucr\u00e8ce,
+        Rodrigo\u2026 \u00e0 ce nom nous n\u2019associons d\u00e9sormais qu\u2019un
+        patronyme, celui des Borgia. La grande famille espagnole aussi sulfureuse
+        qu\u2019influente, a c\u00f4toy\u00e9 le gratin de la cr\u00e9ation artistique
+        de la Renaissance. La famille formidable raconte son temps \u00e0 travers
+        ses relations au Mus\u00e9e Maillol, \u00e0 Paris.<\/p>\r\n<p>Octobre. Diable,
+        encore de l\u2019histoire ! Louis IX vous connaissez ? Peut-\u00eatre qu\u2019il
+        vous est plus familier sous son nom de Saint Louis ? Notre lointain roi canonis\u00e9,
+        \u00ab justicier supr\u00eame \u00bb qui rendait justice sous un ch\u00eane
+        \u00e0 Vincennes et officiait comme juge dans toutes les cours d\u2019Europe
+        du 13\u00e8me si\u00e8cle, a laiss\u00e9 l\u2019empreinte d\u2019un r\u00e8gne
+        de renouveau intellectuel et artistique. Pour son huiti\u00e8me centenaire,
+        la Conciergerie, en partenariat avec le mus\u00e9e du Louvre, revient sur
+        la cr\u00e9ation de ce mythe.\u00a0<\/p>\r\n<p>Novembre. Cheese ! Novembre
+        est le mois de la photographie. Difficile de choisir un \u00e9v\u00e8nement
+        parmi la multitude d\u2019institutions qui c\u00e9l\u00e8breront les nouveaux
+        clich\u00e9s. Pourtant, si l\u2019on cherche la concentration de blousons
+        noirs, si l\u2019on aime les photos qui racontent l\u2019histoire, et surtout,
+        si l\u2019on aime le m\u00e9lange des genres de type photo-musical, alors
+        on ira aux Photaumnales de Beauvais. La grande famille du rock ouvre ses albums,
+        sans chichi.<\/p>\r\n<p>D\u00e9cembre. \u00ab It\u2019s begining to look a
+        lot like christmas \u00bb. Oui, vous pr\u00e9parez les f\u00eates de fin d\u2019ann\u00e9e
+        en entonnant vos classiques. C\u2019est le mois magique, celui des tr\u00eaves,
+        des grands enfants et de la f\u00e9\u00e9rie autoris\u00e9e. Le moment est
+        id\u00e9al pour repartir du c\u00f4t\u00e9 des contes de f\u00e9es au Palais
+        des Lumi\u00e8res d\u2019Evian. Le grand livre des contes, Charles Perrault
+        en guest star, nous r\u00e9v\u00e8le que ces histoires \u00e0 l\u2019origine
+        un poil terrifiantes ont \u00e9volu\u00e9 au rythme de la soci\u00e9t\u00e9
+        et de ses enfants.\u00a0<\/p>\r\n<p>Ils se cultiv\u00e8rent et v\u00e9curent
+        heureux.<\/p>\r\n<p><br \/>Laura Giacherio<\/p>","images":["news-540589fc426a7.jpg"],"date":1409649148,"url":"http:\/\/expomusees.orange.com\/actu-693\/votre-automne-culturel-ce-quil-faut-savoir"},{"id":692,"name":"VIDEO
+        II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
+        l\u2019\u00e2ge mur \u00bb","title":"Deuxi\u00e8me \u00e9pisode de notre nouvelle
+        s\u00e9rie de vid\u00e9os qui vous dresse un tableau, et le portrait de son
+        auteur.","video":"x1y9lrj","content":"<p><strong>\"Une \u0153uvre, un mus\u00e9e\"
+        est une s\u00e9rie de vid\u00e9os propos\u00e9es par Orange expo mus\u00e9es
+        : d\u00e9couvrir une \u0153uvre et son mus\u00e9e \u00e0 travers le d\u00e9cryptage
+        d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>\u00a0<\/p>\r\n<p>\u00ab
+        L\u2019\u00e2ge m\u00fbr \u00bb de Camille Claudel.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>La
+        sculpture de Camille Claudel, all\u00e9gorie de la destin\u00e9e de l\u2019homme
+        qui vieillit, entrain\u00e9 loin de la jeunesse, est surtout le cri d\u2019une
+        femme abandonn\u00e9e. Cette femme est Camille Claudel, qui raconte par ce
+        bronze sa relation passionnelle avec Rodin, qui la quitta et la rendit folle.
+        Une \u0153uvre du mus\u00e9e Rodin, naturellement.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Orange
+        Expo Mus\u00e9es vous dit tout ce que vous devez savoir sur les grandes \u0153uvres
+        des mus\u00e9es fran\u00e7ais !<\/p>\r\n<p><br \/><br \/><\/p>","images":["news-53fef0115bafa.jpg"],"date":1409229607,"url":"http:\/\/expomusees.orange.com\/actu-692\/video-ii-une-oeuvre-un-musee-episode-2-camille-claudel-lage-mur-"},{"id":691,"name":"Dessine-moi
+        la guerre","title":"Exposition \"Les d\u00e9sastres de la guerre\" au Louvre-Lens","video":"","content":"<p>Sur
+        l\u2019affiche, un soldat \u00e0 terre. Bless\u00e9 certainement, il rel\u00e8ve
+        le torse, les yeux ferm\u00e9s. Il est \u00ab l\u2019oubli\u00e9 \u00bb d\u2019Emile
+        Betsell\u00e8re.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Au milieu des c\u00e9l\u00e9brations
+        du centenaire de la Premi\u00e8re Guerre mondiale, la question de la place
+        de l\u2019art dans la repr\u00e9sentation des conflits est importante. Du
+        documentaire au devoir de m\u00e9moire, de la simple esth\u00e9tique et \u00e0
+        l\u2019\u00e9veil des consciences, de l\u2019\u00e9motion \u00e0 la condamnation,
+        l\u2019art et la guerre font un m\u00e9nage bien curieux. Peut-on peindre
+        de \u00ab tout \u00bb ou \u00ab doit \u00bb-t-on le faire ?<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Le
+        Louvre-Lens a lanc\u00e9 une piste de r\u00e9ponse en revenant sur la repr\u00e9sentation
+        des conflits depuis le 19\u00e8me si\u00e8cle, et plus particuli\u00e8rement
+        les guerres napol\u00e9oniennes, ou s\u2019op\u00e8re un changement radical
+        chez les artistes. De la bataille h\u00e9ro\u00efque avec les \u0153uvres
+        glorifiantes qui galvanisaient leur audience, on voit poindre des \u0153uvres
+        qui racontent l\u2019horreur des cons\u00e9quences humaines, animales, environnementales
+        et soci\u00e9tales des conflits arm\u00e9s.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Ce
+        changement de mentalit\u00e9 est difficile \u00e0 expliquer. Les armes de
+        plus en plus l\u00e9tales cr\u00e9ent-elles des dommages de plus en plus impressionnants
+        ? Une chose est certaine, on voit au fur et \u00e0 mesure des conflits depuis
+        le 19\u00e8me la distance \u00e0 la sc\u00e8ne s\u2019amoindrir et le spectateur
+        pris de plus en plus dans la violence de ce que l\u2019auteur d\u00e9peint.
+        Guerres napol\u00e9oniennes, coloniales, de s\u00e9cession, Grande guerre,
+        guerre du Vietnam\u2026 ou s\u2019arr\u00eate l\u2019art et ou d\u00e9bute
+        le documentaire ? L\u2019apparition de nouvelles techniques artistiques, la
+        photographie en est l\u2019exemple supr\u00eame, pose la question de l\u2019\u0153uvre
+        face \u00e0 la r\u00e9alit\u00e9 de ce qu\u2019elle d\u00e9crit.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Histoire
+        ou histoire de l\u2019art, on ne sait plus tr\u00e8s bien, mais le cours est
+        magistral.\u00a0<\/p>\r\n<p><br \/><br \/>Laura Giacherio<\/p>","images":["news-53fd9840be47a.jpg"],"date":1409131555,"url":"http:\/\/expomusees.orange.com\/actu-691\/dessine-moi-la-guerre"},{"id":690,"name":"La
+        rentr\u00e9e dans les mus\u00e9es en trois le\u00e7ons","title":"Les expositions
+        de la rentr\u00e9e","video":"","content":"<p>Driiiiiiing ! La rentr\u00e9e
+        culturelle, c\u2019est maintenant !\u00a0<\/p>\r\n<p>Vous n\u2019avez rien
+        pr\u00e9par\u00e9 ? Ne vous inqui\u00e9tez pas, Orange Expo Mus\u00e9es vous
+        a concoct\u00e9 un agenda pour vous remettre dans le bain. Suivez le professeur
+        :<\/p>\r\n<p>Histoire. Ouvrez vos livres d\u2019histoire \u00e0 la page Renaissance.
+        Les stars de l\u2019\u00e9poque, \u00e0 qui on aurait certainement propos\u00e9
+        une t\u00e9l\u00e9r\u00e9alit\u00e9 d\u00e9di\u00e9e s\u2019ils \u00e9taient
+        n\u00e9s quelques si\u00e8cles plus tard, sont les membres de la famille <a
+        href=\"expo-1255\/de-leonard-de-vinci-a-michel-ange-les-borgia-et-leur-temps-musee-maillol-fondation-dina-vierny-paris-07-ile-de-france#.U_w8uPl_t8E\"
+        target=\"_blank\">Borgia<\/a>. Tout est l\u00e0 : pouvoir, argent, personnages
+        sulfureux et peu scrupuleux dont les m\u0153urs et la morale l\u00e9g\u00e8res
+        marqu\u00e8rent l\u2019histoire. Pas \u00e9tonnant de les voir envahir les
+        s\u00e9ries t\u00e9l\u00e9vis\u00e9es et autres films. Pas \u00e9tonnant non
+        plus de les retrouver \u00e0 l\u2019\u00e9poque dans les cercles artistiques
+        les plus \u00e9lev\u00e9s. Grands m\u00e9c\u00e8nes et grands strat\u00e8ges,
+        ils c\u00f4toient L\u00e9onard de Vinci, Titien, Raphael et ont fascin\u00e9
+        les grands auteurs comme Victor Hugo ou Alejandro Jodorowsky. Alors, Lucr\u00e8ce
+        Borgia, Rodrigo Borgia (ou Pape Alexandre VI), qui \u00e9tiez-vous vraiment
+        ? La famille formidable \u00a0se d\u00e9voile au Mus\u00e9e Maillol, \u00e0
+        Paris.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>G\u00e9ographie. Si nous vous disons cabriolet,
+        cheveux au vent, terre rouge, palmiers et star syst\u00e8me, vous nous dites
+        ? La Californie bien s\u00fbr. Eldorado du voyageur, r\u00eave ultime du road
+        tripeur, la Californie, terre de star, en est en r\u00e9alit\u00e9 la plus
+        brillante \u00e9toile. C\u2019est elle que l\u2019on photographie depuis le
+        19\u00e8me si\u00e8cle pour tenter d\u2019immortaliser et de rapporter ce
+        paradis, en vain. Pourtant, \u00e0 travers les photographes qui l\u2019ont
+        photographi\u00e9e ou qui en sont les embl\u00e8mes, on croque un peu de cette
+        vie dor\u00e9e au fil des \u00e2ges. Pas besoin d\u2019une Mustang ou d\u2019un
+        billet d\u2019avion, L.A.-Bordeaux m\u00eame combat. Le <a href=\"musee-749\/musee-des-beaux-arts-de-bordeaux-bordeaux-aquitaine#.U_w9J_l_t8E\"
+        target=\"_blank\">mus\u00e9e des Beaux-Arts de Bordeaux<\/a> accueille \u00a0la
+        collection de photos du LACMA (Los Angeles County Museum of Art). Alright
+        then.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Instruction civique. Qui revendique la
+        maternit\u00e9 des \u00ab nanas \u00bb, figures c\u00e9l\u00e8bres de l\u2019histoire
+        de l\u2019art du 20\u00e8me si\u00e8cle qui repr\u00e9sentent des femmes color\u00e9es
+        et pulpeuses ? Et des \u00ab tirs \u00bb, qui explosent \u00e0 la carabine
+        les tubes de couleurs fix\u00e9s sur le bois ? Niki de Saint Phalle. Elle
+        en est la m\u00e8re, elle dont la relation paternelle fut tumultueuse et incestueuse
+        et qui chercha dans son \u0153uvre \u00e0 se d\u00e9faire de ses d\u00e9mons.
+        Catharsis et g\u00e9nie s\u2019entrem\u00ealent dans les r\u00e9alisations
+        plastiques et cin\u00e9matographiques de cette figure majeure de l\u2019art
+        moderne. Engagement politique et f\u00e9minisme affirm\u00e9, Niki de Saint-Phalle
+        cr\u00e9e l\u2019\u00e9v\u00e8nement au <a href=\"musee-2010\/grand-palais-paris-08-ile-de-france#.U_w9m_l_t8E\"
+        target=\"_blank\">Grand Palais<\/a>.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>La
+        journ\u00e9e d\u2019int\u00e9gration est termin\u00e9e, rendez-vous au mus\u00e9e
+        pour la suite !<\/p>\r\n<p><br \/>Laura Giacherio<\/p>","images":["news-53fc3e4685949.png"],"date":1409039942,"url":"http:\/\/expomusees.orange.com\/actu-690\/la-rentree-dans-les-musees-en-trois-lecons"}],"offset":5,"totalCount":660,"count":5,"error":0}'
     http_version: 
-  recorded_at: Mon, 15 Sep 2014 17:00:54 GMT
+  recorded_at: Tue, 16 Sep 2014 15:37:12 GMT
 recorded_with: VCR 2.9.3

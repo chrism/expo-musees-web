@@ -5,7 +5,7 @@ http_interactions:
     uri: http://username:password@expomusees.orange.com/api/getActu?count=3&offset=0
     body:
       encoding: US-ASCII
-      base64_string: ''
+      string: ''
     headers: {}
   response:
     status:
@@ -13,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Sep 2014 17:00:49 GMT
+      - Tue, 16 Sep 2014 15:37:09 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=525d2qdk9j8mkmcf5jqgl57ra7; path=/
+      - PHPSESSID=69ot8ka8rmtroa5mbtgvps2n51; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -28,155 +28,88 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '6397'
+      - '6615'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      base64_string: |
-        eyJuZXdzIjpbeyJpZCI6NzA0LCJuYW1lIjoiTFx1MjAxOWF1dG9tbmUsIGxh
-        IHNhaXNvbiBkZSBCdXJlbiIsInRpdGxlIjoiTGVzIGV4cG9zaXRpb25zIGRl
-        IEJ1cmVuIGVuIEZyYW5jZSIsInZpZGVvIjoiIiwiY29udGVudCI6IjxwPkNl
-        dCBhdXRvbW5lLCBEYW5pZWwgQnVyZW4gc1x1MjAxOWFtdXNlLiBOb24gY29u
-        dGVudCBkXHUyMDE5XHUwMGVhdHJlIHVuZSBmaWd1cmUgbWFqZXVyZSBkZSBs
-        XHUyMDE5YXJ0IGNvbnRlbXBvcmFpbiwgY29ubnUgZXQgZXhwb3NcdTAwZTkg
-        ZGFucyBsZSBtb25kZSBlbnRpZXIsIGxlIG1haXRyZSBkZSBsXHUyMDE5aW4g
-        c2l0dSBwcmVuZCBwb3NzZXNzaW9uIGRlIGRldXggbXVzXHUwMGU5ZXMgZnJh
-        blx1MDBlN2Fpcy4gUlx1MDBlOWNpdCBkXHUyMDE5dW5lIGludmFzaW9uLjxc
-        L3A+XHJcbjxwPlx1MDBhMDxcL3A+XHJcbjxwPlN0cmFzYm91cmcuIEJ1cmVu
-        IGZhaXQgbFx1MjAxOWVuZmFudCBlbiByZXZpc2l0YW50IGxlIE1BTUMgZGUg
-        U3RyYXNib3VyZy4gQ2VsdWkgcXVpIGRcdTAwZTlmZW5kIHF1ZSBcdTAwYWIg
-        W1Nvbl0gdHJhdmFpbCBlc3QgbHVkaXF1ZSBcdTAwYmIgXHUwMGFiIFx1MDBh
-        MGplIGxcdTIwMTlhaSB0b3Vqb3VycyBkaXQgXHUwMGJiLCBhc3N1cmUgXHUw
-        MGU5Z2FsZW1lbnQgcXVlIGxhIGZyYWljaGV1ciBkZSBsXHUyMDE5ZW5mYW5j
-        ZSBlc3QgZW4gclx1MDBlOWFsaXRcdTAwZTkgdW5lIHF1YWxpdFx1MDBlOSBj
-        clx1MDBlOWF0aXZlIHF1ZSBiZWF1Y291cCBkXHUyMDE5YXJ0aXN0ZXMgb250
-        IHJlY2hlcmNoXHUwMGU5ZSBcdTAwZTAgbGEgZmluIGRlIGxldXIgY2Fycmlc
-        dTAwZThyZSwgXHUwMGUwIGxcdTIwMTlpbWFnZSBkZSBNYXRpc3NlIGV0IGRl
-        IHNlcyBcdTAwYWIgcGFwaWVycyBkXHUwMGU5Y291cFx1MDBlOXMgXHUwMGJi
-        LiBCdXJlbiBnb1x1MDBmYnRlIGF1eCBwbGFpc2lycyBkdSBqZXUgc3VyIGxh
-        IGZhXHUwMGU3YWRlIGR1IE1BTUMgZXQgXHUwMGUwIHRyYXZlcnMgZGVzIGN1
-        YmVzIGNvbG9yXHUwMGU5cy4gSWwgcG9zc1x1MDBlOGRlIGxcdTIwMTllc3Bh
-        Y2UgYXV0YW50IHF1XHUyMDE5aWwgbm91cyBsXHUyMDE5b2ZmcmUuXHUwMGEw
-        PFwvcD5cclxuPHA+TWFyc2VpbGxlLiBDXHUyMDE5ZXN0IHVuIHByb2pldCBm
-        b3UuIENlbHVpIGRcdTIwMTlPcmEgSXRvLCBsXHUyMDE5ZW5mYW50IHRlcnJp
-        YmxlIGR1IGRlc2lnbiBmcmFuXHUwMGU3YWlzLCBwYXNzaW9ublx1MDBlOSBk
-        ZSBMZSBDb3JidXNpZXIgZXQgcXVpIGEgZFx1MDBlOWNpZFx1MDBlOSBkZSBm
-        YWlyZSBkZSBzYSBcdTAwYWIgQ2l0XHUwMGU5IFJhZGlldXNlIFx1MDBiYiBc
-        dTAwZTAgTWFyc2VpbGxlIHVuIGNlbnRyZSBkXHUyMDE5YXJ0IGNvbnRlbXBv
-        cmFpbiwgbGUgTWFNby4gTmV3LVlvcmsgZXQgc29uIE1vTWEgblx1MjAxOW9u
-        dCBxdVx1MjAxOVx1MDBlMCBiaWVuIHNlIHRlbmlyLiBMYSBjaXRcdTAwZTkg
-        TW9kdWxvciwgcG91ciBcdTAwYWIgbW9kdWxlIFx1MDBiYiBldCBcdTAwYWIg
-        bm9tYnJlIGRcdTIwMTlvciBcdTAwYmIsIGF2YWl0IFx1MDBlOXRcdTAwZTkg
-        aW1hZ2luXHUwMGU5ZSBwYXIgbFx1MjAxOWFyY2hpdGVjdGUgY1x1MDBlOWxc
-        dTAwZTlicmlzc2ltZSBjb21tZSB1biB2YWlzc2VhdSByZXNwZWN0YW50IGxl
-        cyByYXBwb3J0cyBpZFx1MDBlOWF1eCBwb3VyIGxcdTIwMTlvcmdhbmlzYXRp
-        b24gZGUgbGEgdmllIGVuIHNvY2lcdTAwZTl0XHUwMGU5LiBTb24gdG9pdCB0
-        ZXJyYXNzZSBlc3QgbGUgdGVycmFpbiBkZSBqZXUgZGUgQnVyZW4gdG91dCBs
-        XHUyMDE5YXV0b21uZS4gTFx1MjAxOWFydGlzdGUgZW4gYSBwcmlzIHBvc3Nl
-        c3Npb24gcG91ciBqb3VlciBhdmVjIGxlcyBvbWJyZXMsIGxcdTIwMTlob3Jp
-        em9uIGV0IGVscyBkaW1lbnNpb25zIHF1aSBlbnRvdXJlbnQgbGUgbW9udW1l
-        bnQuIENlIHNvbnQgNyBcdTAxNTN1dnJlcyBpblx1MDBlOWRpdGVzIHF1aSB2
-        aWVuZHJvbnQgbHVpIGRvbm5lciBjb3JwcywgYWNjZXNzaWJsZXMgZ3JhdHVp
-        dGVtZW50LiBMYSBcdTAwYWIgbWFpc29uIGR1IGZhZGEgXHUwMGJiIGEgdW5l
-        IGFyYWlnblx1MDBlOWUgYXUgcGxhZm9uZCwgRGFuaWVsIEJ1cmVuLlx1MDBh
-        MDxcL3A+XHJcbjxwPkRlIGxcdTIwMTlpbiBzaXR1IGluIHZpdm8gcGFyIGxl
-        IG1haXRyZSBmcmFuXHUwMGU3YWlzIGR1IGdlbnJlLCBjXHUyMDE5ZXN0IHRv
-        dXQgbFx1MjAxOWF1dG9tbmUuXHUwMGEwPFwvcD5cclxuPHA+PGJyIFwvPjxi
-        ciBcLz5MYXVyYSBHaWFjaGVyaW88XC9wPiIsImltYWdlcyI6WyJuZXdzLTU0
-        MTE2NjAzZTc0MWIuanBnIl0sImRhdGUiOjE0MTA0MjY0NzUsInVybCI6Imh0
-        dHA6XC9cL2V4cG9tdXNlZXMub3JhbmdlLmNvbVwvYWN0dS03MDRcL2xhdXRv
-        bW5lLWxhLXNhaXNvbi1kZS1idXJlbiJ9LHsiaWQiOjY5OCwibmFtZSI6IkNc
-        dTIwMTllc3QgcXVvaSwgbFx1MjAxOWV4b3Rpc21lID8gTWF0aXNzZSwgdW4g
-        dG91cmlzdGUgcGFzIGNvbW1lIGxlcyBhdXRyZXMgXHUwMGUwIFRhaGl0aSIs
-        InRpdGxlIjoiRXhwb3NpdGlvbiBcIkxlIHZveWFnZSBcdTAwZTAgVGFoaXRp
-        ICBkZSBNYXRpc3NlXCIgYXUgTXVzXHUwMGU5ZSBkZSBsYSBOYWNyZSBldCBk
-        ZSBsYSBUYWJsZXR0ZXJpZSBcdTAwZTAgTVx1MDBlOXJ1IiwidmlkZW8iOiIi
-        LCJjb250ZW50IjoiPHA+Q29tbWVudCBkXHUwMGU5ZmluaXIgbFx1MjAxOWV4
-        b3Rpc21lIGV0IGNvbW1lbnQgbGUgcmVwclx1MDBlOXNlbnRlciA/PFwvcD5c
-        clxuPHA+TG9yc3F1ZSBsXHUyMDE5b24gcGFybGUgZFx1MjAxOWV4b3Rpc21l
-        IG5vdXMgdmllbm5lbnQgXHUwMGUwIGxcdTIwMTllc3ByaXQgdW5lIHNcdTAw
-        ZTlyaWUgZFx1MjAxOVx1MDBlZWxlcyBldCBkXHUyMDE5aW1hZ2VzIGRcdTIw
-        MTlcdTAwYzlwaW5hbCwgdmFoaW5cdTAwZTlzIGV0IGNvY290aWVycyBlbiB0
-        XHUwMGVhdGUuIFNpIGxcdTIwMTlvbiBwclx1MDBlOWNpc2UgXHUwMGFiIHBl
-        aW50cmUgZGUgbFx1MjAxOWV4b3Rpc21lIFx1MDBiYiwgY1x1MjAxOWVzdCB1
-        bmUgYXV0cmUgaGlzdG9pcmUuIExcdTIwMTlhcnQgbmFcdTAwZWZmIGR1IGRv
-        dWFuaWVyIFJvdXNzZWF1IHF1aSBuXHUyMDE5YSBqYW1haXMgdm95YWdcdTAw
-        ZTkgZW4gZGVob3JzIGRlIGxhIEZyYW5jZSBjb25jdXJyZW5jZSBsZXMgcGVp
-        bnR1cmVzIGRlIFBhdWwgR2F1Z3VpbiByZXByXHUwMGU5c2VudGFudCBUYWhp
-        dGkgZXQgc2VzIGhhYml0YW50cy4gSWwgZXN0IHVuIGFydGlzdGUgcXVpLCBt
-        XHUwMGVhbWUgc1x1MjAxOWlsIG5cdTIwMTlhIHBhcyBwZWludCBwZW5kYW50
-        IHNvbiB2b3lhZ2UgXHUwMGUwIFRhaGl0aSwgZW4gYSBcdTAwZTl0XHUwMGU5
-        IHByb2ZvbmRcdTAwZTltZW50IHRvdWNoXHUwMGU5IGF1IHBvaW50IGRlIG1v
-        ZGlmaWVyIHNvbiBcdTAxNTN1dnJlIDogTWF0aXNzZS5cdTAwYTA8XC9wPlxy
-        XG48cD5CaWVuIGFwclx1MDBlOHMgbGUgclx1MDBlOGduZSBhcnRpc3RpcXVl
-        IGRlIEdhdWd1aW4sIEhlbnJpIE1hdGlzc2UgZmFpdCBsXHUyMDE5YWNxdWlz
-        aXRpb24gZGUgbFx1MjAxOXVuZSBkZSBzZXMgdG9pbGVzLCBcdTAwYWIgbFx1
-        MjAxOWhvbW1lIFx1MDBlMCBsYSBmbGV1ciBkZSBUaWFyXHUwMGU5IFx1MDBi
-        Yi4gQ1x1MjAxOWVzdCB1bmUgclx1MDBlOXZcdTAwZTlsYXRpb24uIElsIHBh
-        cnQgcG91ciBUYWhpdGkgZW4gMTkzMCwgbm9uIHBvdXIgcGVpbmRyZSBsXHUy
-        MDE5XHUwMGVlbGUgZGUgUG9seW5cdTAwZTlzaWUgZnJhblx1MDBlN2Fpc2Ug
-        bWFpcyBlbiBvYnNlcnZhdGV1ciBxdWFzaSBldGhub2dyYXBoZS4gSWwgcmFw
-        cG9ydGUgZGVzIGx1bWlcdTAwZThyZXMgaW5cdTAwZTlkaXRlcyBldCB1biBu
-        b3V2ZWwgXHUwMGU5bGFuIGRlIHNpbXBsaWZpY2F0aW9uLiBDXHUyMDE5ZXN0
-        IGNldCBcdTAwZTlsYW4gcXVpIG1hcnF1ZXJhIGxhIHBhdHRlIGRlIGxcdTIw
-        MTlhcnRpc3RlIDogbGEgc2ltcGxpZmljYXRpb24gZGVzIGZvcm1lcyBldCBk
-        ZXMgY291bGV1cnMsIGxldXIgbm91dmVsIFx1MDBlOXF1aWxpYnJlIGRhbnMg
-        dW4gcmFwcG9ydCBwbHVzIG5hXHUwMGVmZi4gTGUgZFx1MDBlOXBvdWlsbGVt
-        ZW50LiBDXHUyMDE5ZXN0IFx1MDBlMCBwYXJ0aXIgZGUgc291dmVuaXJzIGRl
-        IGxcdTIwMTlcdTAwZWVsZSBxdWUgbGUgcGVpbnRyZSBpbWFnaW5lIGxcdTIw
-        MTlhbGJ1bSBKYXp6LCBlbiBzXHUyMDE5ZXhlclx1MDBlN2FudCBhdmVjIGRl
-        cyBkXHUwMGU5Y291cGFnZXMgZGUgcGFwaWVycyBkZSBmb3JtZXMgZXQgY291
-        bGV1cnMgZGlmZlx1MDBlOXJlbnRlcy5cdTAwYTA8XC9wPlxyXG48cD5MZXMg
-        dm95YWdlcyBmb3JtZW50IGxhIGpldW5lc3NlLCBsXHUyMDE5YXJ0aXN0ZSBh
-        dXNzaS48XC9wPlxyXG48cD5cdTAwYTA8XC9wPiIsImltYWdlcyI6WyJuZXdz
-        LTU0MTAxN2MwMzVmYWQuanBnIl0sImRhdGUiOjE0MTAzNDA4MDAsInVybCI6
-        Imh0dHA6XC9cL2V4cG9tdXNlZXMub3JhbmdlLmNvbVwvYWN0dS02OThcL2Nl
-        c3QtcXVvaS1sZXhvdGlzbWUtbWF0aXNzZS11bi10b3VyaXN0ZS1wYXMtY29t
-        bWUtbGVzLWF1dHJlcy1hLXRhaGl0aSJ9LHsiaWQiOjY5NywibmFtZSI6IlZJ
-        REVPIEkgXCIgVW5lIG9ldXZyZSwgdW4gbXVzXHUwMGU5ZSBcIiBcdTAwZTlw
-        aXNvZGUgNDogXHUwMGFiIEFudGhyb3BvbVx1MDBlOXRyaWUgXHUwMGJiIGRc
-        dTIwMTlZdmVzIEtsZWluIiwidGl0bGUiOiJRdWF0cmlcdTAwZThtZSBcdTAw
-        ZTlwaXNvZGUgZGUgbm90cmUgbm91dmVsbGUgc1x1MDBlOXJpZSBkZSB2aWRc
-        dTAwZTlvcyBxdWkgdm91cyBkcmVzc2UgdW4gdGFibGVhdSwgZXQgbGUgcG9y
-        dHJhaXQgZGUgc29uIGF1dGV1ci4iLCJ2aWRlbyI6IngxejlpNXciLCJjb250
-        ZW50IjoiPHA+PHN0cm9uZz5RdWF0cmlcdTAwZThtZSBcdTAwZTlwaXNvZGUg
-        ZGUgbm90cmUgbm91dmVsbGUgc1x1MDBlOXJpZSBkZSB2aWRcdTAwZTlvczxc
-        L3N0cm9uZz48XC9wPlxyXG48cD5cIlVuZSBcdTAxNTN1dnJlLCB1biBtdXNc
-        dTAwZTllXCIgZXN0IHVuZSBzXHUwMGU5cmllIGRlIHZpZFx1MDBlOW9zIHBy
-        b3Bvc1x1MDBlOWVzIHBhciBPcmFuZ2UgZXhwbyBtdXNcdTAwZTllcyA6IGRc
-        dTAwZTljb3V2cmlyIHVuZSBcdTAxNTN1dnJlIGV0IHNvbiBtdXNcdTAwZTll
-        IFx1MDBlMCB0cmF2ZXJzIGxlIGRcdTAwZTljcnlwdGFnZSBkXHUyMDE5T3Jh
-        bmdlIEV4cG8gTXVzXHUwMGU5ZXMgITxcL3A+XHJcbjxwPlx1MDBhMDxcL3A+
-        XHJcbjxwPlx1MDBhYiBBbnRocm9wb21cdTAwZTl0cmllIFx1MDBiYiBkXHUy
-        MDE5WXZlcyBLbGVpbjxcL3A+XHJcbjxwPlx1MDBhMDxcL3A+XHJcbjxwPkFy
-        dGlzdGUgZnJhblx1MDBlN2FpcyBhdWpvdXJkXHUyMDE5aHVpIGNvbnNpZFx1
-        MDBlOXJcdTAwZTkgY29tbWUgZmlndXJlIG1hamV1cmUgZGUgbFx1MjAxOWF2
-        YW50LWdhcmRlLCBZdmVzIEtsZWluLCBtb3J0IGpldW5lLCBhIHBvdXJ0YW50
-        IGV1IHVuZSBjYXJyaVx1MDBlOHJlIGNvdXJ0ZS4gQXZlYyBzYSBzXHUwMGU5
-        cmllIGRcdTIwMTkgXHUwMGFiQW50aHJvcG9tXHUwMGU5dHJpZVx1MDBiYiwg
-        aWwgbWFycXVlIHNvbiBpbmRcdTAwZTlmZWN0aWJsZSB1dGlsaXNhdGlvbiBk
-        dSBibGV1IHF1XHUyMDE5aWwgYSBjclx1MDBlOVx1MDBlOSBldCBxdWksIGNv
-        bnRyYWlyZW1lbnQgYXV4IGF1dHJlcyBjb3VsZXVycywgblx1MjAxOVx1MDBl
-        OXZvcXVlIGF1Y3VuZSBpZFx1MDBlOWUgY29uY3JcdTAwZTh0ZS4gTGUgYnV0
-        IGVzdCBkZSBzZSBkaXN0YW5jaWVyIGRlIGxcdTIwMTlcdTAxNTN1dnJlLiBD
-        XHUyMDE5ZXN0IGF1c3NpIHBvdXIgY2VsYSBxdVx1MjAxOWlsIG5cdTIwMTl1
-        dGlsaXNlIHBhcyBkZSBwaW5jZWF1IG1haXMgcGx1dFx1MDBmNHQgZGVzIG1v
-        ZFx1MDBlOGxlcywgZmVtbWVzLCBxdWkgc2UgZFx1MDBlOXBsYWNlbnQgc3Vy
-        IHNlcyB0b2lsZXMgc2Vsb24gc29uIG9yY2hlc3RyYXRpb24uIFx1MDBhYiBB
-        bnRocm9wb21cdTAwZTl0cmllICM4NCBcdTAwYmIgZmFpdCBwYXJ0aWUgZGVz
-        IFx1MDE1M3V2cmVzIHF1aSBjb21wb3NlbnQgbGEgc2FsbGUgZFx1MDBlOWRp
-        XHUwMGU5ZSBcdTAwZTAgS2xlaW4gYXUgTUFNQUMgZGUgTmljZSwgc2Egdmls
-        bGUgbmF0YWxlLlx1MDBhMDxcL3A+XHJcbjxwPlx1MDBhMDxcL3A+XHJcbjxw
-        Pk9yYW5nZSBFeHBvIE11c1x1MDBlOWVzIHZvdXMgZGl0IHRvdXQgY2UgcXVl
-        IHZvdXMgZGV2ZXogc2F2b2lyIHN1ciBsZXMgZ3JhbmRlcyBcdTAxNTN1dnJl
-        cyBkZXMgbXVzXHUwMGU5ZXMgZnJhblx1MDBlN2FpcyAhPFwvcD5cclxuPHA+
-        XHUwMGEwPFwvcD4iLCJpbWFnZXMiOlsibmV3cy01NDBlZDgwMmRjMmQ3Lmpw
-        ZyJdLCJkYXRlIjoxNDEwMjU4OTk2LCJ1cmwiOiJodHRwOlwvXC9leHBvbXVz
-        ZWVzLm9yYW5nZS5jb21cL2FjdHUtNjk3XC92aWRlby1pLXVuZS1vZXV2cmUt
-        dW4tbXVzZWUtZXBpc29kZS00LWFudGhyb3BvbWV0cmllLWR5dmVzLWtsZWlu
-        In1dLCJvZmZzZXQiOjAsInRvdGFsQ291bnQiOjY1OSwiY291bnQiOjMsImVy
-        cm9yIjowfQ==
+      string: '{"news":[{"id":699,"name":"Le Grand Palais se transforme en salle d\u2019embarquement
+        pour Air France","title":"Exposition \"Air France, France is in the air\"
+        au Grand Palais","video":"","content":"<p>\u00ab PNC aux portes, armement
+        des toboggans, v\u00e9rification de la porte oppos\u00e9e \u00bb. Attachez
+        vos ceintures, Air France a fix\u00e9 un \u00ab convecteur temporel \u00bb
+        \u00e0 l\u2019un de ses cockpits et vous envole dans son pass\u00e9 et dans
+        son futur.<\/p>\r\n<p>1920. Pas si folles, les ann\u00e9es 20 voient un grand
+        nombre de pilotes et avions de la Grande Guerre se recycler dans le priv\u00e9.
+        Les compagnies a\u00e9riennes fleurissent.<\/p>\r\n<p>1933. Quatre compagnie
+        a\u00e9riennes on fusionn\u00e9es et s\u2019appr\u00eatent \u00e0 racheter
+        l\u2019A\u00e9ropostale. La nouvelle entit\u00e9, inaugur\u00e9e en grande
+        pompe au Bourget, se nommera Air France. Ladies and Gentlemen, ici commence
+        le voyage.<\/p>\r\n<p>En 80 ans, la compagnie la plus importante de France
+        a transport\u00e9 ses passagers \u00e0 travers le temps : quelques heures
+        en arri\u00e8re vers l\u2019ouest, un pas vers le futur \u00e0 l\u2019est.
+        Elle a cr\u00e9\u00e9 un r\u00e9seau supersonique par Concorde dans les ann\u00e9es
+        70, a imagin\u00e9 une \u00ab classe affaires \u00bb et une \u00ab 1\u00e8re
+        classe \u00bb pour ses passagers et a modifi\u00e9 son design et son confort.<\/p>\r\n<p>Pendant
+        ces 80 ann\u00e9es, ces \u00e9volutions techniques n\u2019ont cess\u00e9 d\u2019\u00eatre
+        accompagn\u00e9es par des partenariats avec les artisans les plus pointus.
+        Air France a fait monter \u00e0 bord couturiers, cuisiniers, sommeliers, illustrateurs,
+        compositeurs et autres designers.<\/p>\r\n<p>Le voyage \u00ab \u00e0 la fran\u00e7aise
+        \u00bb, par Air France, ram\u00e8ne temporairement \u00ab le plus bel endroit
+        de la terre \u00bb, sur terre : au Grand Palais.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Laura
+        Giacherio<\/p>","images":["news-5411a27d10af3.JPG"],"date":1410855277,"url":"http:\/\/expomusees.orange.com\/actu-699\/le-grand-palais-se-transforme-en-salle-dembarquement-pour-air-france"},{"id":704,"name":"L\u2019automne,
+        la saison de Buren","title":"Les expositions de Buren en France","video":"","content":"<p>Cet
+        automne, Daniel Buren s\u2019amuse. Non content d\u2019\u00eatre une figure
+        majeure de l\u2019art contemporain, connu et expos\u00e9 dans le monde entier,
+        le maitre de l\u2019in situ prend possession de deux mus\u00e9es fran\u00e7ais.
+        R\u00e9cit d\u2019une invasion.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Strasbourg. Buren
+        fait l\u2019enfant en revisitant le MAMC de Strasbourg. Celui qui d\u00e9fend
+        que \u00ab [Son] travail est ludique \u00bb \u00ab \u00a0je l\u2019ai toujours
+        dit \u00bb, assure \u00e9galement que la fraicheur de l\u2019enfance est en
+        r\u00e9alit\u00e9 une qualit\u00e9 cr\u00e9ative que beaucoup d\u2019artistes
+        ont recherch\u00e9e \u00e0 la fin de leur carri\u00e8re, \u00e0 l\u2019image
+        de Matisse et de ses \u00ab papiers d\u00e9coup\u00e9s \u00bb. Buren go\u00fbte
+        aux plaisirs du jeu sur la fa\u00e7ade du MAMC et \u00e0 travers des cubes
+        color\u00e9s. Il poss\u00e8de l\u2019espace autant qu\u2019il nous l\u2019offre.\u00a0<\/p>\r\n<p>Marseille.
+        C\u2019est un projet fou. Celui d\u2019Ora Ito, l\u2019enfant terrible du
+        design fran\u00e7ais, passionn\u00e9 de Le Corbusier et qui a d\u00e9cid\u00e9
+        de faire de sa \u00ab Cit\u00e9 Radieuse \u00bb \u00e0 Marseille un centre
+        d\u2019art contemporain, le MaMo. New-York et son MoMa n\u2019ont qu\u2019\u00e0
+        bien se tenir. La cit\u00e9 Modulor, pour \u00ab module \u00bb et \u00ab nombre
+        d\u2019or \u00bb, avait \u00e9t\u00e9 imagin\u00e9e par l\u2019architecte
+        c\u00e9l\u00e9brissime comme un vaisseau respectant les rapports id\u00e9aux
+        pour l\u2019organisation de la vie en soci\u00e9t\u00e9. Son toit terrasse
+        est le terrain de jeu de Buren tout l\u2019automne. L\u2019artiste en a pris
+        possession pour jouer avec les ombres, l\u2019horizon et els dimensions qui
+        entourent le monument. Ce sont 7 \u0153uvres in\u00e9dites qui viendront lui
+        donner corps, accessibles gratuitement. La \u00ab maison du fada \u00bb a
+        une araign\u00e9e au plafond, Daniel Buren.\u00a0<\/p>\r\n<p>De l\u2019in
+        situ in vivo par le maitre fran\u00e7ais du genre, c\u2019est tout l\u2019automne.\u00a0<\/p>\r\n<p><br
+        \/><br \/>Laura Giacherio<\/p>","images":["news-54116603e741b.jpg"],"date":1410426475,"url":"http:\/\/expomusees.orange.com\/actu-704\/lautomne-la-saison-de-buren"},{"id":698,"name":"C\u2019est
+        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","title":"Exposition
+        \"Le voyage \u00e0 Tahiti  de Matisse\" au Mus\u00e9e de la Nacre et de la
+        Tabletterie \u00e0 M\u00e9ru","video":"","content":"<p>Comment d\u00e9finir
+        l\u2019exotisme et comment le repr\u00e9senter ?<\/p>\r\n<p>Lorsque l\u2019on
+        parle d\u2019exotisme nous viennent \u00e0 l\u2019esprit une s\u00e9rie d\u2019\u00eeles
+        et d\u2019images d\u2019\u00c9pinal, vahin\u00e9s et cocotiers en t\u00eate.
+        Si l\u2019on pr\u00e9cise \u00ab peintre de l\u2019exotisme \u00bb, c\u2019est
+        une autre histoire. L\u2019art na\u00eff du douanier Rousseau qui n\u2019a
+        jamais voyag\u00e9 en dehors de la France concurrence les peintures de Paul
+        Gauguin repr\u00e9sentant Tahiti et ses habitants. Il est un artiste qui,
+        m\u00eame s\u2019il n\u2019a pas peint pendant son voyage \u00e0 Tahiti, en
+        a \u00e9t\u00e9 profond\u00e9ment touch\u00e9 au point de modifier son \u0153uvre
+        : Matisse.\u00a0<\/p>\r\n<p>Bien apr\u00e8s le r\u00e8gne artistique de Gauguin,
+        Henri Matisse fait l\u2019acquisition de l\u2019une de ses toiles, \u00ab
+        l\u2019homme \u00e0 la fleur de Tiar\u00e9 \u00bb. C\u2019est une r\u00e9v\u00e9lation.
+        Il part pour Tahiti en 1930, non pour peindre l\u2019\u00eele de Polyn\u00e9sie
+        fran\u00e7aise mais en observateur quasi ethnographe. Il rapporte des lumi\u00e8res
+        in\u00e9dites et un nouvel \u00e9lan de simplification. C\u2019est cet \u00e9lan
+        qui marquera la patte de l\u2019artiste : la simplification des formes et
+        des couleurs, leur nouvel \u00e9quilibre dans un rapport plus na\u00eff. Le
+        d\u00e9pouillement. C\u2019est \u00e0 partir de souvenirs de l\u2019\u00eele
+        que le peintre imagine l\u2019album Jazz, en s\u2019exer\u00e7ant avec des
+        d\u00e9coupages de papiers de formes et couleurs diff\u00e9rentes.\u00a0<\/p>\r\n<p>Les
+        voyages forment la jeunesse, l\u2019artiste aussi.<\/p>\r\n<p>\u00a0<\/p>","images":["news-541017c035fad.jpg"],"date":1410340800,"url":"http:\/\/expomusees.orange.com\/actu-698\/cest-quoi-lexotisme-matisse-un-touriste-pas-comme-les-autres-a-tahiti"}],"offset":0,"totalCount":660,"count":3,"error":0}'
     http_version: 
-  recorded_at: Mon, 15 Sep 2014 17:00:53 GMT
+  recorded_at: Tue, 16 Sep 2014 15:37:11 GMT
 recorded_with: VCR 2.9.3

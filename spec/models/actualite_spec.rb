@@ -59,14 +59,17 @@ RSpec.describe Actualite, :type => :model do
 
   describe '.find' do
     before do
-      response = { uniteam_id: 1, title: "example title", name: "example name" }
+      response = { uniteam_id: 1, title: "example title", name: "example name", content: "example content" }
       expect(UniteamAPI::Actualite).to receive(:find).and_return(response)
       @actualite = Actualite.find(1)
     end
 
-    it 'sets their name' do
+    it 'sets their properties' do
       puts @actualite
       expect(@actualite.uniteam_id).to eq(1)
+      expect(@actualite.title).to be
+      expect(@actualite.name).to be
+      expect(@actualite.content).to be
     end
   end
 end

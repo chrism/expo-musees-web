@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getActu?count=5&offset=0
+    uri: http://username:password@expomusees.orange.com/api/getActu?count=3&offset=0
     body:
       encoding: US-ASCII
       string: ''
@@ -13,22 +13,22 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 16 Sep 2014 15:37:09 GMT
+      - Tue, 16 Sep 2014 15:37:08 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=f110qh4kanu1r93p7lucmeimi5; path=/
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=375isra8h4ek0rcr0oj0799t07; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
       - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
-      Transfer-Encoding:
-      - chunked
+      Content-Length:
+      - '6615'
       Content-Type:
       - application/json
     body:
@@ -109,54 +109,7 @@ http_interactions:
         d\u00e9pouillement. C\u2019est \u00e0 partir de souvenirs de l\u2019\u00eele
         que le peintre imagine l\u2019album Jazz, en s\u2019exer\u00e7ant avec des
         d\u00e9coupages de papiers de formes et couleurs diff\u00e9rentes.\u00a0<\/p>\r\n<p>Les
-        voyages forment la jeunesse, l\u2019artiste aussi.<\/p>\r\n<p>\u00a0<\/p>","images":["news-541017c035fad.jpg"],"date":1410340800,"url":"http:\/\/expomusees.orange.com\/actu-698\/cest-quoi-lexotisme-matisse-un-touriste-pas-comme-les-autres-a-tahiti"},{"id":697,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
-        \u00bb d\u2019Yves Klein","title":"Quatri\u00e8me \u00e9pisode de notre nouvelle
-        s\u00e9rie de vid\u00e9os qui vous dresse un tableau, et le portrait de son
-        auteur.","video":"x1z9i5w","content":"<p><strong>Quatri\u00e8me \u00e9pisode
-        de notre nouvelle s\u00e9rie de vid\u00e9os<\/strong><\/p>\r\n<p>\"Une \u0153uvre,
-        un mus\u00e9e\" est une s\u00e9rie de vid\u00e9os propos\u00e9es par Orange
-        expo mus\u00e9es : d\u00e9couvrir une \u0153uvre et son mus\u00e9e \u00e0
-        travers le d\u00e9cryptage d\u2019Orange Expo Mus\u00e9es !<\/p>\r\n<p>\u00a0<\/p>\r\n<p>\u00ab
-        Anthropom\u00e9trie \u00bb d\u2019Yves Klein<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Artiste
-        fran\u00e7ais aujourd\u2019hui consid\u00e9r\u00e9 comme figure majeure de
-        l\u2019avant-garde, Yves Klein, mort jeune, a pourtant eu une carri\u00e8re
-        courte. Avec sa s\u00e9rie d\u2019 \u00abAnthropom\u00e9trie\u00bb, il marque
-        son ind\u00e9fectible utilisation du bleu qu\u2019il a cr\u00e9\u00e9 et qui,
-        contrairement aux autres couleurs, n\u2019\u00e9voque aucune id\u00e9e concr\u00e8te.
-        Le but est de se distancier de l\u2019\u0153uvre. C\u2019est aussi pour cela
-        qu\u2019il n\u2019utilise pas de pinceau mais plut\u00f4t des mod\u00e8les,
-        femmes, qui se d\u00e9placent sur ses toiles selon son orchestration. \u00ab
-        Anthropom\u00e9trie #84 \u00bb fait partie des \u0153uvres qui composent la
-        salle d\u00e9di\u00e9e \u00e0 Klein au MAMAC de Nice, sa ville natale.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Orange
-        Expo Mus\u00e9es vous dit tout ce que vous devez savoir sur les grandes \u0153uvres
-        des mus\u00e9es fran\u00e7ais !<\/p>\r\n<p>\u00a0<\/p>","images":["news-540ed802dc2d7.jpg"],"date":1410258996,"url":"http:\/\/expomusees.orange.com\/actu-697\/video-i-une-oeuvre-un-musee-episode-4-anthropometrie-dyves-klein"},{"id":695,"name":"On
-        voit qui pendant la Paris Design Week ?","title":"La Design Week s''installe
-        \u00e0 Paris","video":"","content":"<p>Du 6 au 13 septembre le c\u0153ur de
-        la plan\u00e8te design battra au rythme parisien pour la Paris Design Week.
-        Parmi les 200 lieux qui s\u2019animeront sous des sc\u00e9nographies rivalisant
-        de cr\u00e9ativit\u00e9, difficile de savoir par o\u00f9 commencer. Et s\u2019il
-        ne devait en rester qu\u2019un ?\u00a0<\/p>\r\n<p>Parmi les talents repr\u00e9sent\u00e9s
-        cette ann\u00e9e, une pointure du design qui expose depuis une trentaine d\u2019ann\u00e9es
-        dans les plus grands mus\u00e9es et pour les plus grands \u00e9v\u00e8nements
-        : Olivier Gagn\u00e8re.\u00a0<\/p>\r\n<p>Ne cherchez pas l\u2019\u00e9tiquette,
-        Olivier Gagn\u00e8re est autant designer qu\u2019architecte d\u2019int\u00e9rieur,
-        \u00e9b\u00e9niste et cr\u00e9ateur de verrerie. On l\u2019a vu en France,
-        o\u00f9 il a repens\u00e9 certains hauts lieux de la vie de la capitale comme
-        le Lido ou le caf\u00e9 Marly. On l\u2019a aussi vu travailler du c\u00f4t\u00e9
-        des ateliers de verrerie \u00e0 Murano, du c\u00f4t\u00e9 du Japon et m\u00eame
-        expos\u00e9 au Shanghai Art Museum. Durant la Design Week, Olivier Gagn\u00e8re
-        \u00e9lira domicile aupr\u00e8s d\u2019une galerie avec laquelle il collabore
-        depuis les ann\u00e9es 80, la galerie Maeght. L\u2019occasion de le d\u00e9couvrir
-        ou de mieux le connaitre et surtout de d\u00e9couvrir une discipline aux facettes
-        un peu floues : la c\u00e9ramique.\u00a0<\/p>\r\n<p>La noble mati\u00e8re
-        retrouve \u00e9l\u00e9gance et vitalit\u00e9 sous la collaboration qu\u2019Olivier
-        Gagn\u00e8re a mise en place avec les ateliers Sergio et Maux Parigi \u00e0
-        Sesto Fiorentino. Des objets joyeux cr\u00e9\u00e9s par l\u2019\u00e9quilibriste
-        des formes : \u00ab J\u2019aime la densit\u00e9 de couleurs que permet la
-        c\u00e9ramique \u00bb.\u00a0<\/p>\r\n<p>L\u2019orchestre des artisans des
-        quatre coins du monde officie \u00e0 Paris. En avant maestro !<\/p>\r\n<p><br
-        \/><br \/><br \/>Laura Giacherio<\/p>","images":["news-5408316b5c99d.jpg"],"date":1409823263,"url":"http:\/\/expomusees.orange.com\/actu-695\/on-voit-qui-pendant-la-paris-design-week-"}],"offset":0,"totalCount":660,"count":5,"error":0}'
+        voyages forment la jeunesse, l\u2019artiste aussi.<\/p>\r\n<p>\u00a0<\/p>","images":["news-541017c035fad.jpg"],"date":1410340800,"url":"http:\/\/expomusees.orange.com\/actu-698\/cest-quoi-lexotisme-matisse-un-touriste-pas-comme-les-autres-a-tahiti"}],"offset":0,"totalCount":660,"count":3,"error":0}'
     http_version: 
-  recorded_at: Tue, 16 Sep 2014 15:37:11 GMT
+  recorded_at: Tue, 16 Sep 2014 15:37:10 GMT
 recorded_with: VCR 2.9.3

@@ -24,13 +24,13 @@ module UniteamAPI
           title: item["title"]
         }
       end
-      { :items => articles, :total_count => total_count, :offset => offset, :count => count }
+      { items: articles, total_count: total_count, offset: offset, count: count }
     end
 
     def self.find(id)
       response = get("/api/getPOIDetails?id=#{id}&type=news")
       actualite = JSON.parse(response.body)
-      { :uniteam_id => actualite["id"], :name => actualite["name"], :title => actualite["title"] }
+      { uniteam_id: actualite["id"], name: actualite["name"], title: actualite["title"], content: actualite["content"] }
     end
   end
 end

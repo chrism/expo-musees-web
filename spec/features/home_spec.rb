@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature 'Home Page', :vcr, record: :all do
+RSpec.feature 'Home Page', :vcr do
   background do
      visit root_path
   end

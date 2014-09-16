@@ -5,7 +5,7 @@ http_interactions:
     uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=1&type=news
     body:
       encoding: US-ASCII
-      base64_string: ''
+      string: ''
     headers: {}
   response:
     status:
@@ -13,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Sep 2014 17:00:50 GMT
+      - Tue, 16 Sep 2014 15:37:10 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=q600u1m88angptksmr5qdqp304; path=/
+      - PHPSESSID=n21vbjrme3jt8gjk7n0us2ph57; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -33,54 +33,32 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      base64_string: |
-        eyJ0eXBlIjoibmV3cyIsImlkIjoxLCJ1cmwiOiJodHRwOlwvXC9leHBvbXVz
-        ZWVzLm9yYW5nZS5jb21cL2FjdHUtMVwvbGVzLWpvdXJuZWVzLWR1LXBhdHJp
-        bW9pbmUtMjAxMiIsIm5hbWUiOiJMZXMgam91cm5cdTAwZTllcyBkdSBwYXRy
-        aW1vaW5lIDIwMTIiLCJ0aXRsZSI6IkEgbGEgZFx1MDBlOWNvdXZlcnRlIGRl
-        cyB0clx1MDBlOXNvcnMgY2FjaFx1MDBlOXMgLi4uIiwidmlkZW8iOiIiLCJj
-        b250ZW50IjoiPHA+SW52aXRhdGlvbiAmYWdyYXZlOyBsYSBjdXJpb3NpdCZl
-        YWN1dGU7IGV0ICZhZ3JhdmU7IGxhIGQmZWFjdXRlO2NvdXZlcnRlLCBsYSAy
-        OWUgJmVhY3V0ZTtkaXRpb24gZGVzIEpvdXJuJmVhY3V0ZTtlcyBldXJvcCZl
-        YWN1dGU7ZW5uZXMgZHUgcGF0cmltb2luZSBzZSBkJmVhY3V0ZTtjbGluZXJh
-        IHNvdXMgbGUgdGgmZWdyYXZlO21lIExlcyBwYXRyaW1vaW5lcyBjYWNoJmVh
-        Y3V0ZTtzLiBTZWNyZXRzIGQmcnNxdW87aGlzdG9pcmUsIHRyJmVhY3V0ZTtz
-        b3JzIGVuZm91aXMsIGNvdWxpc3NlcyBldCBtYWNoaW5lcmllcywgZW52ZXJz
-        IGR1IGQmZWFjdXRlO2NvciZoZWxsaXA7cGVuZGFudCBkZXV4IGpvdXJzIGxl
-        IHB1YmxpYyBlc3QgaW52aXQmZWFjdXRlOyAmYWdyYXZlOyBkJmVhY3V0ZTtj
-        b3V2cmlyIHVuIHBhdHJpbW9pbmUgcmFyZW1lbnQgYWNjZXNzaWJsZSwgcGFy
-        Zm9pcyBtJmVhY3V0ZTtjb25udSBldCBzb3V2ZW50IGluc291cCZjY2VkaWw7
-        b25uJmVhY3V0ZTsuPFwvcD5cclxuPHA+PGJyIFwvPkNlcyBKb3VybiZlYWN1
-        dGU7ZXMgZXVyb3AmZWFjdXRlO2VubmVzIGR1IHBhdHJpbW9pbmUgcHJvcG9z
-        ZW50IGRlIDo8XC9wPlxyXG48cD4tIGRlc2NlbmRyZSBkYW5zIGxlIHNvdXMt
-        c29sICZhZ3JhdmU7IGxhIGQmZWFjdXRlO2NvdXZlcnRlIGR1IHBhdHJpbW9p
-        bmUgZW5mb3VpIChidW5rZXJzLCAmZWFjdXRlO3BhdmVzLCB0cmFjZXMgZCZy
-        c3F1bztoYWJpdGF0LCByZXN0ZXMgZGUgYiZhY2lyYzt0aW1lbnRzJmhlbGxp
-        cDspIGV0IHNvdXRlcnJhaW4gKGNhdGFjb21iZXMsIGNyeXB0ZXMsIGdyb3R0
-        ZXMsdHVtdWxpLCBjYXZlcywgbWluZXMsIHR1bm5lbHMsIGNhbmFsaXNhdGlv
-        bnMsIHZvaWVzIGRlJm5ic3A7IGNpcmN1bGF0aW9uJmhlbGxpcDspJmhlbGxp
-        cDs8YnIgXC8+LSBnYWduZXIgZW4gYWx0aXR1ZGUgcG91ciBzJnJzcXVvO2Fw
-        cHJvY2hlciBkdSBwYXRyaW1vaW5lICZsYXF1bzsgZW4gaGF1dGV1ciAmcmFx
-        dW87IChjbG9jaGVzLCBjaGFycGVudGVzJmhlbGxpcDspIG91IHBvdXIgbGly
-        ZSBsZSBwbGFuIGQmcnNxdW87dXJiYW5pc21lIGQmcnNxdW87dW5lIHZpbGxl
-        JmhlbGxpcDs8YnIgXC8+LSBmcmFuY2hpciBsZXMgcG9ydGVzIGRlIHNhbGxl
-        cyBoYWJpdHVlbGxlbWVudCBmZXJtJmVhY3V0ZTtlcywgYWNjJmVhY3V0ZTtk
-        ZXIgYXV4IGNvdWxpc3NlcyAoc2FsbGVzIGRlIHRoJmVhY3V0ZTsmYWNpcmM7
-        dHJlcywgZGUgY2luJmVhY3V0ZTttYXMsIHN0dWRpb3MgZCZyc3F1bztlbnJl
-        Z2lzdHJlbWVudCZoZWxsaXA7KSBldCBhdXggYXJjaGl2ZXMmaGVsbGlwOzxi
-        ciBcLz4tIGFkbWlyZXIgZGVzIG9iamV0cyBwZXUgc291dmVudCBvdSBqYW1h
-        aXMgZXhwb3MmZWFjdXRlO3MsIGV0IGQmZWFjdXRlO2NlbGVyIGdyJmFjaXJj
-        O2NlIGF1eCBub3V2ZWxsZXMgdGVjaG5vbG9naWVzIGxlcyBjb3VjaGVzIGlt
-        cGVyY2VwdGlibGVzICZhZ3JhdmU7IGwmcnNxdW87b2VpbCBudSBkZSBjZXJ0
-        YWluZXMgb2V1dnJlcyBwaWN0dXJhbGVzJmhlbGxpcDs8YnIgXC8+LSBhcHBy
-        JmVhY3V0ZTtjaWVyIGxlIHRyYXZhaWwgZGUgdG91cyBjZXV4IGV0IGNlbGxl
-        cyBxdWkgb2V1dnJlbnQgcG91ciBxdWUgbGUgcGF0cmltb2luZWRlbWV1cmUg
-        dW4gYmllbiBjb21tdW4maGVsbGlwOzxcL3A+XHJcbjxwPkQmZWFjdXRlO2Nv
-        dXZyZXogbGUgcHJvZ3JhbW1lIGRhbnMgdm90cmUgciZlYWN1dGU7Z2lvbiBz
-        dXIgOiB3d3cuam91cm5lZXNkdXBhdHJpbW9pbmUuY3VsdHVyZS5mcjxcL3A+
-        IiwiaW1hZ2VzIjpbIm5ld3MtNTA0NjBlNTE1NjFhNS5qcGciXSwiY2F0ZWdv
-        cmllcyI6W3sibmFtZSI6Ilx1MDBlMCBsYSBkZWNvdXZlcnRlIGRlLi4uIiwi
-        aWQiOjE4fV0sImVycm9yIjowfQ==
+      string: '{"type":"news","id":1,"url":"http:\/\/expomusees.orange.com\/actu-1\/les-journees-du-patrimoine-2012","name":"Les
+        journ\u00e9es du patrimoine 2012","title":"A la d\u00e9couverte des tr\u00e9sors
+        cach\u00e9s ...","video":"","content":"<p>Invitation &agrave; la curiosit&eacute;
+        et &agrave; la d&eacute;couverte, la 29e &eacute;dition des Journ&eacute;es
+        europ&eacute;ennes du patrimoine se d&eacute;clinera sous le th&egrave;me
+        Les patrimoines cach&eacute;s. Secrets d&rsquo;histoire, tr&eacute;sors enfouis,
+        coulisses et machineries, envers du d&eacute;cor&hellip;pendant deux jours
+        le public est invit&eacute; &agrave; d&eacute;couvrir un patrimoine rarement
+        accessible, parfois m&eacute;connu et souvent insoup&ccedil;onn&eacute;.<\/p>\r\n<p><br
+        \/>Ces Journ&eacute;es europ&eacute;ennes du patrimoine proposent de :<\/p>\r\n<p>-
+        descendre dans le sous-sol &agrave; la d&eacute;couverte du patrimoine enfoui
+        (bunkers, &eacute;paves, traces d&rsquo;habitat, restes de b&acirc;timents&hellip;)
+        et souterrain (catacombes, cryptes, grottes,tumuli, caves, mines, tunnels,
+        canalisations, voies de&nbsp; circulation&hellip;)&hellip;<br \/>- gagner
+        en altitude pour s&rsquo;approcher du patrimoine &laquo; en hauteur &raquo;
+        (cloches, charpentes&hellip;) ou pour lire le plan d&rsquo;urbanisme d&rsquo;une
+        ville&hellip;<br \/>- franchir les portes de salles habituellement ferm&eacute;es,
+        acc&eacute;der aux coulisses (salles de th&eacute;&acirc;tres, de cin&eacute;mas,
+        studios d&rsquo;enregistrement&hellip;) et aux archives&hellip;<br \/>- admirer
+        des objets peu souvent ou jamais expos&eacute;s, et d&eacute;celer gr&acirc;ce
+        aux nouvelles technologies les couches imperceptibles &agrave; l&rsquo;oeil
+        nu de certaines oeuvres picturales&hellip;<br \/>- appr&eacute;cier le travail
+        de tous ceux et celles qui oeuvrent pour que le patrimoinedemeure un bien
+        commun&hellip;<\/p>\r\n<p>D&eacute;couvrez le programme dans votre r&eacute;gion
+        sur : www.journeesdupatrimoine.culture.fr<\/p>","images":["news-50460e51561a5.jpg"],"categories":[{"name":"\u00e0
+        la decouverte de...","id":18}],"error":0}'
     http_version: 
-  recorded_at: Mon, 15 Sep 2014 17:00:54 GMT
+  recorded_at: Tue, 16 Sep 2014 15:37:12 GMT
 recorded_with: VCR 2.9.3
