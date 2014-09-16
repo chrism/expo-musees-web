@@ -18,6 +18,9 @@ gem 'unicorn', '~> 4.8.3'
 # gem 'typhoeus', '~> 0.6.9'
 gem 'httparty', '~> 0.13.1'
 
+# sanitize Uniteam API
+gem 'sanitize-rails', '~> 1.0.0'
+
 # FRONT END
 
 # Use SCSS for stylesheets

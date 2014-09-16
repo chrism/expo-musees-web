@@ -14,6 +14,7 @@ RSpec.feature 'Actualites Page', :vcr do
     title = first('.actualites-list-item > a').text
     first('.actualites-list-item > a').click
     expect(first 'h1').to have_content(/[^\s]/)
+    expect(first 'h2').to have_content(/[^\s]/)
     expect(first '.content').to have_content(/[^\s]/)
   end
 end
