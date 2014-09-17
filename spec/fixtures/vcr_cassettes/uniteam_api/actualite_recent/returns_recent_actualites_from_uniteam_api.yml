@@ -13,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 16 Sep 2014 15:37:09 GMT
+      - Wed, 17 Sep 2014 13:43:20 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=69ot8ka8rmtroa5mbtgvps2n51; path=/
+      - PHPSESSID=sipec68uuef9g2btr3kamh8j55; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -28,26 +28,53 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '6615'
+      - '6852'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"news":[{"id":699,"name":"Le Grand Palais se transforme en salle d\u2019embarquement
-        pour Air France","title":"Exposition \"Air France, France is in the air\"
-        au Grand Palais","video":"","content":"<p>\u00ab PNC aux portes, armement
-        des toboggans, v\u00e9rification de la porte oppos\u00e9e \u00bb. Attachez
-        vos ceintures, Air France a fix\u00e9 un \u00ab convecteur temporel \u00bb
-        \u00e0 l\u2019un de ses cockpits et vous envole dans son pass\u00e9 et dans
-        son futur.<\/p>\r\n<p>1920. Pas si folles, les ann\u00e9es 20 voient un grand
-        nombre de pilotes et avions de la Grande Guerre se recycler dans le priv\u00e9.
-        Les compagnies a\u00e9riennes fleurissent.<\/p>\r\n<p>1933. Quatre compagnie
-        a\u00e9riennes on fusionn\u00e9es et s\u2019appr\u00eatent \u00e0 racheter
-        l\u2019A\u00e9ropostale. La nouvelle entit\u00e9, inaugur\u00e9e en grande
-        pompe au Bourget, se nommera Air France. Ladies and Gentlemen, ici commence
-        le voyage.<\/p>\r\n<p>En 80 ans, la compagnie la plus importante de France
-        a transport\u00e9 ses passagers \u00e0 travers le temps : quelques heures
-        en arri\u00e8re vers l\u2019ouest, un pas vers le futur \u00e0 l\u2019est.
+      string: '{"news":[{"id":700,"name":"P\u00e9kin express. La Chine fascine la
+        France, la preuve en culture.","title":"La Chine et son art, expos\u00e9s
+        en France","video":"","content":"<p>Les c\u00e9l\u00e9brations du cinquanti\u00e8me
+        anniversaire des relations diplomatiques entre la France et la Chine sont
+        une excuse pour c\u00e9l\u00e9brer une fascination de l\u2019occident pour
+        l\u2019Orient qui n\u2019est ni nouvelle, ni cantonn\u00e9e \u00e0 la sph\u00e8re
+        diplomatique. La preuve par deux.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Tout commence
+        \u00e0 Versailles. Louis XIV envoie en 1688 des J\u00e9suites \u00e0 la cour
+        de P\u00e9kin. D\u00e9bute la fascination fran\u00e7aise pour la Chine. Des
+        \u00e9crits sur les personnalit\u00e9s chinoises, sur la place g\u00e9opolitique
+        de cet Empire et sur son art parcourent les si\u00e8cles et marquent durablement
+        les relations entre les deux pays. Durant le 18\u00e8me si\u00e8cle, les laques,
+        porcelaines, \u00e9ventails et autres mobiliers de luxe s\u2019inspirent outranci\u00e8rement
+        de l\u2019art chinois. Art et diplomatie ne font qu\u2019un et els pr\u00e9sents
+        ne manquent pas d\u2019influencer les artisans fran\u00e7ais. Si c\u2019\u00e9tait
+        vrai au 18\u00e8me si\u00e8cle, c\u2019est encore vrai aujourd\u2019hui.<\/p>\r\n<p>Retour
+        en 2014 o\u00f9 l\u2019artiste peintre lyonnais Etienne Cail appose des visages
+        asiatiques, \u00ab ses gueules \u00bb, sur toutes ces toiles, revisitant m\u00eame
+        les grands classiques de la peinture fran\u00e7aise. Louis XIV ou Napol\u00e9on
+        chinois\u00e9s ? On sait d\u00e9sormais que tout ceci a un sens. Le fascin\u00e9
+        des faci\u00e8s n\u2019a d\u2019yeux que pour les visages orientaux qui \u00e9loigne
+        ses peintures de la subjectivit\u00e9. L\u2019essentiel est l\u00e0. Le reste,
+        comme le d\u00e9cor, est un artifice. Alors oui, il a rencontr\u00e9 les artistes
+        subversifs, et notamment \u00a0de la petite colonie artistique \u00a0Songzhuang,
+        en banlieue p\u00e9kinoise. Mais c\u2019est avant qu\u2019il a su qu\u2019ils
+        repr\u00e9sentaient pour lui un \u00ab id\u00e9al artistique \u00bb.\u00a0<\/p>\r\n<p>La
+        Chine, loin d\u2019\u00eatre le bout du monde.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Laura
+        Giacherio<\/p>","images":["news-5411a2df8b052.jpg"],"date":1410948266,"url":"http:\/\/expomusees.orange.com\/actu-700\/pekin-express-la-chine-fascine-la-france-la-preuve-en-culture"},{"id":699,"name":"Le
+        Grand Palais se transforme en salle d\u2019embarquement pour Air France","title":"Exposition
+        \"Air France, France is in the air\" au Grand Palais","video":"","content":"<p>\u00ab
+        PNC aux portes, armement des toboggans, v\u00e9rification de la porte oppos\u00e9e
+        \u00bb. Attachez vos ceintures, Air France a fix\u00e9 un \u00ab convecteur
+        temporel \u00bb \u00e0 l\u2019un de ses cockpits et vous envole dans son pass\u00e9
+        et dans son futur.<\/p>\r\n<p>1920. Pas si folles, les ann\u00e9es 20 voient
+        un grand nombre de pilotes et avions de la Grande Guerre se recycler dans
+        le priv\u00e9. Les compagnies a\u00e9riennes fleurissent.<\/p>\r\n<p>1933.
+        Quatre compagnie a\u00e9riennes on fusionn\u00e9es et s\u2019appr\u00eatent
+        \u00e0 racheter l\u2019A\u00e9ropostale. La nouvelle entit\u00e9, inaugur\u00e9e
+        en grande pompe au Bourget, se nommera Air France. Ladies and Gentlemen, ici
+        commence le voyage.<\/p>\r\n<p>En 80 ans, la compagnie la plus importante
+        de France a transport\u00e9 ses passagers \u00e0 travers le temps : quelques
+        heures en arri\u00e8re vers l\u2019ouest, un pas vers le futur \u00e0 l\u2019est.
         Elle a cr\u00e9\u00e9 un r\u00e9seau supersonique par Concorde dans les ann\u00e9es
         70, a imagin\u00e9 une \u00ab classe affaires \u00bb et une \u00ab 1\u00e8re
         classe \u00bb pour ses passagers et a modifi\u00e9 son design et son confort.<\/p>\r\n<p>Pendant
@@ -85,31 +112,7 @@ http_interactions:
         donner corps, accessibles gratuitement. La \u00ab maison du fada \u00bb a
         une araign\u00e9e au plafond, Daniel Buren.\u00a0<\/p>\r\n<p>De l\u2019in
         situ in vivo par le maitre fran\u00e7ais du genre, c\u2019est tout l\u2019automne.\u00a0<\/p>\r\n<p><br
-        \/><br \/>Laura Giacherio<\/p>","images":["news-54116603e741b.jpg"],"date":1410426475,"url":"http:\/\/expomusees.orange.com\/actu-704\/lautomne-la-saison-de-buren"},{"id":698,"name":"C\u2019est
-        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","title":"Exposition
-        \"Le voyage \u00e0 Tahiti  de Matisse\" au Mus\u00e9e de la Nacre et de la
-        Tabletterie \u00e0 M\u00e9ru","video":"","content":"<p>Comment d\u00e9finir
-        l\u2019exotisme et comment le repr\u00e9senter ?<\/p>\r\n<p>Lorsque l\u2019on
-        parle d\u2019exotisme nous viennent \u00e0 l\u2019esprit une s\u00e9rie d\u2019\u00eeles
-        et d\u2019images d\u2019\u00c9pinal, vahin\u00e9s et cocotiers en t\u00eate.
-        Si l\u2019on pr\u00e9cise \u00ab peintre de l\u2019exotisme \u00bb, c\u2019est
-        une autre histoire. L\u2019art na\u00eff du douanier Rousseau qui n\u2019a
-        jamais voyag\u00e9 en dehors de la France concurrence les peintures de Paul
-        Gauguin repr\u00e9sentant Tahiti et ses habitants. Il est un artiste qui,
-        m\u00eame s\u2019il n\u2019a pas peint pendant son voyage \u00e0 Tahiti, en
-        a \u00e9t\u00e9 profond\u00e9ment touch\u00e9 au point de modifier son \u0153uvre
-        : Matisse.\u00a0<\/p>\r\n<p>Bien apr\u00e8s le r\u00e8gne artistique de Gauguin,
-        Henri Matisse fait l\u2019acquisition de l\u2019une de ses toiles, \u00ab
-        l\u2019homme \u00e0 la fleur de Tiar\u00e9 \u00bb. C\u2019est une r\u00e9v\u00e9lation.
-        Il part pour Tahiti en 1930, non pour peindre l\u2019\u00eele de Polyn\u00e9sie
-        fran\u00e7aise mais en observateur quasi ethnographe. Il rapporte des lumi\u00e8res
-        in\u00e9dites et un nouvel \u00e9lan de simplification. C\u2019est cet \u00e9lan
-        qui marquera la patte de l\u2019artiste : la simplification des formes et
-        des couleurs, leur nouvel \u00e9quilibre dans un rapport plus na\u00eff. Le
-        d\u00e9pouillement. C\u2019est \u00e0 partir de souvenirs de l\u2019\u00eele
-        que le peintre imagine l\u2019album Jazz, en s\u2019exer\u00e7ant avec des
-        d\u00e9coupages de papiers de formes et couleurs diff\u00e9rentes.\u00a0<\/p>\r\n<p>Les
-        voyages forment la jeunesse, l\u2019artiste aussi.<\/p>\r\n<p>\u00a0<\/p>","images":["news-541017c035fad.jpg"],"date":1410340800,"url":"http:\/\/expomusees.orange.com\/actu-698\/cest-quoi-lexotisme-matisse-un-touriste-pas-comme-les-autres-a-tahiti"}],"offset":0,"totalCount":660,"count":3,"error":0}'
+        \/><br \/>Laura Giacherio<\/p>","images":["news-54116603e741b.jpg"],"date":1410426475,"url":"http:\/\/expomusees.orange.com\/actu-704\/lautomne-la-saison-de-buren"}],"offset":0,"totalCount":661,"count":3,"error":0}'
     http_version: 
-  recorded_at: Tue, 16 Sep 2014 15:37:11 GMT
+  recorded_at: Wed, 17 Sep 2014 13:43:21 GMT
 recorded_with: VCR 2.9.3

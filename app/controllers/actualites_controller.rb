@@ -3,7 +3,14 @@ class ActualitesController < ApplicationController
   before_action :set_actualite, only: [:show, :edit, :update, :destroy]
 
   def index
-    @list_actualites = Actualite.list(10)
+    page = params[:page].to_i
+    per_page = 10
+    offset = page * per_page
+
+
+    @list_actualites = Actualite.list(per_page, offset)
+    puts @list_actualites
+    @pagination = Kaminari.paginate_array(@list_actualites[:items], total_count: @list_actualites[:total_count]).page(params[:page]).per(per_page)
   end
 
   def show

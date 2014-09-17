@@ -8,6 +8,8 @@ RSpec.feature 'Actualites Page', :vcr do
   scenario 'Lists the most recent actualites articles' do
     actualites_links = all '.actualites-list-item'
     expect(actualites_links).to have(10).items
+    count = first('.total-count').text
+    expect(count).to have_content(/[0-9|\.]+/)
   end
 
   scenario 'List item links to detail page' do

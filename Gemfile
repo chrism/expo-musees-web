@@ -33,6 +33,8 @@ gem 'jquery-rails'
 gem 'bourbon', '~> 3.2.1'
 gem 'neat', '~> 1.5.1'
 
+gem 'kaminari', '~> 0.16.1'
+
 # WORKFLOW
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring

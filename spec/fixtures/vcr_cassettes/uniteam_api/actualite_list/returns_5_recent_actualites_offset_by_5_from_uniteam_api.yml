@@ -13,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 16 Sep 2014 15:37:10 GMT
+      - Wed, 17 Sep 2014 13:43:21 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=3utfvkq93f8f9qqeaij29ton85; path=/
+      - PHPSESSID=oo9bagdh5fiialdmnq9m4es8c3; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -33,12 +33,39 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"news":[{"id":694,"name":"VIDEO I \" Une oeuvre, un mus\u00e9e \"
-        \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb De Toulouse Lautrec","title":"Troisi\u00e8me
-        \u00e9pisode de notre nouvelle s\u00e9rie de vid\u00e9os","video":"x1y9mqq","content":"<p><strong>\"Une
-        \u0153uvre, un mus\u00e9e\" est une s\u00e9rie de vid\u00e9os propos\u00e9es
-        par Orange expo mus\u00e9es : d\u00e9couvrir une \u0153uvre et son mus\u00e9e
-        \u00e0 travers le d\u00e9cryptage d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>Pour
+      string: '{"news":[{"id":695,"name":"On voit qui pendant la Paris Design Week
+        ?","title":"La Design Week s''installe \u00e0 Paris","video":"","content":"<p>Du
+        6 au 13 septembre le c\u0153ur de la plan\u00e8te design battra au rythme
+        parisien pour la Paris Design Week. Parmi les 200 lieux qui s\u2019animeront
+        sous des sc\u00e9nographies rivalisant de cr\u00e9ativit\u00e9, difficile
+        de savoir par o\u00f9 commencer. Et s\u2019il ne devait en rester qu\u2019un
+        ?\u00a0<\/p>\r\n<p>Parmi les talents repr\u00e9sent\u00e9s cette ann\u00e9e,
+        une pointure du design qui expose depuis une trentaine d\u2019ann\u00e9es
+        dans les plus grands mus\u00e9es et pour les plus grands \u00e9v\u00e8nements
+        : Olivier Gagn\u00e8re.\u00a0<\/p>\r\n<p>Ne cherchez pas l\u2019\u00e9tiquette,
+        Olivier Gagn\u00e8re est autant designer qu\u2019architecte d\u2019int\u00e9rieur,
+        \u00e9b\u00e9niste et cr\u00e9ateur de verrerie. On l\u2019a vu en France,
+        o\u00f9 il a repens\u00e9 certains hauts lieux de la vie de la capitale comme
+        le Lido ou le caf\u00e9 Marly. On l\u2019a aussi vu travailler du c\u00f4t\u00e9
+        des ateliers de verrerie \u00e0 Murano, du c\u00f4t\u00e9 du Japon et m\u00eame
+        expos\u00e9 au Shanghai Art Museum. Durant la Design Week, Olivier Gagn\u00e8re
+        \u00e9lira domicile aupr\u00e8s d\u2019une galerie avec laquelle il collabore
+        depuis les ann\u00e9es 80, la galerie Maeght. L\u2019occasion de le d\u00e9couvrir
+        ou de mieux le connaitre et surtout de d\u00e9couvrir une discipline aux facettes
+        un peu floues : la c\u00e9ramique.\u00a0<\/p>\r\n<p>La noble mati\u00e8re
+        retrouve \u00e9l\u00e9gance et vitalit\u00e9 sous la collaboration qu\u2019Olivier
+        Gagn\u00e8re a mise en place avec les ateliers Sergio et Maux Parigi \u00e0
+        Sesto Fiorentino. Des objets joyeux cr\u00e9\u00e9s par l\u2019\u00e9quilibriste
+        des formes : \u00ab J\u2019aime la densit\u00e9 de couleurs que permet la
+        c\u00e9ramique \u00bb.\u00a0<\/p>\r\n<p>L\u2019orchestre des artisans des
+        quatre coins du monde officie \u00e0 Paris. En avant maestro !<\/p>\r\n<p><br
+        \/><br \/><br \/>Laura Giacherio<\/p>","images":["news-5408316b5c99d.jpg"],"date":1409823263,"url":"http:\/\/expomusees.orange.com\/actu-695\/on-voit-qui-pendant-la-paris-design-week-"},{"id":694,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb
+        De Toulouse Lautrec","title":"Troisi\u00e8me \u00e9pisode de notre nouvelle
+        s\u00e9rie de vid\u00e9os","video":"x1y9mqq","content":"<p><strong>\"Une \u0153uvre,
+        un mus\u00e9e\" est une s\u00e9rie de vid\u00e9os propos\u00e9es par Orange
+        expo mus\u00e9es : d\u00e9couvrir une \u0153uvre et son mus\u00e9e \u00e0
+        travers le d\u00e9cryptage d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>Pour
         notre troisi\u00e8me \u00e9pisode, nous avons s\u00e9lectionn\u00e9 \u00ab
         Ad\u00e8le \u00bb, du peintre Toulouse Lautrec.<\/p>\r\n<p>\u00ab Maman, vous,
         rien que vous \u00bb. Dans ces derniers soupirs, Toulouse-Lautrec aurait rendu
@@ -127,53 +154,7 @@ http_interactions:
         photographie en est l\u2019exemple supr\u00eame, pose la question de l\u2019\u0153uvre
         face \u00e0 la r\u00e9alit\u00e9 de ce qu\u2019elle d\u00e9crit.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Histoire
         ou histoire de l\u2019art, on ne sait plus tr\u00e8s bien, mais le cours est
-        magistral.\u00a0<\/p>\r\n<p><br \/><br \/>Laura Giacherio<\/p>","images":["news-53fd9840be47a.jpg"],"date":1409131555,"url":"http:\/\/expomusees.orange.com\/actu-691\/dessine-moi-la-guerre"},{"id":690,"name":"La
-        rentr\u00e9e dans les mus\u00e9es en trois le\u00e7ons","title":"Les expositions
-        de la rentr\u00e9e","video":"","content":"<p>Driiiiiiing ! La rentr\u00e9e
-        culturelle, c\u2019est maintenant !\u00a0<\/p>\r\n<p>Vous n\u2019avez rien
-        pr\u00e9par\u00e9 ? Ne vous inqui\u00e9tez pas, Orange Expo Mus\u00e9es vous
-        a concoct\u00e9 un agenda pour vous remettre dans le bain. Suivez le professeur
-        :<\/p>\r\n<p>Histoire. Ouvrez vos livres d\u2019histoire \u00e0 la page Renaissance.
-        Les stars de l\u2019\u00e9poque, \u00e0 qui on aurait certainement propos\u00e9
-        une t\u00e9l\u00e9r\u00e9alit\u00e9 d\u00e9di\u00e9e s\u2019ils \u00e9taient
-        n\u00e9s quelques si\u00e8cles plus tard, sont les membres de la famille <a
-        href=\"expo-1255\/de-leonard-de-vinci-a-michel-ange-les-borgia-et-leur-temps-musee-maillol-fondation-dina-vierny-paris-07-ile-de-france#.U_w8uPl_t8E\"
-        target=\"_blank\">Borgia<\/a>. Tout est l\u00e0 : pouvoir, argent, personnages
-        sulfureux et peu scrupuleux dont les m\u0153urs et la morale l\u00e9g\u00e8res
-        marqu\u00e8rent l\u2019histoire. Pas \u00e9tonnant de les voir envahir les
-        s\u00e9ries t\u00e9l\u00e9vis\u00e9es et autres films. Pas \u00e9tonnant non
-        plus de les retrouver \u00e0 l\u2019\u00e9poque dans les cercles artistiques
-        les plus \u00e9lev\u00e9s. Grands m\u00e9c\u00e8nes et grands strat\u00e8ges,
-        ils c\u00f4toient L\u00e9onard de Vinci, Titien, Raphael et ont fascin\u00e9
-        les grands auteurs comme Victor Hugo ou Alejandro Jodorowsky. Alors, Lucr\u00e8ce
-        Borgia, Rodrigo Borgia (ou Pape Alexandre VI), qui \u00e9tiez-vous vraiment
-        ? La famille formidable \u00a0se d\u00e9voile au Mus\u00e9e Maillol, \u00e0
-        Paris.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>G\u00e9ographie. Si nous vous disons cabriolet,
-        cheveux au vent, terre rouge, palmiers et star syst\u00e8me, vous nous dites
-        ? La Californie bien s\u00fbr. Eldorado du voyageur, r\u00eave ultime du road
-        tripeur, la Californie, terre de star, en est en r\u00e9alit\u00e9 la plus
-        brillante \u00e9toile. C\u2019est elle que l\u2019on photographie depuis le
-        19\u00e8me si\u00e8cle pour tenter d\u2019immortaliser et de rapporter ce
-        paradis, en vain. Pourtant, \u00e0 travers les photographes qui l\u2019ont
-        photographi\u00e9e ou qui en sont les embl\u00e8mes, on croque un peu de cette
-        vie dor\u00e9e au fil des \u00e2ges. Pas besoin d\u2019une Mustang ou d\u2019un
-        billet d\u2019avion, L.A.-Bordeaux m\u00eame combat. Le <a href=\"musee-749\/musee-des-beaux-arts-de-bordeaux-bordeaux-aquitaine#.U_w9J_l_t8E\"
-        target=\"_blank\">mus\u00e9e des Beaux-Arts de Bordeaux<\/a> accueille \u00a0la
-        collection de photos du LACMA (Los Angeles County Museum of Art). Alright
-        then.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Instruction civique. Qui revendique la
-        maternit\u00e9 des \u00ab nanas \u00bb, figures c\u00e9l\u00e8bres de l\u2019histoire
-        de l\u2019art du 20\u00e8me si\u00e8cle qui repr\u00e9sentent des femmes color\u00e9es
-        et pulpeuses ? Et des \u00ab tirs \u00bb, qui explosent \u00e0 la carabine
-        les tubes de couleurs fix\u00e9s sur le bois ? Niki de Saint Phalle. Elle
-        en est la m\u00e8re, elle dont la relation paternelle fut tumultueuse et incestueuse
-        et qui chercha dans son \u0153uvre \u00e0 se d\u00e9faire de ses d\u00e9mons.
-        Catharsis et g\u00e9nie s\u2019entrem\u00ealent dans les r\u00e9alisations
-        plastiques et cin\u00e9matographiques de cette figure majeure de l\u2019art
-        moderne. Engagement politique et f\u00e9minisme affirm\u00e9, Niki de Saint-Phalle
-        cr\u00e9e l\u2019\u00e9v\u00e8nement au <a href=\"musee-2010\/grand-palais-paris-08-ile-de-france#.U_w9m_l_t8E\"
-        target=\"_blank\">Grand Palais<\/a>.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>La
-        journ\u00e9e d\u2019int\u00e9gration est termin\u00e9e, rendez-vous au mus\u00e9e
-        pour la suite !<\/p>\r\n<p><br \/>Laura Giacherio<\/p>","images":["news-53fc3e4685949.png"],"date":1409039942,"url":"http:\/\/expomusees.orange.com\/actu-690\/la-rentree-dans-les-musees-en-trois-lecons"}],"offset":5,"totalCount":660,"count":5,"error":0}'
+        magistral.\u00a0<\/p>\r\n<p><br \/><br \/>Laura Giacherio<\/p>","images":["news-53fd9840be47a.jpg"],"date":1409131555,"url":"http:\/\/expomusees.orange.com\/actu-691\/dessine-moi-la-guerre"}],"offset":5,"totalCount":661,"count":5,"error":0}'
     http_version: 
-  recorded_at: Tue, 16 Sep 2014 15:37:12 GMT
+  recorded_at: Wed, 17 Sep 2014 13:43:22 GMT
 recorded_with: VCR 2.9.3

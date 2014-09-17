@@ -18,6 +18,7 @@ class Actualite < ActiveRecord::Base
   end
 
   def self.list(count = 10, offset = 0)
+    puts "offset is #{offset}"
     actualites = UniteamAPI::Actualite.list(count, offset)
     total_count  = actualites[:total_count]
     offset = actualites[:offset]

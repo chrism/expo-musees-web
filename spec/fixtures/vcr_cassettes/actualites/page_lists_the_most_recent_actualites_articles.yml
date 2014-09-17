@@ -13,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 16 Sep 2014 15:37:08 GMT
+      - Wed, 17 Sep 2014 13:35:32 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=eo2oor862no6plq3nvb5ftce16; path=/
+      - PHPSESSID=kv5qpmdahhgp56abcdocdif927; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -33,21 +33,48 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"news":[{"id":699,"name":"Le Grand Palais se transforme en salle d\u2019embarquement
-        pour Air France","title":"Exposition \"Air France, France is in the air\"
-        au Grand Palais","video":"","content":"<p>\u00ab PNC aux portes, armement
-        des toboggans, v\u00e9rification de la porte oppos\u00e9e \u00bb. Attachez
-        vos ceintures, Air France a fix\u00e9 un \u00ab convecteur temporel \u00bb
-        \u00e0 l\u2019un de ses cockpits et vous envole dans son pass\u00e9 et dans
-        son futur.<\/p>\r\n<p>1920. Pas si folles, les ann\u00e9es 20 voient un grand
-        nombre de pilotes et avions de la Grande Guerre se recycler dans le priv\u00e9.
-        Les compagnies a\u00e9riennes fleurissent.<\/p>\r\n<p>1933. Quatre compagnie
-        a\u00e9riennes on fusionn\u00e9es et s\u2019appr\u00eatent \u00e0 racheter
-        l\u2019A\u00e9ropostale. La nouvelle entit\u00e9, inaugur\u00e9e en grande
-        pompe au Bourget, se nommera Air France. Ladies and Gentlemen, ici commence
-        le voyage.<\/p>\r\n<p>En 80 ans, la compagnie la plus importante de France
-        a transport\u00e9 ses passagers \u00e0 travers le temps : quelques heures
-        en arri\u00e8re vers l\u2019ouest, un pas vers le futur \u00e0 l\u2019est.
+      string: '{"news":[{"id":700,"name":"P\u00e9kin express. La Chine fascine la
+        France, la preuve en culture.","title":"La Chine et son art, expos\u00e9s
+        en France","video":"","content":"<p>Les c\u00e9l\u00e9brations du cinquanti\u00e8me
+        anniversaire des relations diplomatiques entre la France et la Chine sont
+        une excuse pour c\u00e9l\u00e9brer une fascination de l\u2019occident pour
+        l\u2019Orient qui n\u2019est ni nouvelle, ni cantonn\u00e9e \u00e0 la sph\u00e8re
+        diplomatique. La preuve par deux.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Tout commence
+        \u00e0 Versailles. Louis XIV envoie en 1688 des J\u00e9suites \u00e0 la cour
+        de P\u00e9kin. D\u00e9bute la fascination fran\u00e7aise pour la Chine. Des
+        \u00e9crits sur les personnalit\u00e9s chinoises, sur la place g\u00e9opolitique
+        de cet Empire et sur son art parcourent les si\u00e8cles et marquent durablement
+        les relations entre les deux pays. Durant le 18\u00e8me si\u00e8cle, les laques,
+        porcelaines, \u00e9ventails et autres mobiliers de luxe s\u2019inspirent outranci\u00e8rement
+        de l\u2019art chinois. Art et diplomatie ne font qu\u2019un et els pr\u00e9sents
+        ne manquent pas d\u2019influencer les artisans fran\u00e7ais. Si c\u2019\u00e9tait
+        vrai au 18\u00e8me si\u00e8cle, c\u2019est encore vrai aujourd\u2019hui.<\/p>\r\n<p>Retour
+        en 2014 o\u00f9 l\u2019artiste peintre lyonnais Etienne Cail appose des visages
+        asiatiques, \u00ab ses gueules \u00bb, sur toutes ces toiles, revisitant m\u00eame
+        les grands classiques de la peinture fran\u00e7aise. Louis XIV ou Napol\u00e9on
+        chinois\u00e9s ? On sait d\u00e9sormais que tout ceci a un sens. Le fascin\u00e9
+        des faci\u00e8s n\u2019a d\u2019yeux que pour les visages orientaux qui \u00e9loigne
+        ses peintures de la subjectivit\u00e9. L\u2019essentiel est l\u00e0. Le reste,
+        comme le d\u00e9cor, est un artifice. Alors oui, il a rencontr\u00e9 les artistes
+        subversifs, et notamment \u00a0de la petite colonie artistique \u00a0Songzhuang,
+        en banlieue p\u00e9kinoise. Mais c\u2019est avant qu\u2019il a su qu\u2019ils
+        repr\u00e9sentaient pour lui un \u00ab id\u00e9al artistique \u00bb.\u00a0<\/p>\r\n<p>La
+        Chine, loin d\u2019\u00eatre le bout du monde.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Laura
+        Giacherio<\/p>","images":["news-5411a2df8b052.jpg"],"date":1410948266,"url":"http:\/\/expomusees.orange.com\/actu-700\/pekin-express-la-chine-fascine-la-france-la-preuve-en-culture"},{"id":699,"name":"Le
+        Grand Palais se transforme en salle d\u2019embarquement pour Air France","title":"Exposition
+        \"Air France, France is in the air\" au Grand Palais","video":"","content":"<p>\u00ab
+        PNC aux portes, armement des toboggans, v\u00e9rification de la porte oppos\u00e9e
+        \u00bb. Attachez vos ceintures, Air France a fix\u00e9 un \u00ab convecteur
+        temporel \u00bb \u00e0 l\u2019un de ses cockpits et vous envole dans son pass\u00e9
+        et dans son futur.<\/p>\r\n<p>1920. Pas si folles, les ann\u00e9es 20 voient
+        un grand nombre de pilotes et avions de la Grande Guerre se recycler dans
+        le priv\u00e9. Les compagnies a\u00e9riennes fleurissent.<\/p>\r\n<p>1933.
+        Quatre compagnie a\u00e9riennes on fusionn\u00e9es et s\u2019appr\u00eatent
+        \u00e0 racheter l\u2019A\u00e9ropostale. La nouvelle entit\u00e9, inaugur\u00e9e
+        en grande pompe au Bourget, se nommera Air France. Ladies and Gentlemen, ici
+        commence le voyage.<\/p>\r\n<p>En 80 ans, la compagnie la plus importante
+        de France a transport\u00e9 ses passagers \u00e0 travers le temps : quelques
+        heures en arri\u00e8re vers l\u2019ouest, un pas vers le futur \u00e0 l\u2019est.
         Elle a cr\u00e9\u00e9 un r\u00e9seau supersonique par Concorde dans les ann\u00e9es
         70, a imagin\u00e9 une \u00ab classe affaires \u00bb et une \u00ab 1\u00e8re
         classe \u00bb pour ses passagers et a modifi\u00e9 son design et son confort.<\/p>\r\n<p>Pendant
@@ -251,53 +278,7 @@ http_interactions:
         photographie en est l\u2019exemple supr\u00eame, pose la question de l\u2019\u0153uvre
         face \u00e0 la r\u00e9alit\u00e9 de ce qu\u2019elle d\u00e9crit.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Histoire
         ou histoire de l\u2019art, on ne sait plus tr\u00e8s bien, mais le cours est
-        magistral.\u00a0<\/p>\r\n<p><br \/><br \/>Laura Giacherio<\/p>","images":["news-53fd9840be47a.jpg"],"date":1409131555,"url":"http:\/\/expomusees.orange.com\/actu-691\/dessine-moi-la-guerre"},{"id":690,"name":"La
-        rentr\u00e9e dans les mus\u00e9es en trois le\u00e7ons","title":"Les expositions
-        de la rentr\u00e9e","video":"","content":"<p>Driiiiiiing ! La rentr\u00e9e
-        culturelle, c\u2019est maintenant !\u00a0<\/p>\r\n<p>Vous n\u2019avez rien
-        pr\u00e9par\u00e9 ? Ne vous inqui\u00e9tez pas, Orange Expo Mus\u00e9es vous
-        a concoct\u00e9 un agenda pour vous remettre dans le bain. Suivez le professeur
-        :<\/p>\r\n<p>Histoire. Ouvrez vos livres d\u2019histoire \u00e0 la page Renaissance.
-        Les stars de l\u2019\u00e9poque, \u00e0 qui on aurait certainement propos\u00e9
-        une t\u00e9l\u00e9r\u00e9alit\u00e9 d\u00e9di\u00e9e s\u2019ils \u00e9taient
-        n\u00e9s quelques si\u00e8cles plus tard, sont les membres de la famille <a
-        href=\"expo-1255\/de-leonard-de-vinci-a-michel-ange-les-borgia-et-leur-temps-musee-maillol-fondation-dina-vierny-paris-07-ile-de-france#.U_w8uPl_t8E\"
-        target=\"_blank\">Borgia<\/a>. Tout est l\u00e0 : pouvoir, argent, personnages
-        sulfureux et peu scrupuleux dont les m\u0153urs et la morale l\u00e9g\u00e8res
-        marqu\u00e8rent l\u2019histoire. Pas \u00e9tonnant de les voir envahir les
-        s\u00e9ries t\u00e9l\u00e9vis\u00e9es et autres films. Pas \u00e9tonnant non
-        plus de les retrouver \u00e0 l\u2019\u00e9poque dans les cercles artistiques
-        les plus \u00e9lev\u00e9s. Grands m\u00e9c\u00e8nes et grands strat\u00e8ges,
-        ils c\u00f4toient L\u00e9onard de Vinci, Titien, Raphael et ont fascin\u00e9
-        les grands auteurs comme Victor Hugo ou Alejandro Jodorowsky. Alors, Lucr\u00e8ce
-        Borgia, Rodrigo Borgia (ou Pape Alexandre VI), qui \u00e9tiez-vous vraiment
-        ? La famille formidable \u00a0se d\u00e9voile au Mus\u00e9e Maillol, \u00e0
-        Paris.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>G\u00e9ographie. Si nous vous disons cabriolet,
-        cheveux au vent, terre rouge, palmiers et star syst\u00e8me, vous nous dites
-        ? La Californie bien s\u00fbr. Eldorado du voyageur, r\u00eave ultime du road
-        tripeur, la Californie, terre de star, en est en r\u00e9alit\u00e9 la plus
-        brillante \u00e9toile. C\u2019est elle que l\u2019on photographie depuis le
-        19\u00e8me si\u00e8cle pour tenter d\u2019immortaliser et de rapporter ce
-        paradis, en vain. Pourtant, \u00e0 travers les photographes qui l\u2019ont
-        photographi\u00e9e ou qui en sont les embl\u00e8mes, on croque un peu de cette
-        vie dor\u00e9e au fil des \u00e2ges. Pas besoin d\u2019une Mustang ou d\u2019un
-        billet d\u2019avion, L.A.-Bordeaux m\u00eame combat. Le <a href=\"musee-749\/musee-des-beaux-arts-de-bordeaux-bordeaux-aquitaine#.U_w9J_l_t8E\"
-        target=\"_blank\">mus\u00e9e des Beaux-Arts de Bordeaux<\/a> accueille \u00a0la
-        collection de photos du LACMA (Los Angeles County Museum of Art). Alright
-        then.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Instruction civique. Qui revendique la
-        maternit\u00e9 des \u00ab nanas \u00bb, figures c\u00e9l\u00e8bres de l\u2019histoire
-        de l\u2019art du 20\u00e8me si\u00e8cle qui repr\u00e9sentent des femmes color\u00e9es
-        et pulpeuses ? Et des \u00ab tirs \u00bb, qui explosent \u00e0 la carabine
-        les tubes de couleurs fix\u00e9s sur le bois ? Niki de Saint Phalle. Elle
-        en est la m\u00e8re, elle dont la relation paternelle fut tumultueuse et incestueuse
-        et qui chercha dans son \u0153uvre \u00e0 se d\u00e9faire de ses d\u00e9mons.
-        Catharsis et g\u00e9nie s\u2019entrem\u00ealent dans les r\u00e9alisations
-        plastiques et cin\u00e9matographiques de cette figure majeure de l\u2019art
-        moderne. Engagement politique et f\u00e9minisme affirm\u00e9, Niki de Saint-Phalle
-        cr\u00e9e l\u2019\u00e9v\u00e8nement au <a href=\"musee-2010\/grand-palais-paris-08-ile-de-france#.U_w9m_l_t8E\"
-        target=\"_blank\">Grand Palais<\/a>.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>La
-        journ\u00e9e d\u2019int\u00e9gration est termin\u00e9e, rendez-vous au mus\u00e9e
-        pour la suite !<\/p>\r\n<p><br \/>Laura Giacherio<\/p>","images":["news-53fc3e4685949.png"],"date":1409039942,"url":"http:\/\/expomusees.orange.com\/actu-690\/la-rentree-dans-les-musees-en-trois-lecons"}],"offset":0,"totalCount":660,"count":10,"error":0}'
+        magistral.\u00a0<\/p>\r\n<p><br \/><br \/>Laura Giacherio<\/p>","images":["news-53fd9840be47a.jpg"],"date":1409131555,"url":"http:\/\/expomusees.orange.com\/actu-691\/dessine-moi-la-guerre"}],"offset":0,"totalCount":661,"count":10,"error":0}'
     http_version: 
-  recorded_at: Tue, 16 Sep 2014 15:37:10 GMT
+  recorded_at: Wed, 17 Sep 2014 13:35:30 GMT
 recorded_with: VCR 2.9.3
