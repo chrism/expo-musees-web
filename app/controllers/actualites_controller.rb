@@ -6,11 +6,11 @@ class ActualitesController < ApplicationController
     page = params[:page].to_i
     per_page = 10
     offset = page * per_page
-
-
     @list_actualites = Actualite.list(per_page, offset)
-    puts @list_actualites
-    @pagination = Kaminari.paginate_array(@list_actualites[:items], total_count: @list_actualites[:total_count]).page(params[:page]).per(per_page)
+    @pagination = Kaminari.paginate_array(
+      @list_actualites[:items],
+      total_count: @list_actualites[:total_count]
+      ).page(params[:page]).per(per_page)
   end
 
   def show
@@ -22,6 +22,6 @@ class ActualitesController < ApplicationController
     end
 
     def actualite_params
-      params.require(:actualite).permit(:title, :name, :uniteam_id, :content)
+      params.require(:actualite).permit(:title, :name, :uniteam_id, :content, :date)
     end
 end

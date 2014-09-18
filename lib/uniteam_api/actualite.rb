@@ -12,16 +12,18 @@ module UniteamAPI
     end
 
     def self.list(count = 10, offset = 0)
-      response = get("/api/getActu?count=#{count}&offset=#{offset}")
+      response = get("/api/getSearchResults?type=news&offset=#{offset}&count=#{count}")
+      # response = get("/api/getActu?count=#{count}&offset=#{offset}")
       actualites = JSON.parse(response.body)
       total_count = actualites["totalCount"]
       offset = actualites["offset"]
       count = actualites["count"]
-      articles = actualites["news"].collect do |item|
+      articles = actualites["pois"].collect do |item|
         {
           uniteam_id: item["id"],
           name: item["name"],
-          title: item["title"]
+          title: item["title"],
+          date: item["date"]
         }
       end
       { items: articles, total_count: total_count, offset: offset, count: count }

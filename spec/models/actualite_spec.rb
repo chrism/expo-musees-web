@@ -65,7 +65,6 @@ RSpec.describe Actualite, :type => :model do
     end
 
     it 'sets their properties' do
-      puts @actualite
       expect(@actualite.uniteam_id).to eq(1)
       expect(@actualite.title).to be
       expect(@actualite.name).to be

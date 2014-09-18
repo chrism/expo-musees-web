@@ -160,4 +160,46 @@ http_interactions:
         des mus\u00e9es fran\u00e7ais !<\/p>\r\n<p>\u00a0<\/p>","images":["news-540ed802dc2d7.jpg"],"date":1410258996,"url":"http:\/\/expomusees.orange.com\/actu-697\/video-i-une-oeuvre-un-musee-episode-4-anthropometrie-dyves-klein"}],"offset":0,"totalCount":661,"count":5,"error":0}'
     http_version: 
   recorded_at: Wed, 17 Sep 2014 13:43:21 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=5&offset=0&type=news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 11:33:16 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=kmtn5ji06vjamd3sqt4duqeuh7; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '907'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"news","id":705,"name":"VIDEO I \"
+        Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux yeux
+        de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410948266},{"type":"news","id":699,"name":"Le
+        Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
+        la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
+        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800}],"offset":0,"count":5,"totalCount":662,"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 11:33:16 GMT
 recorded_with: VCR 2.9.3

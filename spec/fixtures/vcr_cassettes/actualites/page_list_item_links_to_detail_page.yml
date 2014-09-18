@@ -63,70 +63,6 @@ http_interactions:
   recorded_at: Tue, 16 Sep 2014 15:37:10 GMT
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=700&type=news
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 17 Sep 2014 12:54:45 GMT
-      Server:
-      - Apache
-      X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=2qikqbfi7uq80mk1q0ba7erek1; path=/
-      Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
-      Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-      Pragma:
-      - no-cache
-      Content-Length:
-      - '2418'
-      Content-Type:
-      - application/json
-    body:
-      encoding: UTF-8
-      string: '{"type":"news","id":700,"url":"http:\/\/expomusees.orange.com\/actu-700\/pekin-express-la-chine-fascine-la-france-la-preuve-en-culture","name":"P\u00e9kin
-        express. La Chine fascine la France, la preuve en culture.","title":"La Chine
-        et son art, expos\u00e9s en France","video":"","content":"<p>Les c\u00e9l\u00e9brations
-        du cinquanti\u00e8me anniversaire des relations diplomatiques entre la France
-        et la Chine sont une excuse pour c\u00e9l\u00e9brer une fascination de l\u2019occident
-        pour l\u2019Orient qui n\u2019est ni nouvelle, ni cantonn\u00e9e \u00e0 la
-        sph\u00e8re diplomatique. La preuve par deux.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Tout
-        commence \u00e0 Versailles. Louis XIV envoie en 1688 des J\u00e9suites \u00e0
-        la cour de P\u00e9kin. D\u00e9bute la fascination fran\u00e7aise pour la Chine.
-        Des \u00e9crits sur les personnalit\u00e9s chinoises, sur la place g\u00e9opolitique
-        de cet Empire et sur son art parcourent les si\u00e8cles et marquent durablement
-        les relations entre les deux pays. Durant le 18\u00e8me si\u00e8cle, les laques,
-        porcelaines, \u00e9ventails et autres mobiliers de luxe s\u2019inspirent outranci\u00e8rement
-        de l\u2019art chinois. Art et diplomatie ne font qu\u2019un et els pr\u00e9sents
-        ne manquent pas d\u2019influencer les artisans fran\u00e7ais. Si c\u2019\u00e9tait
-        vrai au 18\u00e8me si\u00e8cle, c\u2019est encore vrai aujourd\u2019hui.<\/p>\r\n<p>Retour
-        en 2014 o\u00f9 l\u2019artiste peintre lyonnais Etienne Cail appose des visages
-        asiatiques, \u00ab ses gueules \u00bb, sur toutes ces toiles, revisitant m\u00eame
-        les grands classiques de la peinture fran\u00e7aise. Louis XIV ou Napol\u00e9on
-        chinois\u00e9s ? On sait d\u00e9sormais que tout ceci a un sens. Le fascin\u00e9
-        des faci\u00e8s n\u2019a d\u2019yeux que pour les visages orientaux qui \u00e9loigne
-        ses peintures de la subjectivit\u00e9. L\u2019essentiel est l\u00e0. Le reste,
-        comme le d\u00e9cor, est un artifice. Alors oui, il a rencontr\u00e9 les artistes
-        subversifs, et notamment \u00a0de la petite colonie artistique \u00a0Songzhuang,
-        en banlieue p\u00e9kinoise. Mais c\u2019est avant qu\u2019il a su qu\u2019ils
-        repr\u00e9sentaient pour lui un \u00ab id\u00e9al artistique \u00bb.\u00a0<\/p>\r\n<p>La
-        Chine, loin d\u2019\u00eatre le bout du monde.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Laura
-        Giacherio<\/p>","images":["news-5411a2df8b052.jpg"],"categories":[{"name":"\u00e0
-        la decouverte de...","id":18}],"error":0}'
-    http_version: 
-  recorded_at: Wed, 17 Sep 2014 12:54:45 GMT
-- request:
-    method: get
     uri: http://username:password@expomusees.orange.com/api/getActu?count=10&offset=0
     body:
       encoding: US-ASCII
@@ -138,14 +74,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 17 Sep 2014 13:35:32 GMT
+      - Wed, 17 Sep 2014 13:56:31 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=810ug503anv5g44tpr7e44rq80; path=/
+      - PHPSESSID=atjvcejkvav9d1l8bl4ilkclc4; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -405,5 +341,178 @@ http_interactions:
         ou histoire de l\u2019art, on ne sait plus tr\u00e8s bien, mais le cours est
         magistral.\u00a0<\/p>\r\n<p><br \/><br \/>Laura Giacherio<\/p>","images":["news-53fd9840be47a.jpg"],"date":1409131555,"url":"http:\/\/expomusees.orange.com\/actu-691\/dessine-moi-la-guerre"}],"offset":0,"totalCount":661,"count":10,"error":0}'
     http_version: 
-  recorded_at: Wed, 17 Sep 2014 13:35:31 GMT
+  recorded_at: Wed, 17 Sep 2014 13:56:31 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=700&type=news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 17 Sep 2014 14:06:58 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=2mllvrnus94k7ao476jf5dhum0; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2418'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"type":"news","id":700,"url":"http:\/\/expomusees.orange.com\/actu-700\/pekin-express-la-chine-fascine-la-france-la-preuve-en-culture","name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","title":"La Chine
+        et son art, expos\u00e9s en France","video":"","content":"<p>Les c\u00e9l\u00e9brations
+        du cinquanti\u00e8me anniversaire des relations diplomatiques entre la France
+        et la Chine sont une excuse pour c\u00e9l\u00e9brer une fascination de l\u2019occident
+        pour l\u2019Orient qui n\u2019est ni nouvelle, ni cantonn\u00e9e \u00e0 la
+        sph\u00e8re diplomatique. La preuve par deux.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Tout
+        commence \u00e0 Versailles. Louis XIV envoie en 1688 des J\u00e9suites \u00e0
+        la cour de P\u00e9kin. D\u00e9bute la fascination fran\u00e7aise pour la Chine.
+        Des \u00e9crits sur les personnalit\u00e9s chinoises, sur la place g\u00e9opolitique
+        de cet Empire et sur son art parcourent les si\u00e8cles et marquent durablement
+        les relations entre les deux pays. Durant le 18\u00e8me si\u00e8cle, les laques,
+        porcelaines, \u00e9ventails et autres mobiliers de luxe s\u2019inspirent outranci\u00e8rement
+        de l\u2019art chinois. Art et diplomatie ne font qu\u2019un et els pr\u00e9sents
+        ne manquent pas d\u2019influencer les artisans fran\u00e7ais. Si c\u2019\u00e9tait
+        vrai au 18\u00e8me si\u00e8cle, c\u2019est encore vrai aujourd\u2019hui.<\/p>\r\n<p>Retour
+        en 2014 o\u00f9 l\u2019artiste peintre lyonnais Etienne Cail appose des visages
+        asiatiques, \u00ab ses gueules \u00bb, sur toutes ces toiles, revisitant m\u00eame
+        les grands classiques de la peinture fran\u00e7aise. Louis XIV ou Napol\u00e9on
+        chinois\u00e9s ? On sait d\u00e9sormais que tout ceci a un sens. Le fascin\u00e9
+        des faci\u00e8s n\u2019a d\u2019yeux que pour les visages orientaux qui \u00e9loigne
+        ses peintures de la subjectivit\u00e9. L\u2019essentiel est l\u00e0. Le reste,
+        comme le d\u00e9cor, est un artifice. Alors oui, il a rencontr\u00e9 les artistes
+        subversifs, et notamment \u00a0de la petite colonie artistique \u00a0Songzhuang,
+        en banlieue p\u00e9kinoise. Mais c\u2019est avant qu\u2019il a su qu\u2019ils
+        repr\u00e9sentaient pour lui un \u00ab id\u00e9al artistique \u00bb.\u00a0<\/p>\r\n<p>La
+        Chine, loin d\u2019\u00eatre le bout du monde.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Laura
+        Giacherio<\/p>","images":["news-5411a2df8b052.jpg"],"categories":[{"name":"\u00e0
+        la decouverte de...","id":18}],"error":0}'
+    http_version: 
+  recorded_at: Wed, 17 Sep 2014 14:06:58 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 11:33:15 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=qkiob17v1chk4351g58ishqvv1; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1760'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"news","id":705,"name":"VIDEO I \"
+        Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux yeux
+        de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410948266},{"type":"news","id":699,"name":"Le
+        Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
+        la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
+        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
+        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996},{"type":"news","id":695,"name":"On
+        voit qui pendant la Paris Design Week ?","imageUrl":"news-5408316b5c99d.jpg","date":1409823263},{"type":"news","id":694,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb
+        De Toulouse Lautrec","imageUrl":"news-5406d5cba2b3f.jpg","date":1409734091},{"type":"news","id":693,"name":"Votre
+        automne culturel : ce qu\u2019il faut savoir","imageUrl":"news-540589fc426a7.jpg","date":1409649148},{"type":"news","id":692,"name":"VIDEO
+        II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
+        l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":0,"count":10,"totalCount":662,"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 11:33:15 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=705&type=news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 11:33:15 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=4bo10fcjmbs2595v8t7n0pos80; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2049'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"type":"news","id":705,"url":"http:\/\/expomusees.orange.com\/actu-705\/video-i-une-oeuvre-un-musee-episode-5-la-tete-aux-yeux-de-plomb-dossip-zadkine","name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
+        yeux de plomb \u00bb d\u2019Ossip Zadkine","title":"Cinqui\u00e8me \u00e9pisode
+        de notre nouvelle s\u00e9rie de vid\u00e9os","video":"x1z9is5","content":"<p><strong>\"Une
+        \u0153uvre, un mus\u00e9e\" est une s\u00e9rie de vid\u00e9os propos\u00e9es
+        par Orange expo mus\u00e9es : d\u00e9couvrir une \u0153uvre et son mus\u00e9e
+        \u00e0 travers le d\u00e9cryptage d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>\u00a0<\/p>\r\n<p>Pour
+        notre cinqui\u00e8me \u00e9pisode, nous avons s\u00e9lectionn\u00e9 la \u00ab
+        T\u00eate aux yeux de plomb \u00bb d\u2019Ossip Zadkine<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Mais
+        qui est Ossip Zadkine, le c\u00e9l\u00e8bre sculpteur fran\u00e7ais d\u2019origine
+        russe ? La sculpture \u00ab T\u00eate aux yeux de plomb \u00bb en est embl\u00e9matique
+        de son \u0153uvre. Elle r\u00e9v\u00e8le l\u2019aust\u00e9rit\u00e9 de ces
+        premi\u00e8res sculptures, qui ne cherchait pas \u00e0 imiter la nature mais
+        \u00e0 en donner une interpr\u00e9tation neuve, \u00e0 l\u2019image de l\u2019art
+        primitif. Cette inspiration lui vaudra le surnom de \u00ab sculpteur n\u00e8gre
+        \u00bb. Puis c\u2019est Modigliani, le grand ami rencontr\u00e9 dans le quartier
+        de Montparnasse, qui influencera le sculpteur. L\u2019artiste flirte du c\u00f4t\u00e9
+        du cubisme, adoucit ses lignes. Personnage majeur de notre art moderne, Ossip
+        Zadkine est c\u00e9l\u00e9br\u00e9 dans un mus\u00e9e \u00e0 son nom, \u00e0
+        Paris. C\u2019est l\u00e0 que l\u2019on peut voir \u00ab T\u00eate aux yeux
+        de plomb \u00bb.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Orange Expo
+        Mus\u00e9es vous dit tout ce que vous devez savoir sur les grandes \u0153uvres
+        des mus\u00e9es fran\u00e7ais !<\/p>\r\n<p>\u00a0<\/p>","images":["news-5411a4403b731.jpg"],"categories":[{"name":"\u00e0
+        la decouverte de...","id":18}],"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 11:33:15 GMT
 recorded_with: VCR 2.9.3
