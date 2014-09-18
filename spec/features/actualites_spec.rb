@@ -19,4 +19,9 @@ RSpec.feature 'Actualites Page', :vcr do
     expect(first 'h2').to have_content(/[^\s]/)
     expect(first '.content').to have_content(/[^\s]/)
   end
+
+  scenario 'pagination goes to page 2' do 
+    first('a[rel="next"]').click
+    expect(first '.page.current').to have_content('2')
+  end
 end

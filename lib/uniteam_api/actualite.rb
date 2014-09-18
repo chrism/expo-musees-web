@@ -23,7 +23,8 @@ module UniteamAPI
           uniteam_id: item["id"],
           name: item["name"],
           title: item["title"],
-          date: item["date"]
+          date: item["date"],
+          image_url: item["imageUrl"]
         }
       end
       { items: articles, total_count: total_count, offset: offset, count: count }

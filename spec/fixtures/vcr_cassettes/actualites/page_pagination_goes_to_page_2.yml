@@ -1,0 +1,100 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 12:54:40 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=s43sbivrs84jhs0gh4gv2lmn37; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1760'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"news","id":705,"name":"VIDEO I \"
+        Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux yeux
+        de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410948266},{"type":"news","id":699,"name":"Le
+        Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
+        la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
+        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
+        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996},{"type":"news","id":695,"name":"On
+        voit qui pendant la Paris Design Week ?","imageUrl":"news-5408316b5c99d.jpg","date":1409823263},{"type":"news","id":694,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb
+        De Toulouse Lautrec","imageUrl":"news-5406d5cba2b3f.jpg","date":1409734091},{"type":"news","id":693,"name":"Votre
+        automne culturel : ce qu\u2019il faut savoir","imageUrl":"news-540589fc426a7.jpg","date":1409649148},{"type":"news","id":692,"name":"VIDEO
+        II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
+        l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":0,"count":10,"totalCount":662,"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 12:54:40 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=20&type=news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 12:54:40 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=ma39k6783npdff79hdtrb7o7q6; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1671'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"news","id":681,"name":"Votre \u00ab
+        to d\u2019ao\u00fbt \u00bb des expositions de l''\u00e9t\u00e9","imageUrl":"news-53e23d84e33a4.JPG","date":1407419864},{"type":"news","id":680,"name":"Marie-Paule
+        N\u00e8gre nous ouvre des yeux nouveaux \u00e0 la Maison Europ\u00e9enne de
+        la Photographie","imageUrl":"news-53e100dc0b1e2.jpg","date":1407317210},{"type":"news","id":679,"name":"VIDEO
+        I \" Question d''art \" \u00e9pisode 5 : le MuCEM \u00e0 Marseille","imageUrl":"news-53dfad36c1da5.JPG","date":1407226928},{"type":"news","id":678,"name":"
+        O\u00f9 voir des dinosaures cet \u00e9t\u00e9 ?","imageUrl":"news-53db588010fa4.JPG","date":1406911168},{"type":"news","id":677,"name":"VIDEO
+        I \" Question d''art \" \u00e9pisode 4 : le Mac Val \u00e0 Vitry-sur-Seine","imageUrl":"news-53d9179c22ca1.JPG","date":1406799334},{"type":"news","id":676,"name":"Daniel
+        Buren fait l\u2019enfant au MAMC de Strasbourg","imageUrl":"news-53d7ba27e00ee.jpg","date":1406651998},{"type":"news","id":675,"name":"Le
+        Voyage \u00e0 Nantes revient en 2014 !  ","imageUrl":"news-53d615cdd6e27.jpg","date":1406539351},{"type":"news","id":674,"name":"VIDEO
+        I \" Question d''art \" \u00e9pisode 3 : le mus\u00e9e Fabre de Montpellier","imageUrl":"news-53d0e144ca436.JPG","date":1406198084},{"type":"news","id":673,"name":"Le
+        tatou jette l\u2019\u00ab encre \u00bb dans les mus\u00e9es fran\u00e7ais","imageUrl":"news-53ce7ac364a7d.jpg","date":1406108438},{"type":"news","id":672,"name":"Exposition
+        Marcel Duchamp : Celui qui a tu\u00e9 la peinture \u00e9tait peintre","imageUrl":"news-53ce63d039d8b.JPG","date":1406023128}],"offset":20,"count":10,"totalCount":662,"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 12:54:40 GMT
+recorded_with: VCR 2.9.3

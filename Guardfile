@@ -32,11 +32,18 @@ guard :rspec, cmd: 'bin/rspec' do
   watch(%r{^spec/acceptance/steps/(.+)_steps\.rb$})   { |m| Dir[File.join("**/#{m[1]}.feature")][0] || 'spec/acceptance' }
 end
 
-guard :livereload do
-  watch(%r{app/views/.+\.(erb|haml|slim)})
+
+# A sample Guardfile
+# More info at https://github.com/guard/guard#readme
+
+group :livereload do
+guard 'livereload' do
+  watch(%r{app/views/.+\.(erb|haml|slim)$})
+  watch(%r{app/assets/.+\.(scss)$})
   watch(%r{app/helpers/.+\.rb})
   watch(%r{public/.+\.(css|js|html)})
   watch(%r{config/locales/.+\.yml})
   # Rails Assets Pipeline
-  watch(%r{(app|vendor)/assets/\w+/(.+\.(css|js|html|scss)).*})  { |m| "/assets/#{m[2]}" }
+  watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|js|html|png|jpg))).*}) { |m| "/assets/#{m[3]}" }
+end
 end

@@ -1,5 +1,5 @@
 class Actualite < ActiveRecord::Base
-  attr_accessor :name, :title, :uniteam_id, :content, :date
+  attr_accessor :name, :title, :uniteam_id, :content, :date, :image_url
 
   def initialize(attributes)
     self.name = attributes[:name]
@@ -7,6 +7,7 @@ class Actualite < ActiveRecord::Base
     self.uniteam_id = attributes[:uniteam_id]
     self.content = attributes[:content]
     self.date = attributes[:date]
+    self.image_url = attributes[:image_url]
   end
 
   def self.recent(count = 3)

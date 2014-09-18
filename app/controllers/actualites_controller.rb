@@ -22,6 +22,6 @@ class ActualitesController < ApplicationController
     end
 
     def actualite_params
-      params.require(:actualite).permit(:title, :name, :uniteam_id, :content, :date)
+      params.require(:actualite).permit(:title, :name, :uniteam_id, :content, :date, :image_url)
     end
 end

@@ -419,14 +419,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 11:33:15 GMT
+      - Thu, 18 Sep 2014 12:54:40 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=qkiob17v1chk4351g58ishqvv1; path=/
+      - PHPSESSID=goofg8fpah3vnvu6qhjmbdam05; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -455,7 +455,7 @@ http_interactions:
         II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
         l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":0,"count":10,"totalCount":662,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 11:33:15 GMT
+  recorded_at: Thu, 18 Sep 2014 12:54:40 GMT
 - request:
     method: get
     uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=705&type=news
@@ -469,14 +469,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 11:33:15 GMT
+      - Thu, 18 Sep 2014 12:54:40 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=4bo10fcjmbs2595v8t7n0pos80; path=/
+      - PHPSESSID=7215gp5p6cbihfrda7pj2c2hi7; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -514,5 +514,5 @@ http_interactions:
         des mus\u00e9es fran\u00e7ais !<\/p>\r\n<p>\u00a0<\/p>","images":["news-5411a4403b731.jpg"],"categories":[{"name":"\u00e0
         la decouverte de...","id":18}],"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 11:33:15 GMT
+  recorded_at: Thu, 18 Sep 2014 12:54:40 GMT
 recorded_with: VCR 2.9.3
