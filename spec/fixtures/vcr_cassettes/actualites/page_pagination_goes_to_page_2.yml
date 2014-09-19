@@ -13,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 12:54:40 GMT
+      - Thu, 18 Sep 2014 16:35:25 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=s43sbivrs84jhs0gh4gv2lmn37; path=/
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=kd788258hu7oi5ng2g0v37omb3; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -49,7 +49,7 @@ http_interactions:
         II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
         l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":0,"count":10,"totalCount":662,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 12:54:40 GMT
+  recorded_at: Thu, 18 Sep 2014 16:35:26 GMT
 - request:
     method: get
     uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=20&type=news
@@ -63,14 +63,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 12:54:40 GMT
+      - Thu, 18 Sep 2014 16:35:25 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=ma39k6783npdff79hdtrb7o7q6; path=/
+      - PHPSESSID=qmpgu3sm92btq8oh3vmc8lopu5; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -96,5 +96,5 @@ http_interactions:
         tatou jette l\u2019\u00ab encre \u00bb dans les mus\u00e9es fran\u00e7ais","imageUrl":"news-53ce7ac364a7d.jpg","date":1406108438},{"type":"news","id":672,"name":"Exposition
         Marcel Duchamp : Celui qui a tu\u00e9 la peinture \u00e9tait peintre","imageUrl":"news-53ce63d039d8b.JPG","date":1406023128}],"offset":20,"count":10,"totalCount":662,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 12:54:40 GMT
+  recorded_at: Thu, 18 Sep 2014 16:35:26 GMT
 recorded_with: VCR 2.9.3

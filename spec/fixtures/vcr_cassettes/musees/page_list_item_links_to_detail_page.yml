@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=museum
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 14:31:35 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=2qgsbdf6jn18bmk4c26hj3u601; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2977'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"museum","id":1554,"latitude":50.950499623195,"longitude":1.859800106509,"shortSummary":"A
+        la gloire de la dentelle","name":"Cit\u00e9 internationale de la dentelle
+        et de la mode ","address":"135 Quai du Commerce","city":"Calais","zipCode":"62100","rating":5,"imageUrl":"200115779\/384845_300x.jpg"},{"type":"museum","id":1935,"latitude":48.861001322115,"longitude":2.3358600227907,"shortSummary":"Le
+        Louvre : la r\u00e9f\u00e9rence","name":"Mus\u00e9e du Louvre","address":"34
+        Quai du Louvre","city":"Paris 01","zipCode":"75001","rating":4,"imageUrl":"342\/465762_300x.jpg"},{"type":"museum","id":1992,"latitude":48.859799208821,"longitude":2.3254900880833,"shortSummary":"De
+        la gare au mus\u00e9e","name":"Mus\u00e9e d''Orsay","address":"62, Rue de
+        Lille","city":"Paris 07","zipCode":"75007","rating":5,"imageUrl":"museum-507c740df0203.jpg"},{"type":"museum","id":1958,"latitude":48.860700793792,"longitude":2.3531999521026,"shortSummary":"Beaubourg,
+        centre polyculturel","name":"Centre Pompidou - Beaubourg","address":"19 Rue
+        Beaubourg","city":"Paris 04","zipCode":"75004","rating":5,"imageUrl":"104100014\/286729_300x.jpg"},{"type":"museum","id":2010,"latitude":48.867100681044,"longitude":2.313969906831,"shortSummary":"De
+        fer et verre\u2026","name":"Grand Palais","address":"3 Avenue du G\u00e9n\u00e9ral
+        Eisenhower","city":"Paris 08","zipCode":"75008","rating":4,"imageUrl":"museum-505727c233d8f.JPG"},{"type":"museum","id":2056,"latitude":48.864901360131,"longitude":2.2989099800414,"shortSummary":"Sous
+        l''aile du Palais de Tokyo ","name":"Mus\u00e9e d''Art Moderne de la Ville
+        de Paris","address":"11 Avenue du Pr\u00e9sident Wilson","city":"Paris 16","zipCode":"75016","rating":5,"imageUrl":"museum-508e8e4888e48.JPG"},{"type":"museum","id":1937,"latitude":48.863501171351,"longitude":2.3329300850801,"shortSummary":"Raffinement...","name":"Mus\u00e9e
+        des Arts d\u00e9coratifs","address":"107 Rue de Rivoli","city":"Paris 01","zipCode":"75001","rating":4,"imageUrl":"museum-5057274d16b15.JPG"},{"type":"museum","id":289,"latitude":43.52559905196,"longitude":5.4525801417826,"shortSummary":"L''\u00e2me
+        de C\u00e9zanne plane sur Granet. ","name":"Mus\u00e9e Granet","address":"Place
+        Saint-Jean de Malte","city":"Aix-en-Provence","zipCode":"13100","rating":3,"imageUrl":"104300095\/463395_300x.jpg"},{"type":"museum","id":1996,"latitude":48.860898869278,"longitude":2.2962799303241,"shortSummary":"L\u00e0
+        o\u00f9 dialoguent les cultures ","name":"Mus\u00e9e du Quai Branly","address":"55
+        Quai Branly","city":"Paris 07","zipCode":"75007","rating":5,"imageUrl":"museum-50532e2a4d1bc.jpg"},{"type":"museum","id":1981,"latitude":48.849000679743,"longitude":2.3342700828179,"shortSummary":"Un
+        centre d''exposition...","name":"Mus\u00e9e du Luxembourg - Orangerie du S\u00e9nat","address":"19,
+        Rue Vaugirard","city":"Paris 06","zipCode":"75006","rating":3,"imageUrl":"museum-507c78ac84be1.jpg"}],"offset":0,"count":10,"totalCount":2808,"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 14:31:36 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=museum
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 16:35:26 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=h476g2skn0nmv68e192b1mbep2; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2977'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"museum","id":1554,"latitude":50.950499623195,"longitude":1.859800106509,"shortSummary":"A
+        la gloire de la dentelle","name":"Cit\u00e9 internationale de la dentelle
+        et de la mode ","address":"135 Quai du Commerce","city":"Calais","zipCode":"62100","rating":5,"imageUrl":"200115779\/384845_300x.jpg"},{"type":"museum","id":1935,"latitude":48.861001322115,"longitude":2.3358600227907,"shortSummary":"Le
+        Louvre : la r\u00e9f\u00e9rence","name":"Mus\u00e9e du Louvre","address":"34
+        Quai du Louvre","city":"Paris 01","zipCode":"75001","rating":4,"imageUrl":"342\/465762_300x.jpg"},{"type":"museum","id":1992,"latitude":48.859799208821,"longitude":2.3254900880833,"shortSummary":"De
+        la gare au mus\u00e9e","name":"Mus\u00e9e d''Orsay","address":"62, Rue de
+        Lille","city":"Paris 07","zipCode":"75007","rating":5,"imageUrl":"museum-507c740df0203.jpg"},{"type":"museum","id":1958,"latitude":48.860700793792,"longitude":2.3531999521026,"shortSummary":"Beaubourg,
+        centre polyculturel","name":"Centre Pompidou - Beaubourg","address":"19 Rue
+        Beaubourg","city":"Paris 04","zipCode":"75004","rating":5,"imageUrl":"104100014\/286729_300x.jpg"},{"type":"museum","id":2010,"latitude":48.867100681044,"longitude":2.313969906831,"shortSummary":"De
+        fer et verre\u2026","name":"Grand Palais","address":"3 Avenue du G\u00e9n\u00e9ral
+        Eisenhower","city":"Paris 08","zipCode":"75008","rating":4,"imageUrl":"museum-505727c233d8f.JPG"},{"type":"museum","id":2056,"latitude":48.864901360131,"longitude":2.2989099800414,"shortSummary":"Sous
+        l''aile du Palais de Tokyo ","name":"Mus\u00e9e d''Art Moderne de la Ville
+        de Paris","address":"11 Avenue du Pr\u00e9sident Wilson","city":"Paris 16","zipCode":"75016","rating":5,"imageUrl":"museum-508e8e4888e48.JPG"},{"type":"museum","id":1937,"latitude":48.863501171351,"longitude":2.3329300850801,"shortSummary":"Raffinement...","name":"Mus\u00e9e
+        des Arts d\u00e9coratifs","address":"107 Rue de Rivoli","city":"Paris 01","zipCode":"75001","rating":4,"imageUrl":"museum-5057274d16b15.JPG"},{"type":"museum","id":289,"latitude":43.52559905196,"longitude":5.4525801417826,"shortSummary":"L''\u00e2me
+        de C\u00e9zanne plane sur Granet. ","name":"Mus\u00e9e Granet","address":"Place
+        Saint-Jean de Malte","city":"Aix-en-Provence","zipCode":"13100","rating":3,"imageUrl":"104300095\/463395_300x.jpg"},{"type":"museum","id":1996,"latitude":48.860898869278,"longitude":2.2962799303241,"shortSummary":"L\u00e0
+        o\u00f9 dialoguent les cultures ","name":"Mus\u00e9e du Quai Branly","address":"55
+        Quai Branly","city":"Paris 07","zipCode":"75007","rating":5,"imageUrl":"museum-50532e2a4d1bc.jpg"},{"type":"museum","id":1981,"latitude":48.849000679743,"longitude":2.3342700828179,"shortSummary":"Un
+        centre d''exposition...","name":"Mus\u00e9e du Luxembourg - Orangerie du S\u00e9nat","address":"19,
+        Rue Vaugirard","city":"Paris 06","zipCode":"75006","rating":3,"imageUrl":"museum-507c78ac84be1.jpg"}],"offset":0,"count":10,"totalCount":2808,"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 16:35:27 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=1554&type=museum
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 16:35:26 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=gf17h60j8p4nqfuv7ife5ovpg2; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1975'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"type":"museum","id":1554,"url":"http:\/\/expomusees.orange.com\/musee-1554\/cite-internationale-de-la-dentelle-et-de-la-mode--calais-nord-pas-de-calais","name":"Cit\u00e9
+        internationale de la dentelle et de la mode ","title":"A la gloire de la dentelle","latitude":50.9505,"longitude":1.8598,"address":"135
+        Quai du Commerce","city":"Calais","zipCode":"62100","phoneNumber":"0321004230","video":"","ticketnetUrl":"","wikipediaUrl":"","summary":"<p>Au
+        c\u0153ur du centre historique de Calais, la cit\u00e9e internationale de
+        la dentelle d\u00e9ploie ses collections sur 2500\u00a0m\u00b2. Cinq galeries
+        se succ\u00e8dent pour retracer les savoir-faire et les techniques, la dentelle
+        traditionnelle et contemporaine (mode, design, arts appliqu\u00e9s). L''usine
+        Boulart, ancienne fabrique de dentelle du XIXe prolong\u00e9e par une extension
+        de verre et d''acier des architectes Moatti et Rivi\u00e8re abrite ces tr\u00e9sors
+        du patrimoine : dentelle \u00e0 la main, aventure industrielle de la dentelle
+        \u00e0 Calais, m\u00e9tiers de la dentelle m\u00e9canique et atelier de production.
+        V\u00e9ritable vitrine pour la profession dentelli\u00e8re, la Cit\u00e9 contribue
+        \u00e0 sa diffusion par les expositions temporaires dans la grande verri\u00e8re,
+        les conf\u00e9rences et d\u00e9fil\u00e9s dans l\u2019auditorium, les ateliers
+        d\u2019initiation aux techniques dentelli\u00e8res et \u00e0 la cr\u00e9ation.<br
+        \/><br \/><\/p>","openingHours":"","cost":"","rating":5,"countVote":2,"images":[{"imageUrl":"200115779\/384845_300x.jpg","caption":""},{"imageUrl":"200115779\/384846_300x.jpg","caption":""},{"imageUrl":"200115779\/384858_300x.jpg","caption":""},{"imageUrl":"200115779\/384859_300x.jpg","caption":""},{"imageUrl":"200115779\/384860_300x.jpg","caption":""}],"event":[],"categories":[{"name":"mus\u00e9e
+        d''histoire et civilisation","id":1},{"name":"mus\u00e9e des m\u00e9tiers
+        et techniques","id":3},{"name":"mus\u00e9e de la mode et du textile","id":16}],"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 16:35:27 GMT
+recorded_with: VCR 2.9.3

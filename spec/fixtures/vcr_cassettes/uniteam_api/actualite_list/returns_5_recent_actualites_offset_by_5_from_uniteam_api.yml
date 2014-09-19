@@ -2,163 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getActu?count=5&offset=5
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 17 Sep 2014 13:43:21 GMT
-      Server:
-      - Apache
-      X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=oo9bagdh5fiialdmnq9m4es8c3; path=/
-      Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
-      Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-      Pragma:
-      - no-cache
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json
-    body:
-      encoding: UTF-8
-      string: '{"news":[{"id":695,"name":"On voit qui pendant la Paris Design Week
-        ?","title":"La Design Week s''installe \u00e0 Paris","video":"","content":"<p>Du
-        6 au 13 septembre le c\u0153ur de la plan\u00e8te design battra au rythme
-        parisien pour la Paris Design Week. Parmi les 200 lieux qui s\u2019animeront
-        sous des sc\u00e9nographies rivalisant de cr\u00e9ativit\u00e9, difficile
-        de savoir par o\u00f9 commencer. Et s\u2019il ne devait en rester qu\u2019un
-        ?\u00a0<\/p>\r\n<p>Parmi les talents repr\u00e9sent\u00e9s cette ann\u00e9e,
-        une pointure du design qui expose depuis une trentaine d\u2019ann\u00e9es
-        dans les plus grands mus\u00e9es et pour les plus grands \u00e9v\u00e8nements
-        : Olivier Gagn\u00e8re.\u00a0<\/p>\r\n<p>Ne cherchez pas l\u2019\u00e9tiquette,
-        Olivier Gagn\u00e8re est autant designer qu\u2019architecte d\u2019int\u00e9rieur,
-        \u00e9b\u00e9niste et cr\u00e9ateur de verrerie. On l\u2019a vu en France,
-        o\u00f9 il a repens\u00e9 certains hauts lieux de la vie de la capitale comme
-        le Lido ou le caf\u00e9 Marly. On l\u2019a aussi vu travailler du c\u00f4t\u00e9
-        des ateliers de verrerie \u00e0 Murano, du c\u00f4t\u00e9 du Japon et m\u00eame
-        expos\u00e9 au Shanghai Art Museum. Durant la Design Week, Olivier Gagn\u00e8re
-        \u00e9lira domicile aupr\u00e8s d\u2019une galerie avec laquelle il collabore
-        depuis les ann\u00e9es 80, la galerie Maeght. L\u2019occasion de le d\u00e9couvrir
-        ou de mieux le connaitre et surtout de d\u00e9couvrir une discipline aux facettes
-        un peu floues : la c\u00e9ramique.\u00a0<\/p>\r\n<p>La noble mati\u00e8re
-        retrouve \u00e9l\u00e9gance et vitalit\u00e9 sous la collaboration qu\u2019Olivier
-        Gagn\u00e8re a mise en place avec les ateliers Sergio et Maux Parigi \u00e0
-        Sesto Fiorentino. Des objets joyeux cr\u00e9\u00e9s par l\u2019\u00e9quilibriste
-        des formes : \u00ab J\u2019aime la densit\u00e9 de couleurs que permet la
-        c\u00e9ramique \u00bb.\u00a0<\/p>\r\n<p>L\u2019orchestre des artisans des
-        quatre coins du monde officie \u00e0 Paris. En avant maestro !<\/p>\r\n<p><br
-        \/><br \/><br \/>Laura Giacherio<\/p>","images":["news-5408316b5c99d.jpg"],"date":1409823263,"url":"http:\/\/expomusees.orange.com\/actu-695\/on-voit-qui-pendant-la-paris-design-week-"},{"id":694,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb
-        De Toulouse Lautrec","title":"Troisi\u00e8me \u00e9pisode de notre nouvelle
-        s\u00e9rie de vid\u00e9os","video":"x1y9mqq","content":"<p><strong>\"Une \u0153uvre,
-        un mus\u00e9e\" est une s\u00e9rie de vid\u00e9os propos\u00e9es par Orange
-        expo mus\u00e9es : d\u00e9couvrir une \u0153uvre et son mus\u00e9e \u00e0
-        travers le d\u00e9cryptage d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>Pour
-        notre troisi\u00e8me \u00e9pisode, nous avons s\u00e9lectionn\u00e9 \u00ab
-        Ad\u00e8le \u00bb, du peintre Toulouse Lautrec.<\/p>\r\n<p>\u00ab Maman, vous,
-        rien que vous \u00bb. Dans ces derniers soupirs, Toulouse-Lautrec aurait rendu
-        hommage \u00e0 celle qui le fascina toute sa vie et qu\u2019il immortalisa
-        dans de nombreux portraits comme celui-ci. L\u2019artiste albigeois d\u2019origine
-        a d\u00e9sormais son mus\u00e9e \u00e0 Albi, dans le Palais de la Berbie,
-        o\u00f9 l\u2019on peut admirer ce tableau.<\/p>\r\n<p>Orange Expo Mus\u00e9es
-        vous dit tout ce que vous devez savoir sur les grandes \u0153uvres des mus\u00e9es
-        fran\u00e7ais !<\/p>\r\n<p>\u00a0<\/p>","images":["news-5406d5cba2b3f.jpg"],"date":1409734091,"url":"http:\/\/expomusees.orange.com\/actu-694\/video-i-une-oeuvre-un-musee-episode-3-adele-de-toulouse-lautrec"},{"id":693,"name":"Votre
-        automne culturel : ce qu\u2019il faut savoir","title":"Les expositions de
-        l''automne \u00e0 ne pas manquer","video":"","content":"<p>L\u2019ann\u00e9e
-        2014 n\u2019est pas encore finie ! O\u00f9 en \u00eates-vous de votre \u00ab
-        to do \u00bb des expos \u00e0 ne pas manquer ? Pour ceux que l\u2019\u00e9t\u00e9
-        aurait \u00e9gar\u00e9s des chemins des mus\u00e9es, voici un rappel de ce
-        qui vous attend dans les mois qui viennent !<\/p>\r\n<p>Septembre. Pour la
-        rentr\u00e9e, un cours d\u2019histoire magistral vous attend. Lucr\u00e8ce,
-        Rodrigo\u2026 \u00e0 ce nom nous n\u2019associons d\u00e9sormais qu\u2019un
-        patronyme, celui des Borgia. La grande famille espagnole aussi sulfureuse
-        qu\u2019influente, a c\u00f4toy\u00e9 le gratin de la cr\u00e9ation artistique
-        de la Renaissance. La famille formidable raconte son temps \u00e0 travers
-        ses relations au Mus\u00e9e Maillol, \u00e0 Paris.<\/p>\r\n<p>Octobre. Diable,
-        encore de l\u2019histoire ! Louis IX vous connaissez ? Peut-\u00eatre qu\u2019il
-        vous est plus familier sous son nom de Saint Louis ? Notre lointain roi canonis\u00e9,
-        \u00ab justicier supr\u00eame \u00bb qui rendait justice sous un ch\u00eane
-        \u00e0 Vincennes et officiait comme juge dans toutes les cours d\u2019Europe
-        du 13\u00e8me si\u00e8cle, a laiss\u00e9 l\u2019empreinte d\u2019un r\u00e8gne
-        de renouveau intellectuel et artistique. Pour son huiti\u00e8me centenaire,
-        la Conciergerie, en partenariat avec le mus\u00e9e du Louvre, revient sur
-        la cr\u00e9ation de ce mythe.\u00a0<\/p>\r\n<p>Novembre. Cheese ! Novembre
-        est le mois de la photographie. Difficile de choisir un \u00e9v\u00e8nement
-        parmi la multitude d\u2019institutions qui c\u00e9l\u00e8breront les nouveaux
-        clich\u00e9s. Pourtant, si l\u2019on cherche la concentration de blousons
-        noirs, si l\u2019on aime les photos qui racontent l\u2019histoire, et surtout,
-        si l\u2019on aime le m\u00e9lange des genres de type photo-musical, alors
-        on ira aux Photaumnales de Beauvais. La grande famille du rock ouvre ses albums,
-        sans chichi.<\/p>\r\n<p>D\u00e9cembre. \u00ab It\u2019s begining to look a
-        lot like christmas \u00bb. Oui, vous pr\u00e9parez les f\u00eates de fin d\u2019ann\u00e9e
-        en entonnant vos classiques. C\u2019est le mois magique, celui des tr\u00eaves,
-        des grands enfants et de la f\u00e9\u00e9rie autoris\u00e9e. Le moment est
-        id\u00e9al pour repartir du c\u00f4t\u00e9 des contes de f\u00e9es au Palais
-        des Lumi\u00e8res d\u2019Evian. Le grand livre des contes, Charles Perrault
-        en guest star, nous r\u00e9v\u00e8le que ces histoires \u00e0 l\u2019origine
-        un poil terrifiantes ont \u00e9volu\u00e9 au rythme de la soci\u00e9t\u00e9
-        et de ses enfants.\u00a0<\/p>\r\n<p>Ils se cultiv\u00e8rent et v\u00e9curent
-        heureux.<\/p>\r\n<p><br \/>Laura Giacherio<\/p>","images":["news-540589fc426a7.jpg"],"date":1409649148,"url":"http:\/\/expomusees.orange.com\/actu-693\/votre-automne-culturel-ce-quil-faut-savoir"},{"id":692,"name":"VIDEO
-        II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
-        l\u2019\u00e2ge mur \u00bb","title":"Deuxi\u00e8me \u00e9pisode de notre nouvelle
-        s\u00e9rie de vid\u00e9os qui vous dresse un tableau, et le portrait de son
-        auteur.","video":"x1y9lrj","content":"<p><strong>\"Une \u0153uvre, un mus\u00e9e\"
-        est une s\u00e9rie de vid\u00e9os propos\u00e9es par Orange expo mus\u00e9es
-        : d\u00e9couvrir une \u0153uvre et son mus\u00e9e \u00e0 travers le d\u00e9cryptage
-        d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>\u00a0<\/p>\r\n<p>\u00ab
-        L\u2019\u00e2ge m\u00fbr \u00bb de Camille Claudel.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>La
-        sculpture de Camille Claudel, all\u00e9gorie de la destin\u00e9e de l\u2019homme
-        qui vieillit, entrain\u00e9 loin de la jeunesse, est surtout le cri d\u2019une
-        femme abandonn\u00e9e. Cette femme est Camille Claudel, qui raconte par ce
-        bronze sa relation passionnelle avec Rodin, qui la quitta et la rendit folle.
-        Une \u0153uvre du mus\u00e9e Rodin, naturellement.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Orange
-        Expo Mus\u00e9es vous dit tout ce que vous devez savoir sur les grandes \u0153uvres
-        des mus\u00e9es fran\u00e7ais !<\/p>\r\n<p><br \/><br \/><\/p>","images":["news-53fef0115bafa.jpg"],"date":1409229607,"url":"http:\/\/expomusees.orange.com\/actu-692\/video-ii-une-oeuvre-un-musee-episode-2-camille-claudel-lage-mur-"},{"id":691,"name":"Dessine-moi
-        la guerre","title":"Exposition \"Les d\u00e9sastres de la guerre\" au Louvre-Lens","video":"","content":"<p>Sur
-        l\u2019affiche, un soldat \u00e0 terre. Bless\u00e9 certainement, il rel\u00e8ve
-        le torse, les yeux ferm\u00e9s. Il est \u00ab l\u2019oubli\u00e9 \u00bb d\u2019Emile
-        Betsell\u00e8re.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Au milieu des c\u00e9l\u00e9brations
-        du centenaire de la Premi\u00e8re Guerre mondiale, la question de la place
-        de l\u2019art dans la repr\u00e9sentation des conflits est importante. Du
-        documentaire au devoir de m\u00e9moire, de la simple esth\u00e9tique et \u00e0
-        l\u2019\u00e9veil des consciences, de l\u2019\u00e9motion \u00e0 la condamnation,
-        l\u2019art et la guerre font un m\u00e9nage bien curieux. Peut-on peindre
-        de \u00ab tout \u00bb ou \u00ab doit \u00bb-t-on le faire ?<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Le
-        Louvre-Lens a lanc\u00e9 une piste de r\u00e9ponse en revenant sur la repr\u00e9sentation
-        des conflits depuis le 19\u00e8me si\u00e8cle, et plus particuli\u00e8rement
-        les guerres napol\u00e9oniennes, ou s\u2019op\u00e8re un changement radical
-        chez les artistes. De la bataille h\u00e9ro\u00efque avec les \u0153uvres
-        glorifiantes qui galvanisaient leur audience, on voit poindre des \u0153uvres
-        qui racontent l\u2019horreur des cons\u00e9quences humaines, animales, environnementales
-        et soci\u00e9tales des conflits arm\u00e9s.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Ce
-        changement de mentalit\u00e9 est difficile \u00e0 expliquer. Les armes de
-        plus en plus l\u00e9tales cr\u00e9ent-elles des dommages de plus en plus impressionnants
-        ? Une chose est certaine, on voit au fur et \u00e0 mesure des conflits depuis
-        le 19\u00e8me la distance \u00e0 la sc\u00e8ne s\u2019amoindrir et le spectateur
-        pris de plus en plus dans la violence de ce que l\u2019auteur d\u00e9peint.
-        Guerres napol\u00e9oniennes, coloniales, de s\u00e9cession, Grande guerre,
-        guerre du Vietnam\u2026 ou s\u2019arr\u00eate l\u2019art et ou d\u00e9bute
-        le documentaire ? L\u2019apparition de nouvelles techniques artistiques, la
-        photographie en est l\u2019exemple supr\u00eame, pose la question de l\u2019\u0153uvre
-        face \u00e0 la r\u00e9alit\u00e9 de ce qu\u2019elle d\u00e9crit.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Histoire
-        ou histoire de l\u2019art, on ne sait plus tr\u00e8s bien, mais le cours est
-        magistral.\u00a0<\/p>\r\n<p><br \/><br \/>Laura Giacherio<\/p>","images":["news-53fd9840be47a.jpg"],"date":1409131555,"url":"http:\/\/expomusees.orange.com\/actu-691\/dessine-moi-la-guerre"}],"offset":5,"totalCount":661,"count":5,"error":0}'
-    http_version: 
-  recorded_at: Wed, 17 Sep 2014 13:43:22 GMT
-- request:
-    method: get
     uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=5&offset=5&type=news
     body:
       encoding: US-ASCII
@@ -170,14 +13,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 12:54:41 GMT
+      - Thu, 18 Sep 2014 16:35:27 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=9v0l33gidrpcg8o2e302eauek0; path=/
+      - PHPSESSID=tj2aon5md968v0f9p1mfinpun4; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -200,5 +43,5 @@ http_interactions:
         II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
         l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":5,"count":5,"totalCount":662,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 12:54:41 GMT
+  recorded_at: Thu, 18 Sep 2014 16:35:28 GMT
 recorded_with: VCR 2.9.3

@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=5&offset=5&type=museum
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 16:35:28 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=rt1es4lahkc7ihnbcdlri0s1f3; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1560'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"museum","id":2056,"latitude":48.864901360131,"longitude":2.2989099800414,"shortSummary":"Sous
+        l''aile du Palais de Tokyo ","name":"Mus\u00e9e d''Art Moderne de la Ville
+        de Paris","address":"11 Avenue du Pr\u00e9sident Wilson","city":"Paris 16","zipCode":"75016","rating":5,"imageUrl":"museum-508e8e4888e48.JPG"},{"type":"museum","id":1937,"latitude":48.863501171351,"longitude":2.3329300850801,"shortSummary":"Raffinement...","name":"Mus\u00e9e
+        des Arts d\u00e9coratifs","address":"107 Rue de Rivoli","city":"Paris 01","zipCode":"75001","rating":4,"imageUrl":"museum-5057274d16b15.JPG"},{"type":"museum","id":289,"latitude":43.52559905196,"longitude":5.4525801417826,"shortSummary":"L''\u00e2me
+        de C\u00e9zanne plane sur Granet. ","name":"Mus\u00e9e Granet","address":"Place
+        Saint-Jean de Malte","city":"Aix-en-Provence","zipCode":"13100","rating":3,"imageUrl":"104300095\/463395_300x.jpg"},{"type":"museum","id":1996,"latitude":48.860898869278,"longitude":2.2962799303241,"shortSummary":"L\u00e0
+        o\u00f9 dialoguent les cultures ","name":"Mus\u00e9e du Quai Branly","address":"55
+        Quai Branly","city":"Paris 07","zipCode":"75007","rating":5,"imageUrl":"museum-50532e2a4d1bc.jpg"},{"type":"museum","id":1981,"latitude":48.849000679743,"longitude":2.3342700828179,"shortSummary":"Un
+        centre d''exposition...","name":"Mus\u00e9e du Luxembourg - Orangerie du S\u00e9nat","address":"19,
+        Rue Vaugirard","city":"Paris 06","zipCode":"75006","rating":3,"imageUrl":"museum-507c78ac84be1.jpg"}],"offset":5,"count":5,"totalCount":2808,"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 16:35:29 GMT
+recorded_with: VCR 2.9.3

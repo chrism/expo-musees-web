@@ -6,7 +6,7 @@
   <% @list_actualites[:items].each do |actualite| %>
     <li class="actualites-list-item">
       <%= link_to(actualite_path(actualite.uniteam_id)) do %>
-      <%= image_tag small_image(actualite.image_url) %>
+      <%= image_tag api_image(actualite.image_url, "news") %>
         <%= content_tag(:h5, actualite.name) %>
         <%= content_tag(:h6, (l Time.at(actualite.date))) %>
       <% end %>

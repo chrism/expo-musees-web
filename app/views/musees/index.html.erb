@@ -1,0 +1,17 @@
+<h1>Musees</h1>
+
+<p class="total-count"><%= @list_musees[:total_count] %> <%= "item".pluralize(@list_musees[:total_count]) %></p>
+
+<ul class="musees-list">
+  <% @list_musees[:items].each do |musee| %>
+    <li class="musees-list-item">
+      <%= link_to(musee_path(musee.uniteam_id)) do %>
+        <%= image_tag api_image(musee.image_url, "museum") %>
+        <%= content_tag(:h5, musee.name) %>
+        <%= content_tag(:h6, musee.summary) %>
+        <%= content_tag(:p, "#{musee.city}, #{musee.country}") %>
+      <% end %>
+  <% end %>
+</ul>
+
+<%= paginate @pagination %>

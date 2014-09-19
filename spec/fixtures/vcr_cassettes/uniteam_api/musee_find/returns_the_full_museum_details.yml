@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=1&type=museum
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Sep 2014 16:35:28 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=erh33bupt2gpo2k3dajf5adn33; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1286'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"type":"museum","id":1,"url":"http:\/\/expomusees.orange.com\/musee-1\/apothicairerie-hotel-dieu-bourg-en-bresse-rhone-alpes","name":"Apothicairerie
+        H\u00f4tel-Dieu","title":"L''officine au XVIII\u00e8me si\u00e8cle...","latitude":46.2019,"longitude":5.23197,"address":"47,
+        Boulevard de Brou","city":"Bourg-en-Bresse","zipCode":"01020","phoneNumber":"0474224940","video":"","ticketnetUrl":"","wikipediaUrl":"","summary":"<p>Le
+        lieu est splendide, sous les boiseries en ch\u00eane Louis XV s''alignent
+        impeccablement les pots en fa\u00efence blanche et bleue, des XVII\u00e8me
+        et XVIII\u00e8me si\u00e8cles. Dans cette officine \u00e9taient soigneusement
+        conserv\u00e9s, poudres, onguents, eaux ,et pilules. C''est une \u00e9vocation
+        de la pharmacop\u00e9e de l''\u00e9poque. A l''arri\u00e8re vous d\u00e9couvrirez
+        un lieu rare le laboratoire avec ses alambics de cuivre, son fourneau en fonte.
+        L''apothicairerie se visite le samedi. En Juillet et en Aout une autre visite
+        est programm\u00e9e le mardi.<\/p>\r\n<p>.<\/p>","openingHours":"","cost":"","rating":0,"countVote":0,"images":[],"event":[],"categories":[{"name":"mus\u00e9e
+        d''histoire et civilisation","id":1},{"name":"mus\u00e9e des m\u00e9tiers
+        et techniques","id":3},{"name":"mus\u00e9e des sciences et nature","id":5}],"error":0}'
+    http_version: 
+  recorded_at: Thu, 18 Sep 2014 16:35:29 GMT
+recorded_with: VCR 2.9.3
