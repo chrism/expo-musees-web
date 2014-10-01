@@ -1,24 +1,23 @@
 module UniteamAPI
   class Musee
-    include HTTParty
-
-    format :json
-
-    base_uri 'expomusees.orange.com'
-    basic_auth ENV['UNITEAM_API_USERNAME'], ENV['UNITEAM_API_PASSWORD']
+    require 'rest_client'
+    @uniteam_api = RestClient::Resource.new(
+      'http://expomusees.orange.com/api/',
+      :user => ENV['UNITEAM_API_USERNAME'],
+      :password => ENV['UNITEAM_API_PASSWORD']
+    )
 
     def self.recent(count = 3)
       list(3)
     end
 
     def self.list(count = 10, offset = 0)
-      response = get("/api/getSearchResults?type=museum&offset=#{offset}&count=#{count}")
-      # debugger
-      musees = JSON.parse(response.body)
-      total_count = musees["totalCount"]
-      offset = musees["offset"]
-      count = musees["count"]
-      articles = musees["pois"].collect do |item|
+      response = @uniteam_api['getSearchResults'].get(:params => {:type => 'museum', :offset => offset, :count => count})
+      parsed_response = JSON.parse(response.body)
+      total_count = parsed_response["totalCount"]
+      offset = parsed_response["offset"]
+      count = parsed_response["count"]
+      results = parsed_response["pois"].collect do |item|
         {
           uniteam_id: item["id"],
           name: item["name"],
@@ -32,28 +31,28 @@ module UniteamAPI
           rating: item["rating"]
         }
       end
-      { items: articles, total_count: total_count, offset: offset, count: count }
+      { items: results, total_count: total_count, offset: offset, count: count }
     end
 
     def self.find(id)
-      response = get("/api/getPOIDetails?id=#{id}&type=museum")
-      result = JSON.parse(response.body)
+      response = @uniteam_api['getPOIDetails'].get(:params => {:type => 'museum', :id => id})
+      parsed_response = JSON.parse(response.body)
       { 
-        uniteam_id: result["id"],
-        name: result["name"],
-        title: result["title"],
-        latitude: result["latitude"],
-        longtitude: result["longtitude"],
-        address: result["address"],
-        city: result["city"],
-        zip_code: result["zipCode"],
-        video: result["video"],
-        ticketnet_url: result["ticketnetUrl"],
-        wikipedia_url: result["wikipediaUrl"],
-        summary: result["summary"],
-        opening_hours: result["openingHours"],
-        cost: result["cost"],
-        rating: result["rating"]
+        uniteam_id: parsed_response["id"],
+        name: parsed_response["name"],
+        title: parsed_response["title"],
+        latitude: parsed_response["latitude"],
+        longtitude: parsed_response["longtitude"],
+        address: parsed_response["address"],
+        city: parsed_response["city"],
+        zip_code: parsed_response["zipCode"],
+        video: parsed_response["video"],
+        ticketnet_url: parsed_response["ticketnetUrl"],
+        wikipedia_url: parsed_response["wikipediaUrl"],
+        summary: parsed_response["summary"],
+        opening_hours: parsed_response["openingHours"],
+        cost: parsed_response["cost"],
+        rating: parsed_response["rating"]
       }
     end
   end

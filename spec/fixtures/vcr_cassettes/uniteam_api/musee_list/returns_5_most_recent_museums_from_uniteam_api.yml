@@ -6,21 +6,27 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 16:35:28 GMT
+      - Wed, 01 Oct 2014 11:30:11 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=kbnlkj1vt6fth903fdsi6cl570; path=/
+      - PHPSESSID=5f5ht3knjpi5d0bs40hvq716g4; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,5 +51,5 @@ http_interactions:
         fer et verre\u2026","name":"Grand Palais","address":"3 Avenue du G\u00e9n\u00e9ral
         Eisenhower","city":"Paris 08","zipCode":"75008","rating":4,"imageUrl":"museum-505727c233d8f.JPG"}],"offset":0,"count":5,"totalCount":2808,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 16:35:29 GMT
+  recorded_at: Wed, 01 Oct 2014 11:30:11 GMT
 recorded_with: VCR 2.9.3

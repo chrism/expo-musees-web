@@ -15,8 +15,7 @@ gem 'foreman', '~> 0.75.0'
 gem 'unicorn', '~> 4.8.3'
 
 # grabbing data
-# gem 'typhoeus', '~> 0.6.9'
-gem 'httparty', '~> 0.13.1'
+gem 'rest-client', '~> 1.7.2'
 
 # sanitize Uniteam API
 gem 'sanitize-rails', '~> 1.0.0'

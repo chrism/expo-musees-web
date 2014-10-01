@@ -1,24 +1,23 @@
-module UniteamAPI  
+module UniteamAPI
   class Actualite
-    include HTTParty
-
-    format :json
-
-    base_uri 'expomusees.orange.com'
-    basic_auth ENV['UNITEAM_API_USERNAME'], ENV['UNITEAM_API_PASSWORD']
+    require 'rest_client'
+    @uniteam_api = RestClient::Resource.new(
+      'http://expomusees.orange.com/api/',
+      :user => ENV['UNITEAM_API_USERNAME'],
+      :password => ENV['UNITEAM_API_PASSWORD']
+    )
 
     def self.recent(count = 3)
       list(3)
     end
 
     def self.list(count = 10, offset = 0)
-      response = get("/api/getSearchResults?type=news&offset=#{offset}&count=#{count}")
-      # response = get("/api/getActu?count=#{count}&offset=#{offset}")
-      actualites = JSON.parse(response.body)
-      total_count = actualites["totalCount"]
-      offset = actualites["offset"]
-      count = actualites["count"]
-      articles = actualites["pois"].collect do |item|
+      response = @uniteam_api['getSearchResults'].get(:params => {:type => 'news', :offset => offset, :count => count})
+      parsed_response = JSON.parse(response.body)
+      total_count = parsed_response["totalCount"]
+      offset = parsed_response["offset"]
+      count = parsed_response["count"]
+      results = parsed_response["pois"].collect do |item|
         {
           uniteam_id: item["id"],
           name: item["name"],
@@ -27,13 +26,18 @@ module UniteamAPI
           image_url: item["imageUrl"]
         }
       end
-      { items: articles, total_count: total_count, offset: offset, count: count }
+      { items: results, total_count: total_count, offset: offset, count: count }
     end
 
     def self.find(id)
-      response = get("/api/getPOIDetails?id=#{id}&type=news")
-      actualite = JSON.parse(response.body)
-      { uniteam_id: actualite["id"], name: actualite["name"], title: actualite["title"], content: actualite["content"] }
+      response = @uniteam_api['getPOIDetails'].get(:params => {:type => 'news', :id => id})
+      parsed_response = JSON.parse(response.body)
+      { 
+        uniteam_id: parsed_response["id"],
+        name: parsed_response["name"],
+        title: parsed_response["title"],
+        content: parsed_response["content"]
+      }
     end
   end
 end

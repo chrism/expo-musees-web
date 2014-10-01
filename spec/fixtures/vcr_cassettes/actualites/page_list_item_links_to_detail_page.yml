@@ -6,21 +6,27 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 16:35:24 GMT
+      - Wed, 01 Oct 2014 11:30:08 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=d2lpam4a8ephb1cgtvvuutfq31; path=/
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=trgsd0grfds4h88mtk8lpnbls3; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -28,49 +34,54 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1760'
+      - '1729'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":705,"name":"VIDEO I \"
-        Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux yeux
-        de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
-        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410948266},{"type":"news","id":699,"name":"Le
+      string: '{"keyword":null,"pois":[{"type":"news","id":706,"name":"Saint Louis
+        r\u00e8gne sur 2014 en 4 expositions ","imageUrl":"news-542a76c3306df.PNG","date":1412070069},{"type":"news","id":701,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 6 :  \u00ab Murs de peintures
+        \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
+        pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358},{"type":"news","id":703,"name":"Les
+        Borgia, une famille en or","imageUrl":"news-5411a94370eff.jpg","date":1411458065},{"type":"news","id":705,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
+        yeux de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410947965},{"type":"news","id":699,"name":"Le
         Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
         la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
         quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
         I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
-        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996},{"type":"news","id":695,"name":"On
-        voit qui pendant la Paris Design Week ?","imageUrl":"news-5408316b5c99d.jpg","date":1409823263},{"type":"news","id":694,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb
-        De Toulouse Lautrec","imageUrl":"news-5406d5cba2b3f.jpg","date":1409734091},{"type":"news","id":693,"name":"Votre
-        automne culturel : ce qu\u2019il faut savoir","imageUrl":"news-540589fc426a7.jpg","date":1409649148},{"type":"news","id":692,"name":"VIDEO
-        II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
-        l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":0,"count":10,"totalCount":662,"error":0}'
+        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":0,"count":10,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 16:35:26 GMT
+  recorded_at: Wed, 01 Oct 2014 11:30:07 GMT
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=705&type=news
+    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=706&type=news
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 16:35:25 GMT
+      - Wed, 01 Oct 2014 11:30:08 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=gnhpg894pqemcmino9vcf76pf5; path=/
+      - PHPSESSID=dqo3uvoken43cn45pqnspvl8u6; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -78,35 +89,51 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '2049'
+      - '3205'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"type":"news","id":705,"url":"http:\/\/expomusees.orange.com\/actu-705\/video-i-une-oeuvre-un-musee-episode-5-la-tete-aux-yeux-de-plomb-dossip-zadkine","name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
-        yeux de plomb \u00bb d\u2019Ossip Zadkine","title":"Cinqui\u00e8me \u00e9pisode
-        de notre nouvelle s\u00e9rie de vid\u00e9os","video":"x1z9is5","content":"<p><strong>\"Une
-        \u0153uvre, un mus\u00e9e\" est une s\u00e9rie de vid\u00e9os propos\u00e9es
-        par Orange expo mus\u00e9es : d\u00e9couvrir une \u0153uvre et son mus\u00e9e
-        \u00e0 travers le d\u00e9cryptage d\u2019Orange Expo Mus\u00e9es !<\/strong><\/p>\r\n<p>\u00a0<\/p>\r\n<p>Pour
-        notre cinqui\u00e8me \u00e9pisode, nous avons s\u00e9lectionn\u00e9 la \u00ab
-        T\u00eate aux yeux de plomb \u00bb d\u2019Ossip Zadkine<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Mais
-        qui est Ossip Zadkine, le c\u00e9l\u00e8bre sculpteur fran\u00e7ais d\u2019origine
-        russe ? La sculpture \u00ab T\u00eate aux yeux de plomb \u00bb en est embl\u00e9matique
-        de son \u0153uvre. Elle r\u00e9v\u00e8le l\u2019aust\u00e9rit\u00e9 de ces
-        premi\u00e8res sculptures, qui ne cherchait pas \u00e0 imiter la nature mais
-        \u00e0 en donner une interpr\u00e9tation neuve, \u00e0 l\u2019image de l\u2019art
-        primitif. Cette inspiration lui vaudra le surnom de \u00ab sculpteur n\u00e8gre
-        \u00bb. Puis c\u2019est Modigliani, le grand ami rencontr\u00e9 dans le quartier
-        de Montparnasse, qui influencera le sculpteur. L\u2019artiste flirte du c\u00f4t\u00e9
-        du cubisme, adoucit ses lignes. Personnage majeur de notre art moderne, Ossip
-        Zadkine est c\u00e9l\u00e9br\u00e9 dans un mus\u00e9e \u00e0 son nom, \u00e0
-        Paris. C\u2019est l\u00e0 que l\u2019on peut voir \u00ab T\u00eate aux yeux
-        de plomb \u00bb.<\/p>\r\n<p>\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Orange Expo
-        Mus\u00e9es vous dit tout ce que vous devez savoir sur les grandes \u0153uvres
-        des mus\u00e9es fran\u00e7ais !<\/p>\r\n<p>\u00a0<\/p>","images":["news-5411a4403b731.jpg"],"categories":[{"name":"\u00e0
+      string: '{"type":"news","id":706,"url":"http:\/\/expomusees.orange.com\/actu-706\/saint-louis-regne-sur-2014-en-4-expositions-","name":"Saint
+        Louis r\u00e8gne sur 2014 en 4 expositions ","title":"Les expositions qui
+        font de l''ann\u00e9e 2014 celle du grand roi Saint Louis","video":"","content":"<p>On
+        dit bonjour \u00e0 notre illustre anc\u00eatre Saint Louis pour son 800\u00e8me
+        anniversaire<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Je nais il y a 800 ans, Grand p\u00e8re
+        de Philippe Le Bel on me connait plut\u00f4t sous le nom de Saint Louis. Mon
+        av\u00e8nement \u00e0 l\u2019\u00e2ge de 12 ans marque le d\u00e9but d\u2019un
+        r\u00e8gne glorieux qui am\u00e8nera \u00e0 ma canonisation. Je dirige deux
+        grandes croisades en 1248 et 1258 et \u00e9tends l\u2019autorit\u00e9 royale
+        sur un Royaume de France encore divis\u00e9. Amoureux des arts et fervent
+        chr\u00e9tien Je suis, je suis ? ... Je suis Louis IX !<\/p>\r\n<p>Il y a
+        800 ans naissait un homme qui changea le cours de notre histoire. Le grand-p\u00e8re
+        de Philippe Le Bel, le roi Louis IX, est rest\u00e9 dans la post\u00e9rit\u00e9
+        sous le nom de Saint Louis. L\u2019ombre et la lumi\u00e8re sont faitse par
+        le Centre des Monuments nationaux sur ce destin canonis\u00e9 qui fit beaucoup
+        de la France d\u2019aujourd\u2019hui. Saint Louis en 4 expositions :<\/p>\r\n<p>Saint
+        Louis, destin crois\u00e9. Saint Louis commanda deux croisades. Son compagnon
+        et biographe Jean de Joinville a laiss\u00e9 les r\u00e9cits des voyages outre-mer
+        du roi. C\u2019est depuis la ville d\u2019Aigues-Mortes, fond\u00e9e pour
+        l\u2019occasion, que les embarquements se font pour les croisades. Dans les
+        tours de la ville, on pourra donc connaitre un Saint Louis aventurier et voyageur
+        avec l\u2019exposition \u00ab Saint Louis, l\u2019Occident et l\u2019Orient
+        \u00bb.\u00a0<\/p>\r\n<p>Saint Louis, le roi de c\u0153ur. Si Saint Louis
+        dirige des croisades, c\u2019est avant tout car il est pieux. Au ch\u00e2teau
+        de Castelnau-Bretenoux on peut d\u00e9couvrir une exposition qui retrace sa
+        vie d\u2019homme de foi : \u00ab Sur les pas de Saint Louis en Quercy. P\u00e8lerinage
+        et reliques \u00bb.\u00a0<\/p>\r\n<p>Saint Louis, roi \u00e9clair\u00e9. Il
+        n\u2019est certes pas le \u00ab Roi soleil \u00bb et pourtant, Saint Louis
+        est un fervent d\u00e9fenseur des arts et de la culture. La Basilique Saint
+        Denis, l\u00e0 o\u00f9 il est enterr\u00e9, sera le terrain de jeux de l\u2019artiste
+        fran\u00e7aise Nathalie Junod-Ponsard pour son \u0153uvre \u00ab Saint Louis,
+        le roi de Saint Denis \u00bb. Une installation lumineuse qui met en lumi\u00e8re
+        les tombeaux sculpt\u00e9s command\u00e9s par le roi.<\/p>\r\n<p>Saint Louis,
+        roi de France. Le royaume de France consolid\u00e9, Saint Louis a laiss\u00e9
+        dans la m\u00e9moire collective hexagonale les traces d\u2019un roi empreint
+        de charit\u00e9, de lettres et de noblesse. La Conciergerie portera un regard
+        neuf sur Louis IX \u00e0 travers plus d\u2019une centaine d\u2019\u0153uvres
+        venues d\u2019un peu partout.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Le roi est
+        mort, vive le roi !<\/p>\r\n<p><br \/>Laura Giacherio<\/p>","images":["news-542a76c3306df.PNG"],"categories":[{"name":"\u00e0
         la decouverte de...","id":18}],"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 16:35:26 GMT
+  recorded_at: Wed, 01 Oct 2014 11:30:07 GMT
 recorded_with: VCR 2.9.3

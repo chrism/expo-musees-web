@@ -6,21 +6,27 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 16:35:27 GMT
+      - Wed, 01 Oct 2014 11:30:11 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=0fvbefp04bndptn480lgmasi73; path=/
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=rc3r6png19vp18j2dlekc4s5c1; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -41,5 +47,5 @@ http_interactions:
         la gare au mus\u00e9e","name":"Mus\u00e9e d''Orsay","address":"62, Rue de
         Lille","city":"Paris 07","zipCode":"75007","rating":5,"imageUrl":"museum-507c740df0203.jpg"}],"offset":0,"count":3,"totalCount":2808,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 16:35:29 GMT
+  recorded_at: Wed, 01 Oct 2014 11:30:10 GMT
 recorded_with: VCR 2.9.3

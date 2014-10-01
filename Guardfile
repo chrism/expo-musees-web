@@ -36,14 +36,14 @@ end
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
-group :livereload do
-guard 'livereload' do
-  watch(%r{app/views/.+\.(erb|haml|slim)$})
-  watch(%r{app/assets/.+\.(scss)$})
-  watch(%r{app/helpers/.+\.rb})
-  watch(%r{public/.+\.(css|js|html)})
-  watch(%r{config/locales/.+\.yml})
-  # Rails Assets Pipeline
-  watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|js|html|png|jpg))).*}) { |m| "/assets/#{m[3]}" }
-end
-end
+# group :livereload do
+#   guard 'livereload' do
+#     watch(%r{app/views/.+\.(erb|haml|slim)$})
+#     watch(%r{app/assets/.+\.(scss)$})
+#     watch(%r{app/helpers/.+\.rb})
+#     watch(%r{public/.+\.(css|js|html)})
+#     watch(%r{config/locales/.+\.yml})
+#     # Rails Assets Pipeline
+#     watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|js|html|png|jpg))).*}) { |m| "/assets/#{m[3]}" }
+#   end
+# end

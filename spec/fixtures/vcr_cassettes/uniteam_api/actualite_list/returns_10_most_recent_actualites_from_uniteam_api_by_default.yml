@@ -2,25 +2,31 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=news
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?type=news
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 16:35:27 GMT
+      - Wed, 01 Oct 2014 10:58:25 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=6llu01mreo6qi1corgbipchkm6; path=/
+      - PHPSESSID=1ekr2uhec44vb4rbrd6ahi5860; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -28,15 +34,20 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1760'
+      - '3439'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":705,"name":"VIDEO I \"
-        Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux yeux
-        de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
-        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410948266},{"type":"news","id":699,"name":"Le
+      string: '{"keyword":null,"pois":[{"type":"news","id":706,"name":"Saint Louis
+        r\u00e8gne sur 2014 en 4 expositions ","imageUrl":"news-542a76c3306df.PNG","date":1412070069},{"type":"news","id":701,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 6 :  \u00ab Murs de peintures
+        \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
+        pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358},{"type":"news","id":703,"name":"Les
+        Borgia, une famille en or","imageUrl":"news-5411a94370eff.jpg","date":1411458065},{"type":"news","id":705,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
+        yeux de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410947965},{"type":"news","id":699,"name":"Le
         Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
         la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
         quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
@@ -45,9 +56,74 @@ http_interactions:
         voit qui pendant la Paris Design Week ?","imageUrl":"news-5408316b5c99d.jpg","date":1409823263},{"type":"news","id":694,"name":"VIDEO
         I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb
         De Toulouse Lautrec","imageUrl":"news-5406d5cba2b3f.jpg","date":1409734091},{"type":"news","id":693,"name":"Votre
-        automne culturel : ce qu\u2019il faut savoir","imageUrl":"news-540589fc426a7.jpg","date":1409649148},{"type":"news","id":692,"name":"VIDEO
+        automne culturel : ce qu\u2019il faut savoir","imageUrl":"news-540589fc426a7.jpg","date":1409670713},{"type":"news","id":692,"name":"VIDEO
         II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
-        l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":0,"count":10,"totalCount":662,"error":0}'
+        l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607},{"type":"news","id":691,"name":"Dessine-moi
+        la guerre","imageUrl":"news-53fd9840be47a.jpg","date":1409131555},{"type":"news","id":690,"name":"La
+        rentr\u00e9e dans les mus\u00e9es en trois le\u00e7ons","imageUrl":"news-53fc3e4685949.png","date":1409039942},{"type":"news","id":689,"name":"Le
+        retour de l\u2019 \u00ab art sur commande \u00bb ou comment trois Fran\u00e7ais
+        comptent r\u00e9volutionner le march\u00e9 de l\u2019art contemporain avec
+        MyArtMakers","imageUrl":"news-53f6ff5e278d3.jpg","date":1408696335},{"type":"news","id":688,"name":"Quand
+        est-ce qu\u2019on arrive ? Les mus\u00e9es de Paris \u00e0 Marseille attendent
+        les enfants cet \u00e9t\u00e9","imageUrl":"news-53f5bf62beefb.JPG","date":1408614242},{"type":"news","id":687,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 1 : Raoul Duffy \"Le yacht
+        pavois\u00e9\"","imageUrl":"news-53f4653560ed2.jpg","date":1408526525},{"type":"news","id":686,"name":"Wang
+        Luyan : l\u2019artiste chinois que vous devez conna\u00eetre","imageUrl":"news-53f310b4d8e45.jpg","date":1408439169}],"offset":0,"count":20,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 16:35:28 GMT
+  recorded_at: Wed, 01 Oct 2014 10:58:25 GMT
+- request:
+    method: get
+    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 01 Oct 2014 11:30:10 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3-7+squeeze18
+      Set-Cookie:
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=eg8ica3crbhpiqr59rd3gaasb3; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1729'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"keyword":null,"pois":[{"type":"news","id":706,"name":"Saint Louis
+        r\u00e8gne sur 2014 en 4 expositions ","imageUrl":"news-542a76c3306df.PNG","date":1412070069},{"type":"news","id":701,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 6 :  \u00ab Murs de peintures
+        \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
+        pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358},{"type":"news","id":703,"name":"Les
+        Borgia, une famille en or","imageUrl":"news-5411a94370eff.jpg","date":1411458065},{"type":"news","id":705,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
+        yeux de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410947965},{"type":"news","id":699,"name":"Le
+        Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
+        la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
+        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
+        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":0,"count":10,"totalCount":665,"error":0}'
+    http_version: 
+  recorded_at: Wed, 01 Oct 2014 11:30:10 GMT
 recorded_with: VCR 2.9.3

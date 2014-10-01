@@ -6,21 +6,27 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 16:35:25 GMT
+      - Wed, 01 Oct 2014 11:30:08 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=kd788258hu7oi5ng2g0v37omb3; path=/
+      - PHPSESSID=d1io8p6qnckauir08dd64jrg62; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -28,49 +34,54 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1760'
+      - '1729'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":705,"name":"VIDEO I \"
-        Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux yeux
-        de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
-        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410948266},{"type":"news","id":699,"name":"Le
+      string: '{"keyword":null,"pois":[{"type":"news","id":706,"name":"Saint Louis
+        r\u00e8gne sur 2014 en 4 expositions ","imageUrl":"news-542a76c3306df.PNG","date":1412070069},{"type":"news","id":701,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 6 :  \u00ab Murs de peintures
+        \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
+        pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358},{"type":"news","id":703,"name":"Les
+        Borgia, une famille en or","imageUrl":"news-5411a94370eff.jpg","date":1411458065},{"type":"news","id":705,"name":"VIDEO
+        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
+        yeux de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
+        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410947965},{"type":"news","id":699,"name":"Le
         Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
         la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
         quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
         I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
-        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996},{"type":"news","id":695,"name":"On
-        voit qui pendant la Paris Design Week ?","imageUrl":"news-5408316b5c99d.jpg","date":1409823263},{"type":"news","id":694,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 3 : \u00ab Ad\u00e8le \u00bb
-        De Toulouse Lautrec","imageUrl":"news-5406d5cba2b3f.jpg","date":1409734091},{"type":"news","id":693,"name":"Votre
-        automne culturel : ce qu\u2019il faut savoir","imageUrl":"news-540589fc426a7.jpg","date":1409649148},{"type":"news","id":692,"name":"VIDEO
-        II \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 2 : Camille Claudel \u00ab
-        l\u2019\u00e2ge mur \u00bb","imageUrl":"news-53fef0115bafa.jpg","date":1409229607}],"offset":0,"count":10,"totalCount":662,"error":0}'
+        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":0,"count":10,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 16:35:26 GMT
+  recorded_at: Wed, 01 Oct 2014 11:30:07 GMT
 - request:
     method: get
     uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=20&type=news
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 18 Sep 2014 16:35:25 GMT
+      - Wed, 01 Oct 2014 11:30:08 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=qmpgu3sm92btq8oh3vmc8lopu5; path=/
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=bunbcr8h7gcvo7fh7p5b4ef5l1; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -78,23 +89,25 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1671'
+      - '1735'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":681,"name":"Votre \u00ab
-        to d\u2019ao\u00fbt \u00bb des expositions de l''\u00e9t\u00e9","imageUrl":"news-53e23d84e33a4.JPG","date":1407419864},{"type":"news","id":680,"name":"Marie-Paule
+      string: '{"keyword":null,"pois":[{"type":"news","id":685,"name":"VIDEO I \"
+        Question d''art \" \u00e9pisode 6: Le Mus\u00e9e des Beaux-arts de Lyon ","imageUrl":"news-53ec7a6b7acf2.jpg","date":1408006763},{"type":"news","id":684,"name":"Trois
+        raisons de se rendre \u00e0 l\u2019\u00e9dition 2014 des rencontres d''Arles
+        ","imageUrl":"news-53eb2b125bd5e.jpg","date":1407921154},{"type":"news","id":683,"name":"Toc
+        toc! La culture pour tous derri\u00e8re les Portes du Temps","imageUrl":"news-53e9edbd9d318.JPG","date":1407854136},{"type":"news","id":682,"name":"Confessions
+        d\u2019un \"museogeek\" : interview du bloggeur Antoine Vitek, fondateur de
+        \u00ab Culturez-vous \u00bb","imageUrl":"news-53e493cfb957d.jpg","date":1407492684},{"type":"news","id":681,"name":"Votre
+        \u00ab to d\u2019ao\u00fbt \u00bb des expositions de l''\u00e9t\u00e9","imageUrl":"news-53e23d84e33a4.JPG","date":1407419864},{"type":"news","id":680,"name":"Marie-Paule
         N\u00e8gre nous ouvre des yeux nouveaux \u00e0 la Maison Europ\u00e9enne de
         la Photographie","imageUrl":"news-53e100dc0b1e2.jpg","date":1407317210},{"type":"news","id":679,"name":"VIDEO
         I \" Question d''art \" \u00e9pisode 5 : le MuCEM \u00e0 Marseille","imageUrl":"news-53dfad36c1da5.JPG","date":1407226928},{"type":"news","id":678,"name":"
         O\u00f9 voir des dinosaures cet \u00e9t\u00e9 ?","imageUrl":"news-53db588010fa4.JPG","date":1406911168},{"type":"news","id":677,"name":"VIDEO
         I \" Question d''art \" \u00e9pisode 4 : le Mac Val \u00e0 Vitry-sur-Seine","imageUrl":"news-53d9179c22ca1.JPG","date":1406799334},{"type":"news","id":676,"name":"Daniel
-        Buren fait l\u2019enfant au MAMC de Strasbourg","imageUrl":"news-53d7ba27e00ee.jpg","date":1406651998},{"type":"news","id":675,"name":"Le
-        Voyage \u00e0 Nantes revient en 2014 !  ","imageUrl":"news-53d615cdd6e27.jpg","date":1406539351},{"type":"news","id":674,"name":"VIDEO
-        I \" Question d''art \" \u00e9pisode 3 : le mus\u00e9e Fabre de Montpellier","imageUrl":"news-53d0e144ca436.JPG","date":1406198084},{"type":"news","id":673,"name":"Le
-        tatou jette l\u2019\u00ab encre \u00bb dans les mus\u00e9es fran\u00e7ais","imageUrl":"news-53ce7ac364a7d.jpg","date":1406108438},{"type":"news","id":672,"name":"Exposition
-        Marcel Duchamp : Celui qui a tu\u00e9 la peinture \u00e9tait peintre","imageUrl":"news-53ce63d039d8b.JPG","date":1406023128}],"offset":20,"count":10,"totalCount":662,"error":0}'
+        Buren fait l\u2019enfant au MAMC de Strasbourg","imageUrl":"news-53d7ba27e00ee.jpg","date":1406651998}],"offset":20,"count":10,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Thu, 18 Sep 2014 16:35:26 GMT
+  recorded_at: Wed, 01 Oct 2014 11:30:08 GMT
 recorded_with: VCR 2.9.3
