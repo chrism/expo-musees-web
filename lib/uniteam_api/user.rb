@@ -11,20 +11,29 @@ module UniteamAPI
       response = @uniteam_api['logUser'].get(:params => {:email => email, :password => password})
       parsed_response = JSON.parse(response.body)
       if parsed_response["error"] == 0
-        # retrieve the cookie info from Uniteam
+        # successful retrieve the cookie info from Uniteam
         response.cookies
       else
-        # Need to handle errors here better
-        nil
+        raise ExpoMusees::AuthenticationError, "There was a problem signing in"
+      end
+    end
+
+    def self.log_out(session_hash)
+      response = @uniteam_api['logoutUser'].get(:cookies => session_hash)
+      parsed_response = JSON.parse(response.body)
+      if parsed_response["error"] == 0
+        # successful log out
+        true
+      else
+        raise ExpoMusees::AuthenticationError, "There was a problem signing out"
       end
     end
 
     def self.get_user(session_hash)
       response = @uniteam_api['getUser'].get(:cookies => session_hash)
       user = JSON.parse(response.body)["user"]
-      puts "from api... #{user["lastname"]}"
       if (user)
-        user = {
+        {
           firstname: user["firstname"],
           lastname: user["lastname"],
           uniteam_id: user["id"],
@@ -41,8 +50,9 @@ module UniteamAPI
           last_login_date: user["lastLoginDate"],
           status: user["status"]
         }
+      else
+        nil
       end
-      user
     end
   end
 end

@@ -13,6 +13,7 @@ class Actualite < ActiveRecord::Base
   def self.recent(count = 3)
     actualites = UniteamAPI::Actualite.recent(count)
     total_count  = actualites[:total_count]
+    # debugger
     items = actualites[:items].collect do |actualite|
       new actualite
     end

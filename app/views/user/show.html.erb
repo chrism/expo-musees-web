@@ -1,1 +1,19 @@
-<h1><%= current_user.lastname %></h1>
+<h1><%= @current_user.name %></h1>
+
+<p>Firstname: <%= @current_user.firstname %></p>
+<p>Lastname: <%= @current_user.lastname %></p>
+<p>Email: <%= @current_user.email %></p>
+
+<p>Preferences</p>
+<ul class="preferences-list">
+<% @preferences.each do |preference| %>
+  <li>
+    <%= check_box_tag preference[:short], preference[:short], (JSON.parse(@current_user.preference).include? preference[:short]) %>
+    <%= label_tag preference[:short], preference[:full] %>
+  </li>
+<% end %>
+
+<p>preferences: <%= JSON.parse(@current_user.preference).each {|preference| preference }  %></p>
+</ul>
+
+  

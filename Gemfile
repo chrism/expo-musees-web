@@ -42,6 +42,7 @@ group :development do
   gem 'spring-commands-rspec', '~> 1.0.2'
   gem 'guard-rspec', '~> 4.3.1', require: false
   gem 'guard-livereload', '~> 2.3.0', require: false
+  gem 'quiet_assets', '~> 1.0.3'
 end
 
 # TESTING
