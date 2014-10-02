@@ -19,14 +19,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:07 GMT
+      - Wed, 01 Oct 2014 19:57:48 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=4s9kh4k61ehriooq2ga70qmdb7; path=/
+      - OPDM1PROD=w1; path=/
+      - PHPSESSID=vt3qj9pnustfs0224lbni58ku4; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -54,5 +54,5 @@ http_interactions:
         I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
         \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":0,"count":10,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:06 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:48 GMT
 recorded_with: VCR 2.9.3

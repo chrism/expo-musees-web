@@ -19,14 +19,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:08 GMT
+      - Wed, 01 Oct 2014 19:57:49 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=d1io8p6qnckauir08dd64jrg62; path=/
+      - PHPSESSID=1386h7h0a4nhhvsiluhr8kob11; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -54,7 +54,7 @@ http_interactions:
         I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
         \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":0,"count":10,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:07 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:49 GMT
 - request:
     method: get
     uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=20&type=news
@@ -74,14 +74,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:08 GMT
+      - Wed, 01 Oct 2014 19:57:49 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=bunbcr8h7gcvo7fh7p5b4ef5l1; path=/
+      - PHPSESSID=a3ortnt6e8lejjirhjgh527ko1; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -109,5 +109,5 @@ http_interactions:
         I \" Question d''art \" \u00e9pisode 4 : le Mac Val \u00e0 Vitry-sur-Seine","imageUrl":"news-53d9179c22ca1.JPG","date":1406799334},{"type":"news","id":676,"name":"Daniel
         Buren fait l\u2019enfant au MAMC de Strasbourg","imageUrl":"news-53d7ba27e00ee.jpg","date":1406651998}],"offset":20,"count":10,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:08 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:49 GMT
 recorded_with: VCR 2.9.3

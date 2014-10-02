@@ -19,14 +19,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:09 GMT
+      - Wed, 01 Oct 2014 19:57:50 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=76dcsqshna0kgjim1jqcf4ar67; path=/
+      - PHPSESSID=ka4tdk3tbr8rimfdi99hdq7af2; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -60,7 +60,7 @@ http_interactions:
         centre d''exposition...","name":"Mus\u00e9e du Luxembourg - Orangerie du S\u00e9nat","address":"19,
         Rue Vaugirard","city":"Paris 06","zipCode":"75006","rating":3,"imageUrl":"museum-507c78ac84be1.jpg"}],"offset":0,"count":10,"totalCount":2808,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:09 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:50 GMT
 - request:
     method: get
     uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=20&type=museum
@@ -80,14 +80,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:10 GMT
+      - Wed, 01 Oct 2014 19:57:50 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=rcq6ila04kfvr0081sm82j1cp5; path=/
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=h1g2clm4dkq0dlrf32kg1nn0g3; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -107,11 +107,11 @@ http_interactions:
         au pied de la Madeleine\u2026","name":"Pinacoth\u00e8que","address":"28 Place
         de la Madeleine","city":"Paris 08","zipCode":"75008","rating":5,"imageUrl":"museum-504f3e96d8c29.JPG"},{"type":"museum","id":1434,"latitude":50.693001491485,"longitude":3.1678400295046,"shortSummary":"L''art
         dans le grand bain","name":"La Piscine - Mus\u00e9e d''Art et d''Industrie
-        de Roubaix Andr\u00e9 Diligent","address":"23 Rue de l''Esp\u00e9rance","city":"Roubaix","zipCode":"59100","rating":4,"imageUrl":"museum-50a122d653502.JPG"},{"type":"museum","id":1938,"latitude":48.864399341227,"longitude":2.324639942975,"shortSummary":"Des
-        orangers aux \u0153uvres d''arts","name":"Mus\u00e9e National de l''Orangerie","address":"Jardin
-        des Tuileries","city":"Paris 01","zipCode":"75001","rating":0,"imageUrl":"museum-51e94b06afaed.jpg"},{"type":"museum","id":1762,"latitude":45.767099797923,"longitude":4.8335600973043,"shortSummary":"Le
+        de Roubaix Andr\u00e9 Diligent","address":"23 Rue de l''Esp\u00e9rance","city":"Roubaix","zipCode":"59100","rating":4,"imageUrl":"museum-50a122d653502.JPG"},{"type":"museum","id":1762,"latitude":45.767099797923,"longitude":4.8335600973043,"shortSummary":"Le
         deuxi\u00e8me mus\u00e9e de France","name":"Mus\u00e9e des Beaux-Arts de Lyon","address":"20,
-        Place des Terreaux","city":"Lyon 01","zipCode":"69001","rating":4,"imageUrl":"28368\/532341_300x.jpg"},{"type":"museum","id":1993,"latitude":48.856001623643,"longitude":2.3154599552871,"shortSummary":"Rodin,
+        Place des Terreaux","city":"Lyon 01","zipCode":"69001","rating":4,"imageUrl":"28368\/532341_300x.jpg"},{"type":"museum","id":1938,"latitude":48.864399341227,"longitude":2.324639942975,"shortSummary":"Des
+        orangers aux \u0153uvres d''arts","name":"Mus\u00e9e National de l''Orangerie","address":"Jardin
+        des Tuileries","city":"Paris 01","zipCode":"75001","rating":0,"imageUrl":"museum-51e94b06afaed.jpg"},{"type":"museum","id":1993,"latitude":48.856001623643,"longitude":2.3154599552871,"shortSummary":"Rodin,
         sa vie son \u0153uvre","name":"Mus\u00e9e Rodin","address":"79 Rue De varenne","city":"Paris
         07","zipCode":"75007","rating":4,"imageUrl":"museum-5055cf2cb1d0a.jpg"},{"type":"museum","id":2006,"latitude":48.875098832562,"longitude":2.3108600363245,"shortSummary":"Marbre,
         dorures, mobilier pr\u00e9cieux, et \u0153uvres d''art\u2026","name":"Mus\u00e9e
@@ -125,5 +125,5 @@ http_interactions:
         moderne Lille M\u00e9tropole - Villeneuve d''Ascq (LaM)","address":"1 All\u00e9e
         du Mus\u00e9e","city":"Villeneuve-d''Ascq","zipCode":"59650","rating":4,"imageUrl":"104300035\/292630_300x.jpg"}],"offset":20,"count":10,"totalCount":2808,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:09 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:50 GMT
 recorded_with: VCR 2.9.3

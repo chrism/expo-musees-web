@@ -19,14 +19,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:09 GMT
+      - Wed, 01 Oct 2014 19:57:50 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w2; path=/
-      - PHPSESSID=pf4rbah2sfqrhevu8vosd5sa76; path=/
+      - PHPSESSID=mnrtdia0plsejrjpiu7id2umt0; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -60,7 +60,7 @@ http_interactions:
         centre d''exposition...","name":"Mus\u00e9e du Luxembourg - Orangerie du S\u00e9nat","address":"19,
         Rue Vaugirard","city":"Paris 06","zipCode":"75006","rating":3,"imageUrl":"museum-507c78ac84be1.jpg"}],"offset":0,"count":10,"totalCount":2808,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:08 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:50 GMT
 - request:
     method: get
     uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=1554&type=museum
@@ -80,14 +80,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:09 GMT
+      - Wed, 01 Oct 2014 19:57:50 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=ktcgn61vtg8h7khqiujehvhb87; path=/
+      - OPDM1PROD=w2; path=/
+      - PHPSESSID=sqbqu15h97ivk78mlf3l7t2nm0; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -119,5 +119,5 @@ http_interactions:
         d''histoire et civilisation","id":1},{"name":"mus\u00e9e des m\u00e9tiers
         et techniques","id":3},{"name":"mus\u00e9e de la mode et du textile","id":16}],"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:09 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:50 GMT
 recorded_with: VCR 2.9.3

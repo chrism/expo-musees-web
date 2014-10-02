@@ -19,14 +19,14 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 11:30:08 GMT
+      - Wed, 01 Oct 2014 19:57:49 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.3.3-7+squeeze18
       Set-Cookie:
       - OPDM1PROD=w1; path=/
-      - PHPSESSID=2tnccfg1jma151ng4haggsr2r7; path=/
+      - PHPSESSID=mbo40pag60acduhnrjo7q7j7a5; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,5 +45,5 @@ http_interactions:
         \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
         pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358}],"offset":0,"count":3,"totalCount":665,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 11:30:08 GMT
+  recorded_at: Wed, 01 Oct 2014 19:57:49 GMT
 recorded_with: VCR 2.9.3

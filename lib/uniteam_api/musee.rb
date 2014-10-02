@@ -2,7 +2,7 @@ module UniteamAPI
   class Musee
     require 'rest_client'
     @uniteam_api = RestClient::Resource.new(
-      'http://expomusees.orange.com/api/',
+      ENV['UNITEAM_API_URL'],
       :user => ENV['UNITEAM_API_USERNAME'],
       :password => ENV['UNITEAM_API_PASSWORD']
     )
