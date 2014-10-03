@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @list_actualites = Actualite.find(100)
-    debugger
+    @recent_actualites = Actualite.recent(3)
   end
 end
