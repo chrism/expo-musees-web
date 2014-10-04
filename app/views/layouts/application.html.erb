@@ -11,11 +11,11 @@
   <%= content_tag :div, msg, :id => "flash_#{name}" %>
 <% end %>
 
-<% if current_user %>
-  Logged in as <%= current_user.name %>
+<% if signed_in? %>
+  Logged in as <%= current_username %>
   <%= link_to "Sign out", se_deconnecter_path %>
 <% else %>
-  <%= link_to "Sign in", se_connecter_path %>
+  <%= link_to "Sign in", se_connecter_path %> | <%= link_to "Sign up", inscription_path %>
 <% end %>
 
 <%= yield %>

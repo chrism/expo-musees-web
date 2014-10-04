@@ -12,9 +12,22 @@ module UniteamAPI
       parsed_response = JSON.parse(response.body)
       if parsed_response["error"] == 0
         # successful retrieve the cookie info from Uniteam
+        Rails.logger.info "cookies returned are #{response.cookies}"
         response.cookies
+
       else
         raise ExpoMusees::AuthenticationError, "There was a problem signing in"
+      end
+    end
+
+    def self.add_user(firstname, lastname, email, password)
+      response = @uniteam_api['addUser'].get(:params => {:firstname => firstname, :lastname => lastname, :email => email, :password => password})
+      parsed_response = JSON.parse(response.body)
+      if parsed_response["error"] == 0
+        # successful retrieve the cookie info from Uniteam
+        response.cookies
+      else
+        raise ExpoMusees::AuthenticationError, "There was a problem signing up"
       end
     end
 

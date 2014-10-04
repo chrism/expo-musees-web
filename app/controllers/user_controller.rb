@@ -1,4 +1,18 @@
 class UserController < ApplicationController
+  def new
+  end
+  
+  def create
+    user_hash = User.add_user(params[:firstname], params[:lastname], params[:email], params[:password])
+    if user_hash
+      session[:user_hash] = user_hash
+      redirect_to root_url, :notice => "Thank you for signing up!"
+    else
+      flash.now.alert = "Could not sign up"
+      render "new"
+    end
+  end
+
   def show
     @user = current_user
     @preferences = [

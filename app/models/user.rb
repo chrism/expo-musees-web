@@ -1,8 +1,7 @@
 class User < ActiveRecord::Base
   attr_accessor :firstname, :lastname, :uniteam_id, :email, :id_facebook, :id_city, :preference, :accept_info, :phone, :office, :create_date, :id_type, :last_update_date, :last_login_date, :status
 
-
-  def initialize(attributes)
+  def initialize(attributes = {})
     self.firstname = attributes[:firstname]
     self.lastname = attributes[:lastname]
     self.uniteam_id = attributes[:id],
@@ -29,9 +28,25 @@ class User < ActiveRecord::Base
     end
   end
 
+  def self.add_user(firstname, lastname, email, password)
+    session_hash = UniteamAPI::User.add_user(firstname, lastname, email, password)
+    if session_hash
+      session_hash
+    else
+      raise ExpoMusees::AuthenticationError, "There was a problem signing in"
+    end
+  end
+
   def self.get_user(session_hash)
     user = UniteamAPI::User.get_user(session_hash)
     new user
+  end
+
+  def self.get_username(session_hash)
+    user = UniteamAPI::User.get_user(session_hash)
+    unless (user.nil?)
+      [user[:firstname], user[:lastname]].map(&:capitalize).join(" ")
+    end
   end
 
   def self.destroy(session_hash)
@@ -41,4 +56,5 @@ class User < ActiveRecord::Base
   def name
     [firstname, lastname].map(&:capitalize).join(" ")
   end
+
 end

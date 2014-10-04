@@ -1,0 +1,21 @@
+<h1>Sign up</h1>
+
+<%= form_tag user_index_path do %>
+  <p>
+    <%= label_tag :firstname %>
+    <%= text_field_tag :firstname, params[:firstname] %>
+  </p>
+  <p>
+    <%= label_tag :lastname %>
+    <%= text_field_tag :lastname, params[:lastname] %>
+  </p>
+  <p>
+    <%= label_tag :email %>
+    <%= text_field_tag :email, params[:email] %>
+  </p>
+  <p>
+    <%= label_tag :password %>
+    <%= password_field_tag :password, params[:password] %>
+  </p>
+  <%= submit_tag "Sign up" %>
+<% end %>
