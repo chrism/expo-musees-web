@@ -11,12 +11,11 @@ module UniteamAPI
       response = @uniteam_api['logUser'].get(:params => {:email => email, :password => password})
       parsed_response = JSON.parse(response.body)
       if parsed_response["error"] == 0
-        # successful retrieve the cookie info from Uniteam
-        Rails.logger.info "cookies returned are #{response.cookies}"
         response.cookies
-
       else
-        raise ExpoMusees::AuthenticationError, "There was a problem signing in"
+        nil
+        # TODO: Handle errors better
+        #raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing in"
       end
     end
 
@@ -24,10 +23,11 @@ module UniteamAPI
       response = @uniteam_api['addUser'].get(:params => {:firstname => firstname, :lastname => lastname, :email => email, :password => password})
       parsed_response = JSON.parse(response.body)
       if parsed_response["error"] == 0
-        # successful retrieve the cookie info from Uniteam
         response.cookies
       else
-        raise ExpoMusees::AuthenticationError, "There was a problem signing up"
+        nil
+        # TODO: Handle errors better
+        #raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing up"
       end
     end
 
@@ -35,10 +35,10 @@ module UniteamAPI
       response = @uniteam_api['logoutUser'].get(:cookies => session_hash)
       parsed_response = JSON.parse(response.body)
       if parsed_response["error"] == 0
-        # successful log out
         true
       else
-        raise ExpoMusees::AuthenticationError, "There was a problem signing out"
+        nil
+        #raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing out"
       end
     end
 

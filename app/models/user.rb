@@ -21,19 +21,19 @@ class User < ActiveRecord::Base
 
   def self.authenticate(email, password)
     session_hash = UniteamAPI::User.authenticate(email, password)
-    if session_hash
-      session_hash
+    if session_hash.nil?
+      raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing in"
     else
-      raise ExpoMusees::AuthenticationError, "There was a problem signing in"
+      session_hash
     end
   end
 
   def self.add_user(firstname, lastname, email, password)
     session_hash = UniteamAPI::User.add_user(firstname, lastname, email, password)
-    if session_hash
-      session_hash
+    if session_hash.nil?
+      raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing up"
     else
-      raise ExpoMusees::AuthenticationError, "There was a problem signing in"
+      session_hash
     end
   end
 
@@ -52,7 +52,12 @@ class User < ActiveRecord::Base
   end
 
   def self.destroy(session_hash)
-    UniteamAPI::User.log_out(session_hash)
+    destroyed = UniteamAPI::User.log_out(session_hash)
+    if destroyed.nil?
+      raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing out"
+    else
+      true
+    end
   end
 
   def name
