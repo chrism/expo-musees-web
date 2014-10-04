@@ -39,7 +39,9 @@ class User < ActiveRecord::Base
 
   def self.get_user(session_hash)
     user = UniteamAPI::User.get_user(session_hash)
-    new user
+    unless (user.nil?)
+      new user
+    end
   end
 
   def self.get_username(session_hash)

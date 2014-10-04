@@ -14,7 +14,7 @@ class UserController < ApplicationController
   end
 
   def show
-    @user = current_user
+    @current_user = User.get_user(session[:user_hash]) if session[:user_hash]
     @preferences = [
       {:short => "art_obj", :full => "objets d'art et design"},
       {:short => "europ_antiq", :full => "antiquités européennes"},
@@ -37,5 +37,9 @@ class UserController < ApplicationController
       {:short => "life_art", :full => "art de vivre"},
       {:short => "contemp", :full => "art contemporain"}
     ]
+
+    if (@current_user.nil?)
+      redirect_to root_url, :notice => "You need to be signed in to access that page"
+    end
   end
 end

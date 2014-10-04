@@ -20,3 +20,19 @@
 @import "actualites";
 @import "musees";
 @import "user";
+
+#flash_notice {
+  @extend %flash-notice;
+}
+
+#flash_success {
+  @extend %flash-success;
+}
+
+#flash_alert {
+  @extend %flash-alert;
+}
+
+#flash_error {
+  @extend %flash-error;
+}
