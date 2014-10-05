@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=news
+    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=10&offset=0&type=news
     body:
       encoding: US-ASCII
       string: ''
@@ -19,14 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 19:57:48 GMT
+      - Sun, 05 Oct 2014 10:59:26 GMT
       Server:
-      - Apache
+      - Apache/2.2.16 (Debian)
       X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=1mc6382o0du4ga3js17j4el431; path=/
+      - PHP/5.3.2-2
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -34,30 +31,30 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1729'
+      - '1330'
       Content-Type:
       - application/json
+      Set-Cookie:
+      - PHPSESSID=t85be0j9avktml1vfq356lkc92; path=/
+      Via:
+      - 1.1 orangemusee.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":706,"name":"Saint Louis
-        r\u00e8gne sur 2014 en 4 expositions ","imageUrl":"news-542a76c3306df.PNG","date":1412070069},{"type":"news","id":701,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 6 :  \u00ab Murs de peintures
-        \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
-        pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358},{"type":"news","id":703,"name":"Les
-        Borgia, une famille en or","imageUrl":"news-5411a94370eff.jpg","date":1411458065},{"type":"news","id":705,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
-        yeux de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
-        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410947965},{"type":"news","id":699,"name":"Le
-        Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
-        la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
-        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
-        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":0,"count":10,"totalCount":665,"error":0}'
+      string: '{"keyword":null,"pois":[{"type":"news","id":16,"name":"VIDEO I Le roman","imageUrl":"news-52cd73a28836f.jpg","date":1389196459},{"type":"news","id":15,"name":"T\u00e9l\u00e9chargez
+        l''application Orange expo mus\u00e9es !","imageUrl":"news-5260ee5e42678.jpg","date":1382084190},{"type":"news","id":14,"name":"Toulouse,
+        capitale du Midi, de l\u2019Antiquit\u00e9 \u00e0 l\u2019a\u00e9ronautique","imageUrl":"","date":1370352495},{"type":"news","id":12,"name":"\"This
+        is the voice\"","imageUrl":"news-512c8b3510d4d.jpg","date":1362323471},{"type":"news","id":3,"name":"le
+        Grand Versailles num\u00e9rique","imageUrl":"news-504602e63dd1e.jpg","date":1348823795},{"type":"news","id":7,"name":"Babel,
+        le mythe vu par les contemporains","imageUrl":"news-5061ae283f9d2.jpg","date":1348492456},{"type":"news","id":8,"name":"Le
+        carnaval fait son come-back","imageUrl":"news-512c8b56e2cb7.JPG","date":1348238300},{"type":"news","id":4,"name":"A
+        la recherche du temps perdu","imageUrl":"news-504605eaf2110.jpg","date":1347456172},{"type":"news","id":1,"name":"Les
+        journ\u00e9es du patrimoine 2012","imageUrl":"news-50460e51561a5.jpg","date":1346677051},{"type":"news","id":5,"name":"Boh\u00e8mes,
+        une bande son par B\u00e9atrice Ardisson","imageUrl":"news-504607f4df207.jpg","date":1346509616}],"offset":0,"count":10,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 19:57:48 GMT
+  recorded_at: Sun, 05 Oct 2014 11:00:59 GMT
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=706&type=news
+    uri: http://username:password@orangemusee.uniteam.fr/api/getPOIDetails?id=16&type=news
     body:
       encoding: US-ASCII
       string: ''
@@ -74,14 +71,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 19:57:49 GMT
+      - Sun, 05 Oct 2014 10:59:26 GMT
       Server:
-      - Apache
+      - Apache/2.2.16 (Debian)
       X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=52dcgh3kf5lvkmg64ffafg3sj6; path=/
+      - PHP/5.3.2-2
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -89,51 +83,18 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '3205'
+      - '304'
       Content-Type:
       - application/json
+      Set-Cookie:
+      - PHPSESSID=t6clgvm3i00coq6aegdf9k6l44; path=/
+      Via:
+      - 1.1 orangemusee.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"type":"news","id":706,"url":"http:\/\/expomusees.orange.com\/actu-706\/saint-louis-regne-sur-2014-en-4-expositions-","name":"Saint
-        Louis r\u00e8gne sur 2014 en 4 expositions ","title":"Les expositions qui
-        font de l''ann\u00e9e 2014 celle du grand roi Saint Louis","video":"","content":"<p>On
-        dit bonjour \u00e0 notre illustre anc\u00eatre Saint Louis pour son 800\u00e8me
-        anniversaire<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Je nais il y a 800 ans, Grand p\u00e8re
-        de Philippe Le Bel on me connait plut\u00f4t sous le nom de Saint Louis. Mon
-        av\u00e8nement \u00e0 l\u2019\u00e2ge de 12 ans marque le d\u00e9but d\u2019un
-        r\u00e8gne glorieux qui am\u00e8nera \u00e0 ma canonisation. Je dirige deux
-        grandes croisades en 1248 et 1258 et \u00e9tends l\u2019autorit\u00e9 royale
-        sur un Royaume de France encore divis\u00e9. Amoureux des arts et fervent
-        chr\u00e9tien Je suis, je suis ? ... Je suis Louis IX !<\/p>\r\n<p>Il y a
-        800 ans naissait un homme qui changea le cours de notre histoire. Le grand-p\u00e8re
-        de Philippe Le Bel, le roi Louis IX, est rest\u00e9 dans la post\u00e9rit\u00e9
-        sous le nom de Saint Louis. L\u2019ombre et la lumi\u00e8re sont faitse par
-        le Centre des Monuments nationaux sur ce destin canonis\u00e9 qui fit beaucoup
-        de la France d\u2019aujourd\u2019hui. Saint Louis en 4 expositions :<\/p>\r\n<p>Saint
-        Louis, destin crois\u00e9. Saint Louis commanda deux croisades. Son compagnon
-        et biographe Jean de Joinville a laiss\u00e9 les r\u00e9cits des voyages outre-mer
-        du roi. C\u2019est depuis la ville d\u2019Aigues-Mortes, fond\u00e9e pour
-        l\u2019occasion, que les embarquements se font pour les croisades. Dans les
-        tours de la ville, on pourra donc connaitre un Saint Louis aventurier et voyageur
-        avec l\u2019exposition \u00ab Saint Louis, l\u2019Occident et l\u2019Orient
-        \u00bb.\u00a0<\/p>\r\n<p>Saint Louis, le roi de c\u0153ur. Si Saint Louis
-        dirige des croisades, c\u2019est avant tout car il est pieux. Au ch\u00e2teau
-        de Castelnau-Bretenoux on peut d\u00e9couvrir une exposition qui retrace sa
-        vie d\u2019homme de foi : \u00ab Sur les pas de Saint Louis en Quercy. P\u00e8lerinage
-        et reliques \u00bb.\u00a0<\/p>\r\n<p>Saint Louis, roi \u00e9clair\u00e9. Il
-        n\u2019est certes pas le \u00ab Roi soleil \u00bb et pourtant, Saint Louis
-        est un fervent d\u00e9fenseur des arts et de la culture. La Basilique Saint
-        Denis, l\u00e0 o\u00f9 il est enterr\u00e9, sera le terrain de jeux de l\u2019artiste
-        fran\u00e7aise Nathalie Junod-Ponsard pour son \u0153uvre \u00ab Saint Louis,
-        le roi de Saint Denis \u00bb. Une installation lumineuse qui met en lumi\u00e8re
-        les tombeaux sculpt\u00e9s command\u00e9s par le roi.<\/p>\r\n<p>Saint Louis,
-        roi de France. Le royaume de France consolid\u00e9, Saint Louis a laiss\u00e9
-        dans la m\u00e9moire collective hexagonale les traces d\u2019un roi empreint
-        de charit\u00e9, de lettres et de noblesse. La Conciergerie portera un regard
-        neuf sur Louis IX \u00e0 travers plus d\u2019une centaine d\u2019\u0153uvres
-        venues d\u2019un peu partout.\u00a0<\/p>\r\n<p>\u00a0<\/p>\r\n<p>Le roi est
-        mort, vive le roi !<\/p>\r\n<p><br \/>Laura Giacherio<\/p>","images":["news-542a76c3306df.PNG"],"categories":[{"name":"\u00e0
-        la decouverte de...","id":18}],"error":0}'
+      string: '{"type":"news","id":16,"url":"http:\/\/orangemusee.uniteam.fr\/actu-16\/video-i-le-roman","name":"VIDEO
+        I Le roman","title":"bande annonce","video":"x16v9kz","content":"<p>Pour tester
+        la vid\u00e9o<\/p>","images":["news-52cd73a28836f.jpg"],"categories":[{"name":"\u00e9v\u00e9nement","id":19}],"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 19:57:49 GMT
+  recorded_at: Sun, 05 Oct 2014 11:01:00 GMT
 recorded_with: VCR 2.9.3

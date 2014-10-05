@@ -10,11 +10,11 @@ RSpec.describe Actualite, :type => :model do
       end
       response = { :items => items }
       expect(UniteamAPI::Actualite).to receive(:recent).and_return(response)
-      @recent_actualites = Actualite.recent
+      @recent = Actualite.recent
     end
 
-    it 'returns recent actualites' do
-      expect(@recent_actualites[:items]).to have(3).items
+    it 'returns recent' do
+      expect(@recent[:items]).to have(3).items
     end
 
   end

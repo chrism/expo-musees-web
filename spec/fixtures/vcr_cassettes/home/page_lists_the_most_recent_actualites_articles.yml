@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=3&offset=0&type=news
+    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=3&offset=0&type=news
     body:
       encoding: US-ASCII
       string: ''
@@ -19,14 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 19:57:49 GMT
+      - Sun, 05 Oct 2014 10:59:29 GMT
       Server:
-      - Apache
+      - Apache/2.2.16 (Debian)
       X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=mbo40pag60acduhnrjo7q7j7a5; path=/
+      - PHP/5.3.2-2
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -34,16 +31,18 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '580'
+      - '475'
       Content-Type:
       - application/json
+      Set-Cookie:
+      - PHPSESSID=255ksi2qavr1qv4genl7833fv7; path=/
+      Via:
+      - 1.1 orangemusee.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":706,"name":"Saint Louis
-        r\u00e8gne sur 2014 en 4 expositions ","imageUrl":"news-542a76c3306df.PNG","date":1412070069},{"type":"news","id":701,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 6 :  \u00ab Murs de peintures
-        \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
-        pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358}],"offset":0,"count":3,"totalCount":665,"error":0}'
+      string: '{"keyword":null,"pois":[{"type":"news","id":16,"name":"VIDEO I Le roman","imageUrl":"news-52cd73a28836f.jpg","date":1389196459},{"type":"news","id":15,"name":"T\u00e9l\u00e9chargez
+        l''application Orange expo mus\u00e9es !","imageUrl":"news-5260ee5e42678.jpg","date":1382084190},{"type":"news","id":14,"name":"Toulouse,
+        capitale du Midi, de l\u2019Antiquit\u00e9 \u00e0 l\u2019a\u00e9ronautique","imageUrl":"","date":1370352495}],"offset":0,"count":3,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 19:57:49 GMT
+  recorded_at: Sun, 05 Oct 2014 11:01:03 GMT
 recorded_with: VCR 2.9.3

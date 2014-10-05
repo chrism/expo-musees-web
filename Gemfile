@@ -48,7 +48,7 @@ end
 # TESTING
 
 group :development, :test do
-  gem 'figaro', '~> 0.7.0'
+  gem 'figaro', '~> 1.0.0'
   gem 'rspec-rails', '~> 3.1.0'
   gem 'factory_girl_rails', '~> 4.4.1'
 end

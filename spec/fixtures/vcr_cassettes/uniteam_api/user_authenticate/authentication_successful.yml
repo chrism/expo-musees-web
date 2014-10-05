@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/logUser?email=emailaddress&password=password
+    uri: http://username:password@orangemusee.uniteam.fr/api/logUser?email=emailaddress&password=password
     body:
       encoding: US-ASCII
       string: ''
@@ -19,14 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 19:57:53 GMT
+      - Sun, 05 Oct 2014 10:59:47 GMT
       Server:
-      - Apache
+      - Apache/2.2.16 (Debian)
       X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=ov8t87130c5ngpc9pfepuamnl4; path=/
+      - PHP/5.3.2-2
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -37,9 +34,13 @@ http_interactions:
       - '11'
       Content-Type:
       - application/json
+      Set-Cookie:
+      - PHPSESSID=dk71af13832cvt413fiu14abt2; path=/
+      Via:
+      - 1.1 orangemusee.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 19:57:53 GMT
+  recorded_at: Sun, 05 Oct 2014 11:01:21 GMT
 recorded_with: VCR 2.9.3

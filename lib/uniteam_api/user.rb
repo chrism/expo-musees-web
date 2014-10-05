@@ -15,7 +15,6 @@ module UniteamAPI
       else
         nil
         # TODO: Handle errors better
-        #raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing in"
       end
     end
 
@@ -27,7 +26,6 @@ module UniteamAPI
       else
         nil
         # TODO: Handle errors better
-        #raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing up"
       end
     end
 
@@ -38,7 +36,6 @@ module UniteamAPI
         true
       else
         nil
-        #raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing out"
       end
     end
 

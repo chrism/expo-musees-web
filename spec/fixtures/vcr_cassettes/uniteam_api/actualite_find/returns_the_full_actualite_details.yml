@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getPOIDetails?id=1&type=news
+    uri: http://username:password@orangemusee.uniteam.fr/api/getPOIDetails?id=1&type=news
     body:
       encoding: US-ASCII
       string: ''
@@ -19,14 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 19:57:52 GMT
+      - Sun, 05 Oct 2014 10:59:42 GMT
       Server:
-      - Apache
+      - Apache/2.2.16 (Debian)
       X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=r5ourqfkrpn0firr2icpfqvf96; path=/
+      - PHP/5.3.2-2
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -34,12 +31,16 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '2089'
+      - '2090'
       Content-Type:
       - application/json
+      Set-Cookie:
+      - PHPSESSID=qcjnckpscpbtiiethoop0ic287; path=/
+      Via:
+      - 1.1 orangemusee.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"type":"news","id":1,"url":"http:\/\/expomusees.orange.com\/actu-1\/les-journees-du-patrimoine-2012","name":"Les
+      string: '{"type":"news","id":1,"url":"http:\/\/orangemusee.uniteam.fr\/actu-1\/les-journees-du-patrimoine-2012","name":"Les
         journ\u00e9es du patrimoine 2012","title":"A la d\u00e9couverte des tr\u00e9sors
         cach\u00e9s ...","video":"","content":"<p>Invitation &agrave; la curiosit&eacute;
         et &agrave; la d&eacute;couverte, la 29e &eacute;dition des Journ&eacute;es
@@ -66,5 +67,5 @@ http_interactions:
         sur : www.journeesdupatrimoine.culture.fr<\/p>","images":["news-50460e51561a5.jpg"],"categories":[{"name":"\u00e0
         la decouverte de...","id":18}],"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 19:57:52 GMT
+  recorded_at: Sun, 05 Oct 2014 11:01:16 GMT
 recorded_with: VCR 2.9.3

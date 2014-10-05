@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=10&offset=0&type=news
+    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=10&offset=0&type=news
     body:
       encoding: US-ASCII
       string: ''
@@ -19,14 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 19:57:51 GMT
+      - Sun, 05 Oct 2014 10:59:39 GMT
       Server:
-      - Apache
+      - Apache/2.2.16 (Debian)
       X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w1; path=/
-      - PHPSESSID=4l7uc7dkjrsvpddgq951vlijo0; path=/
+      - PHP/5.3.2-2
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -34,25 +31,25 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '1729'
+      - '1330'
       Content-Type:
       - application/json
+      Set-Cookie:
+      - PHPSESSID=pi9cn7jn1d34g70q6u32a1kdc6; path=/
+      Via:
+      - 1.1 orangemusee.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":706,"name":"Saint Louis
-        r\u00e8gne sur 2014 en 4 expositions ","imageUrl":"news-542a76c3306df.PNG","date":1412070069},{"type":"news","id":701,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 6 :  \u00ab Murs de peintures
-        \u00bb de Daniel Buren","imageUrl":"news-5411aa518e825.JPG","date":1411635954},{"type":"news","id":702,"name":"Et
-        pendant ce temps-l\u00e0\u2026 La France pendant la Grande Guerre, en 5 expositions","imageUrl":"news-5411ab553e2ce.jpg","date":1411546358},{"type":"news","id":703,"name":"Les
-        Borgia, une famille en or","imageUrl":"news-5411a94370eff.jpg","date":1411458065},{"type":"news","id":705,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 5 : la \u00ab T\u00eate aux
-        yeux de plomb \u00bb d\u2019Ossip Zadkine","imageUrl":"news-5411a4403b731.jpg","date":1410972640},{"type":"news","id":700,"name":"P\u00e9kin
-        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410947965},{"type":"news","id":699,"name":"Le
-        Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
-        la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
-        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
-        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":0,"count":10,"totalCount":665,"error":0}'
+      string: '{"keyword":null,"pois":[{"type":"news","id":16,"name":"VIDEO I Le roman","imageUrl":"news-52cd73a28836f.jpg","date":1389196459},{"type":"news","id":15,"name":"T\u00e9l\u00e9chargez
+        l''application Orange expo mus\u00e9es !","imageUrl":"news-5260ee5e42678.jpg","date":1382084190},{"type":"news","id":14,"name":"Toulouse,
+        capitale du Midi, de l\u2019Antiquit\u00e9 \u00e0 l\u2019a\u00e9ronautique","imageUrl":"","date":1370352495},{"type":"news","id":12,"name":"\"This
+        is the voice\"","imageUrl":"news-512c8b3510d4d.jpg","date":1362323471},{"type":"news","id":3,"name":"le
+        Grand Versailles num\u00e9rique","imageUrl":"news-504602e63dd1e.jpg","date":1348823795},{"type":"news","id":7,"name":"Babel,
+        le mythe vu par les contemporains","imageUrl":"news-5061ae283f9d2.jpg","date":1348492456},{"type":"news","id":8,"name":"Le
+        carnaval fait son come-back","imageUrl":"news-512c8b56e2cb7.JPG","date":1348238300},{"type":"news","id":4,"name":"A
+        la recherche du temps perdu","imageUrl":"news-504605eaf2110.jpg","date":1347456172},{"type":"news","id":1,"name":"Les
+        journ\u00e9es du patrimoine 2012","imageUrl":"news-50460e51561a5.jpg","date":1346677051},{"type":"news","id":5,"name":"Boh\u00e8mes,
+        une bande son par B\u00e9atrice Ardisson","imageUrl":"news-504607f4df207.jpg","date":1346509616}],"offset":0,"count":10,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 19:57:51 GMT
+  recorded_at: Sun, 05 Oct 2014 11:01:13 GMT
 recorded_with: VCR 2.9.3

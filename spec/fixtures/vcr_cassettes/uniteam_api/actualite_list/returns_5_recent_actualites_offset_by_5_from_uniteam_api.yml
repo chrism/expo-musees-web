@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@expomusees.orange.com/api/getSearchResults?count=5&offset=5&type=news
+    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=5&offset=5&type=news
     body:
       encoding: US-ASCII
       string: ''
@@ -19,14 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Oct 2014 19:57:52 GMT
+      - Sun, 05 Oct 2014 10:59:41 GMT
       Server:
-      - Apache
+      - Apache/2.2.16 (Debian)
       X-Powered-By:
-      - PHP/5.3.3-7+squeeze18
-      Set-Cookie:
-      - OPDM1PROD=w2; path=/
-      - PHPSESSID=q525h39fs6een00o8dgclrolc0; path=/
+      - PHP/5.3.2-2
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -34,18 +31,21 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '892'
+      - '696'
       Content-Type:
       - application/json
+      Set-Cookie:
+      - PHPSESSID=l4h9sedk32i907mkjmo2i34kg4; path=/
+      Via:
+      - 1.1 orangemusee.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"keyword":null,"pois":[{"type":"news","id":700,"name":"P\u00e9kin
-        express. La Chine fascine la France, la preuve en culture.","imageUrl":"news-5411a2df8b052.jpg","date":1410947965},{"type":"news","id":699,"name":"Le
-        Grand Palais se transforme en salle d\u2019embarquement pour Air France","imageUrl":"news-5411a27d10af3.JPG","date":1410855277},{"type":"news","id":704,"name":"L\u2019automne,
-        la saison de Buren","imageUrl":"news-54116603e741b.jpg","date":1410426475},{"type":"news","id":698,"name":"C\u2019est
-        quoi, l\u2019exotisme ? Matisse, un touriste pas comme les autres \u00e0 Tahiti","imageUrl":"news-541017c035fad.jpg","date":1410340800},{"type":"news","id":697,"name":"VIDEO
-        I \" Une oeuvre, un mus\u00e9e \" \u00e9pisode 4: \u00ab Anthropom\u00e9trie
-        \u00bb d\u2019Yves Klein","imageUrl":"news-540ed802dc2d7.jpg","date":1410258996}],"offset":5,"count":5,"totalCount":665,"error":0}'
+      string: '{"keyword":null,"pois":[{"type":"news","id":7,"name":"Babel, le mythe
+        vu par les contemporains","imageUrl":"news-5061ae283f9d2.jpg","date":1348492456},{"type":"news","id":8,"name":"Le
+        carnaval fait son come-back","imageUrl":"news-512c8b56e2cb7.JPG","date":1348238300},{"type":"news","id":4,"name":"A
+        la recherche du temps perdu","imageUrl":"news-504605eaf2110.jpg","date":1347456172},{"type":"news","id":1,"name":"Les
+        journ\u00e9es du patrimoine 2012","imageUrl":"news-50460e51561a5.jpg","date":1346677051},{"type":"news","id":5,"name":"Boh\u00e8mes,
+        une bande son par B\u00e9atrice Ardisson","imageUrl":"news-504607f4df207.jpg","date":1346509616}],"offset":5,"count":5,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Wed, 01 Oct 2014 19:57:52 GMT
+  recorded_at: Sun, 05 Oct 2014 11:01:15 GMT
 recorded_with: VCR 2.9.3
