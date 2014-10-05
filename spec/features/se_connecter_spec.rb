@@ -6,7 +6,6 @@ RSpec.feature 'Se Connecter Page', :vcr do
   end
 
   scenario 'Correct email & password shows success message' do
-    puts "here we are ... #{ENV['USERNAME']}"
     fill_in 'Email', :with => ENV['USERNAME']
     fill_in 'Password', :with => ENV['PASSWORD']
 

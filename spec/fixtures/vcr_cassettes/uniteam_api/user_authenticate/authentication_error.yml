@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@orangemusee.uniteam.fr/api/logUser?email=chrismasters@gmail.com&password=password
+    uri: http://username:password@usernamepassword.uniteam.fr/api/logUser?email=email@address.com&password=password
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 10:59:48 GMT
+      - Sun, 05 Oct 2014 20:08:47 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,12 +35,12 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=s33k5qu3l3mop2qs70jhpmqp70; path=/
+      - PHPSESSID=bab15b3uut0sqrf21hdvrqmjk7; path=/
       Via:
-      - 1.1 orangemusee.uniteam.fr
+      - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"error":9,"debug":"Wrong login\/password"}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 11:01:21 GMT
+  recorded_at: Sun, 05 Oct 2014 20:10:22 GMT
 recorded_with: VCR 2.9.3

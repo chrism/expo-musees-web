@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=10&offset=0&type=museum
+    uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=10&offset=0&type=museum
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 10:59:30 GMT
+      - Sun, 05 Oct 2014 20:08:31 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,9 +35,9 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=cg2pskec2e9lrseqhat153r2m2; path=/
+      - PHPSESSID=kgm5a0fm0jpv1b19n4eqrves35; path=/
       Via:
-      - 1.1 orangemusee.uniteam.fr
+      - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"keyword":null,"pois":[{"type":"museum","id":289,"latitude":43.52559905196,"longitude":5.4525801417826,"shortSummary":"Flamboyant
@@ -61,5 +61,5 @@ http_interactions:
         pots de fa\u00efence des XVII et XVIIIe si\u00e8cle","name":"Apothicairerie
         H\u00f4tel-Dieu","address":"47, Boulevard de Brou","city":"Bourg-en-Bresse","zipCode":"01020","rating":0,"imageUrl":"71437\/85736.jpg"}],"offset":0,"count":10,"totalCount":2657,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 11:01:04 GMT
+  recorded_at: Sun, 05 Oct 2014 20:10:06 GMT
 recorded_with: VCR 2.9.3

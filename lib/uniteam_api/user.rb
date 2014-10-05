@@ -18,11 +18,17 @@ module UniteamAPI
       end
     end
 
-    def self.add_user(firstname, lastname, email, password)
+    def self.add_user(firstname = '', lastname = '', email = '', password = '')
       response = @uniteam_api['addUser'].get(:params => {:firstname => firstname, :lastname => lastname, :email => email, :password => password})
       parsed_response = JSON.parse(response.body)
       if parsed_response["error"] == 0
         response.cookies
+      elsif parsed_response["error"] == 6 
+        # User exists
+        parsed_response
+      elsif parsed_response["error"] == 4 
+        # Form did not validate
+        parsed_response
       else
         nil
         # TODO: Handle errors better

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=10&offset=0&type=museum
+    uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=10&offset=0&type=museum
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 10:59:31 GMT
+      - Sun, 05 Oct 2014 20:08:32 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,9 +35,9 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=mgqvn9eta6kq8vbgp8fs2ssai1; path=/
+      - PHPSESSID=n2av4c4gqt535a210sj72ii1j0; path=/
       Via:
-      - 1.1 orangemusee.uniteam.fr
+      - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"keyword":null,"pois":[{"type":"museum","id":289,"latitude":43.52559905196,"longitude":5.4525801417826,"shortSummary":"Flamboyant
@@ -61,10 +61,10 @@ http_interactions:
         pots de fa\u00efence des XVII et XVIIIe si\u00e8cle","name":"Apothicairerie
         H\u00f4tel-Dieu","address":"47, Boulevard de Brou","city":"Bourg-en-Bresse","zipCode":"01020","rating":0,"imageUrl":"71437\/85736.jpg"}],"offset":0,"count":10,"totalCount":2657,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 11:01:05 GMT
+  recorded_at: Sun, 05 Oct 2014 20:10:07 GMT
 - request:
     method: get
-    uri: http://username:password@orangemusee.uniteam.fr/api/getPOIDetails?id=289&type=museum
+    uri: http://username:password@usernamepassword.uniteam.fr/api/getPOIDetails?id=289&type=museum
     body:
       encoding: US-ASCII
       string: ''
@@ -81,7 +81,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 10:59:32 GMT
+      - Sun, 05 Oct 2014 20:08:32 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -97,12 +97,12 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=0ihqkjl4igs8r5pu5c1o4b3ri3; path=/
+      - PHPSESSID=9cmdjhpnj91uqhq10dqudi68e4; path=/
       Via:
-      - 1.1 orangemusee.uniteam.fr
+      - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"type":"museum","id":289,"url":"http:\/\/orangemusee.uniteam.fr\/musee-289\/musee-granet-aix-en-provence-provence-alpes-cote-dazur","name":"Mus\u00e9e
+      string: '{"type":"museum","id":289,"url":"http:\/\/usernamepassword.uniteam.fr\/password-289\/password-granet-aix-en-provence-provence-alpes-cote-dazur","name":"Mus\u00e9e
         Granet","title":"Flamboyant Mus\u00e9e Granet","latitude":43.5256,"longitude":5.45258,"address":"Place
         Saint-Jean de Malte","city":"Aix-en-Provence","zipCode":"13100","phoneNumber":"0442528797","video":"","ticketnetUrl":"","wikipediaUrl":"","summary":"<p>Depuis
         juin 2007, le mus\u00e9e Granet de la Communaut\u00e9 du Pays d\u2019Aix pr\u00e9sente
@@ -128,5 +128,5 @@ http_interactions:
         \/ lieu d''exposition","id":2},{"name":"mus\u00e9e de peintures et sculptures","id":6},{"name":"mus\u00e9e
         pour enfants","id":11}],"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 11:01:05 GMT
+  recorded_at: Sun, 05 Oct 2014 20:10:07 GMT
 recorded_with: VCR 2.9.3

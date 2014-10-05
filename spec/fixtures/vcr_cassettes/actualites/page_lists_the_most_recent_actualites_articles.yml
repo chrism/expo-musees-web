@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=10&offset=0&type=news
+    uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=10&offset=0&type=news
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 10:59:24 GMT
+      - Sun, 05 Oct 2014 20:08:24 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,9 +35,9 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=96s5kquofg50qlmduvem7vfu96; path=/
+      - PHPSESSID=pl9bhn9s0pem9gihe8hobil491; path=/
       Via:
-      - 1.1 orangemusee.uniteam.fr
+      - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"keyword":null,"pois":[{"type":"news","id":16,"name":"VIDEO I Le roman","imageUrl":"news-52cd73a28836f.jpg","date":1389196459},{"type":"news","id":15,"name":"T\u00e9l\u00e9chargez
@@ -51,5 +51,5 @@ http_interactions:
         journ\u00e9es du patrimoine 2012","imageUrl":"news-50460e51561a5.jpg","date":1346677051},{"type":"news","id":5,"name":"Boh\u00e8mes,
         une bande son par B\u00e9atrice Ardisson","imageUrl":"news-504607f4df207.jpg","date":1346509616}],"offset":0,"count":10,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 11:00:58 GMT
+  recorded_at: Sun, 05 Oct 2014 20:09:59 GMT
 recorded_with: VCR 2.9.3

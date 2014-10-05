@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@usernamepassword.uniteam.fr/api/logUser?email=email@address.com&password=password
+    uri: http://username:password@usernamepassword.uniteam.fr/api/addUser?email=&firstname=&lastname=&password=
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:47 GMT
+      - Sun, 05 Oct 2014 20:08:30 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -31,16 +31,16 @@ http_interactions:
       Pragma:
       - no-cache
       Content-Length:
-      - '11'
+      - '249'
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=2bpnuvqtq10875b02l0tud33m1; path=/
+      - PHPSESSID=dv9eftrgj305nqqf696cir6ei5; path=/
       Via:
       - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
-      string: '{"error":0}'
+      string: '{"error":4,"debug":"Form did not validate","messages":{"firstname":["isEmpty","stringLengthTooShort"],"email":["isEmpty","emailAddressInvalidFormat"],"password":["isEmpty","stringLengthTooShort"],"check_password":["isEmpty","stringLengthTooShort"]}}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:22 GMT
+  recorded_at: Sun, 05 Oct 2014 20:10:05 GMT
 recorded_with: VCR 2.9.3

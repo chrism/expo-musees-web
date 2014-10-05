@@ -6,8 +6,8 @@ class UserController < ApplicationController
     begin
       user_hash = User.add_user(params[:firstname], params[:lastname], params[:email], params[:password])
       if user_hash
-        session[:user_hash] = user_hash
-        redirect_to root_url, :notice => "Thank you for signing up!"
+        flash.now[:notice] = 'Thank you for signing up!'
+        render "email_confirmation"
       end
     rescue ExpoMuseesWeb::AuthenticationError => e
       flash.now[:error] = e

@@ -13,6 +13,7 @@
 
 <% if signed_in? %>
   Logged in as <%= current_username %>
+  <%= link_to "Profile", profil_path %>
   <%= link_to "Sign out", se_deconnecter_path %>
 <% else %>
   <%= link_to "Sign in", se_connecter_path %> | <%= link_to "Sign up", inscription_path %>

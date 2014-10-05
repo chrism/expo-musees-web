@@ -28,12 +28,16 @@ class User < ActiveRecord::Base
     end
   end
 
-  def self.add_user(firstname, lastname, email, password)
-    session_hash = UniteamAPI::User.add_user(firstname, lastname, email, password)
-    if session_hash.nil?
-      raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing up"
+  def self.add_user(firstname = '', lastname = '', email = '', password = '')
+    user = UniteamAPI::User.add_user(firstname, lastname, email, password)
+    if user.nil?
+      raise ExpoMuseesWeb::AuthenticationError, "Sorry, there was a problem signing up"
+    elsif user["error"] == 4
+      raise ExpoMuseesWeb::AuthenticationError, "Sorry, there is a problem with the form"
+    elsif user["error"] == 6
+      raise ExpoMuseesWeb::AuthenticationError, "A user already exists with that email address"
     else
-      session_hash
+      user
     end
   end
 

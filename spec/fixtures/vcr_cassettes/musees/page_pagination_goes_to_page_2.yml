@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=10&offset=0&type=museum
+    uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=10&offset=0&type=museum
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 10:59:33 GMT
+      - Sun, 05 Oct 2014 20:08:33 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,9 +35,9 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=el7sl6u1trm660thoqcq748gg4; path=/
+      - PHPSESSID=k393ub9uvjerdvhgfhcfbmdcp5; path=/
       Via:
-      - 1.1 orangemusee.uniteam.fr
+      - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"keyword":null,"pois":[{"type":"museum","id":289,"latitude":43.52559905196,"longitude":5.4525801417826,"shortSummary":"Flamboyant
@@ -61,10 +61,10 @@ http_interactions:
         pots de fa\u00efence des XVII et XVIIIe si\u00e8cle","name":"Apothicairerie
         H\u00f4tel-Dieu","address":"47, Boulevard de Brou","city":"Bourg-en-Bresse","zipCode":"01020","rating":0,"imageUrl":"71437\/85736.jpg"}],"offset":0,"count":10,"totalCount":2657,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 11:01:06 GMT
+  recorded_at: Sun, 05 Oct 2014 20:10:08 GMT
 - request:
     method: get
-    uri: http://username:password@orangemusee.uniteam.fr/api/getSearchResults?count=10&offset=20&type=museum
+    uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=10&offset=20&type=museum
     body:
       encoding: US-ASCII
       string: ''
@@ -81,7 +81,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 10:59:33 GMT
+      - Sun, 05 Oct 2014 20:08:34 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -97,9 +97,9 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=r9ku209kmp9umuldkqrpil1vq2; path=/
+      - PHPSESSID=18cb54i8asuv73v0bfeo3v0e20; path=/
       Via:
-      - 1.1 orangemusee.uniteam.fr
+      - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"keyword":null,"pois":[{"type":"museum","id":2050,"latitude":48.862299058057,"longitude":2.281910066084,"shortSummary":"Les
@@ -125,5 +125,5 @@ http_interactions:
         Rue Mireille Chrisostome","city":"Saint-Brieuc","zipCode":"22000","rating":5,"imageUrl":"64994\/73129.jpg"},{"type":"museum","id":6,"latitude":46.108001369588,"longitude":5.8058699690542,"shortSummary":"Entre
         le pays de Gex et Gen\u00e8ve","name":"Fort l''Ecluse","address":"","city":"L\u00e9az","zipCode":"01200","rating":0,"imageUrl":"55532\/50578.jpg"}],"offset":20,"count":10,"totalCount":2657,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 11:01:07 GMT
+  recorded_at: Sun, 05 Oct 2014 20:10:08 GMT
 recorded_with: VCR 2.9.3
