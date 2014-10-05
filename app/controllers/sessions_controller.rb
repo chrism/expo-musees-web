@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
       user_hash = User.authenticate(params[:email], params[:password])
       if user_hash
         session[:user_hash] = user_hash
-        redirect_to root_url, :notice => "Signed in!"
+        redirect_to root_url, :notice => I18n.t('signed-in-flash')
       end
     rescue ExpoMuseesWeb::AuthenticationError => e
       flash.now[:error] = e

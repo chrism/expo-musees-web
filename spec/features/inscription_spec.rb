@@ -12,9 +12,9 @@ RSpec.feature 'Inscription Page', :vcr do
     fill_in 'Email', :with => Faker::Internet.email
     fill_in 'Password', :with => Faker::Internet.password(8)
 
-    click_button 'Sign up'
-    expect(page).to have_content 'Thank you for signing up!'
-    expect(page).to have_content 'You should receive shortly an email with a confirmation link, please check you email - including your spam folder'
+    click_button I18n.t('sign-up')
+    expect(page).to have_content I18n.t('signed-up-flash')
+    expect(page).to have_content I18n.t('user.email_confirmation.content')
   end
 
   scenario 'Missing details shows form error message' do
@@ -23,8 +23,8 @@ RSpec.feature 'Inscription Page', :vcr do
     fill_in 'Email', :with => ''
     fill_in 'Password', :with => ''
 
-    click_button 'Sign up'
-    expect(page).to have_content 'Sorry, there is a problem with the form'
+    click_button I18n.t('sign-up')
+    expect(page).to have_content I18n.t('sign-up-error-form-flash')
   end
 
   scenario 'Existing user shows error message' do
@@ -33,8 +33,8 @@ RSpec.feature 'Inscription Page', :vcr do
     fill_in 'Email', :with => ENV['USERNAME']
     fill_in 'Password', :with => ENV['PASSWORD']
 
-    click_button 'Sign up'
-    expect(page).to have_content 'A user already exists with that email address'
+    click_button I18n.t('sign-up')
+    expect(page).to have_content I18n.t('sign-up-error-existing-user-flash')
   end
 
 end

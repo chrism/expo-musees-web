@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
   def self.authenticate(email, password)
     session_hash = UniteamAPI::User.authenticate(email, password)
     if session_hash.nil?
-      raise ExpoMuseesWeb::AuthenticationError, "There was a problem signing in"
+      raise ExpoMuseesWeb::AuthenticationError, I18n.t('sign-in-error-flash')
     else
       session_hash
     end
@@ -31,11 +31,11 @@ class User < ActiveRecord::Base
   def self.add_user(firstname = '', lastname = '', email = '', password = '')
     user = UniteamAPI::User.add_user(firstname, lastname, email, password)
     if user.nil?
-      raise ExpoMuseesWeb::AuthenticationError, "Sorry, there was a problem signing up"
+      raise ExpoMuseesWeb::AuthenticationError, I18n.t('sign-up-error-flash')
     elsif user["error"] == 4
-      raise ExpoMuseesWeb::AuthenticationError, "Sorry, there is a problem with the form"
+      raise ExpoMuseesWeb::AuthenticationError, I18n.t('sign-up-error-form-flash')
     elsif user["error"] == 6
-      raise ExpoMuseesWeb::AuthenticationError, "A user already exists with that email address"
+      raise ExpoMuseesWeb::AuthenticationError, I18n.t('sign-up-error-existing-user-flash')
     else
       user
     end

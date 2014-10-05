@@ -43,4 +43,262 @@ http_interactions:
       string: '{"error":6,"debug":"User exists"}'
     http_version: 
   recorded_at: Sun, 05 Oct 2014 20:10:05 GMT
+- request:
+    method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/addUser?email=email@address.com&firstname=Chris&lastname=Masters&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 21:11:32 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=j93b1ab8lmsff7ue6r6t2670r2; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":6,"debug":"User exists"}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 21:13:07 GMT
+- request:
+    method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/addUser?email=email@address.com&firstname=Chris&lastname=Masters&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 21:12:32 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=3uk64rlhd80lplu0op5ncmfco7; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":6,"debug":"User exists"}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 21:14:07 GMT
+- request:
+    method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/addUser?email=email@address.com&firstname=Chris&lastname=Masters&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 21:13:44 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=bpoakso2p65c9tvdd8eoqgscj2; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":6,"debug":"User exists"}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 21:15:19 GMT
+- request:
+    method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/addUser?email=email@address.com&firstname=Chris&lastname=Masters&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 21:25:59 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=6dnfvbrhkob97nq6faqr9jt7n1; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":6,"debug":"User exists"}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 21:27:34 GMT
+- request:
+    method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/addUser?email=email@address.com&firstname=Chris&lastname=Masters&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 21:29:10 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=2vfet2bp2l8spneqh18jr5kvb3; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":6,"debug":"User exists"}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 21:30:45 GMT
+- request:
+    method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/addUser?email=email@address.com&firstname=Chris&lastname=Masters&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 21:30:39 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '33'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=cq6f98atncbhpqndl9nlbh3m12; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":6,"debug":"User exists"}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 21:32:14 GMT
 recorded_with: VCR 2.9.3

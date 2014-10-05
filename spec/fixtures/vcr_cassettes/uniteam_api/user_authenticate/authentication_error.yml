@@ -43,4 +43,47 @@ http_interactions:
       string: '{"error":9,"debug":"Wrong login\/password"}'
     http_version: 
   recorded_at: Sun, 05 Oct 2014 20:10:22 GMT
+- request:
+    method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/logUser?email=email@address.com&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 20:32:40 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '43'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=fq5vmstg3tu22bm3bljab2iq37; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":9,"debug":"Wrong login\/password"}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 20:34:15 GMT
 recorded_with: VCR 2.9.3

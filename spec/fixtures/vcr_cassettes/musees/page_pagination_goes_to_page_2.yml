@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:33 GMT
+      - Sun, 05 Oct 2014 20:32:31 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,7 +35,7 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=k393ub9uvjerdvhgfhcfbmdcp5; path=/
+      - PHPSESSID=drfj1p7uiub2d5vmuanc8p74e1; path=/
       Via:
       - 1.1 usernamepassword.uniteam.fr
     body:
@@ -61,7 +61,7 @@ http_interactions:
         pots de fa\u00efence des XVII et XVIIIe si\u00e8cle","name":"Apothicairerie
         H\u00f4tel-Dieu","address":"47, Boulevard de Brou","city":"Bourg-en-Bresse","zipCode":"01020","rating":0,"imageUrl":"71437\/85736.jpg"}],"offset":0,"count":10,"totalCount":2657,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:08 GMT
+  recorded_at: Sun, 05 Oct 2014 20:34:06 GMT
 - request:
     method: get
     uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=10&offset=20&type=museum
@@ -81,7 +81,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:34 GMT
+      - Sun, 05 Oct 2014 20:32:32 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -97,7 +97,7 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=18cb54i8asuv73v0bfeo3v0e20; path=/
+      - PHPSESSID=2p5j8lp30tcbc8tp2v64ltbpu7; path=/
       Via:
       - 1.1 usernamepassword.uniteam.fr
     body:
@@ -125,5 +125,5 @@ http_interactions:
         Rue Mireille Chrisostome","city":"Saint-Brieuc","zipCode":"22000","rating":5,"imageUrl":"64994\/73129.jpg"},{"type":"museum","id":6,"latitude":46.108001369588,"longitude":5.8058699690542,"shortSummary":"Entre
         le pays de Gex et Gen\u00e8ve","name":"Fort l''Ecluse","address":"","city":"L\u00e9az","zipCode":"01200","rating":0,"imageUrl":"55532\/50578.jpg"}],"offset":20,"count":10,"totalCount":2657,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:08 GMT
+  recorded_at: Sun, 05 Oct 2014 20:34:07 GMT
 recorded_with: VCR 2.9.3

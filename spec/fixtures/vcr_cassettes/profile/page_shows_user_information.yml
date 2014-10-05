@@ -45,6 +45,49 @@ http_interactions:
   recorded_at: Sun, 05 Oct 2014 20:10:10 GMT
 - request:
     method: get
+    uri: http://username:password@usernamepassword.uniteam.fr/api/logUser?email=email@address.com&password=password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Oct 2014 21:04:38 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      X-Powered-By:
+      - PHP/5.3.2-2
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '11'
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - PHPSESSID=dbkqhn68mibg2gjg54j42ftfa5; path=/
+      Via:
+      - 1.1 usernamepassword.uniteam.fr
+    body:
+      encoding: UTF-8
+      string: '{"error":0}'
+    http_version: 
+  recorded_at: Sun, 05 Oct 2014 21:06:14 GMT
+- request:
+    method: get
     uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=3&offset=0&type=news
     body:
       encoding: US-ASCII
@@ -62,7 +105,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:35 GMT
+      - Sun, 05 Oct 2014 21:04:39 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -78,7 +121,7 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=bcn9jf0er0i649v3hfep4l7j81; path=/
+      - PHPSESSID=csftkmjoqs1i0nqmg9kj6njut6; path=/
       Via:
       - 1.1 usernamepassword.uniteam.fr
     body:
@@ -87,7 +130,7 @@ http_interactions:
         l''application Orange expo mus\u00e9es !","imageUrl":"news-5260ee5e42678.jpg","date":1382084190},{"type":"news","id":14,"name":"Toulouse,
         capitale du Midi, de l\u2019Antiquit\u00e9 \u00e0 l\u2019a\u00e9ronautique","imageUrl":"","date":1370352495}],"offset":0,"count":3,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:10 GMT
+  recorded_at: Sun, 05 Oct 2014 21:06:15 GMT
 - request:
     method: get
     uri: http://username:password@usernamepassword.uniteam.fr/api/getUser
@@ -100,7 +143,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - PHPSESSID=one5n1h5571ivib14gpb2pmsp5
+      - PHPSESSID=dbkqhn68mibg2gjg54j42ftfa5
       User-Agent:
       - Ruby
   response:
@@ -109,7 +152,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:36 GMT
+      - Sun, 05 Oct 2014 21:04:40 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -130,9 +173,9 @@ http_interactions:
       encoding: UTF-8
       string: '{"user":{"id":53,"idFacebook":0,"firstname":"Chris","lastname":"Masters","email":"email@address.com","idCity":0,"preference":"","acceptInfo":0,"phone":"","office":"","createDate":"2014-10-03
         17:53:26","idType":5,"lastUpdateDate":"2014-10-05 21:57:25","lastLoginDate":"2014-10-05
-        22:00:48","status":1},"error":0}'
+        22:56:42","status":1},"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:11 GMT
+  recorded_at: Sun, 05 Oct 2014 21:06:15 GMT
 - request:
     method: get
     uri: http://username:password@usernamepassword.uniteam.fr/api/getUser
@@ -145,7 +188,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - PHPSESSID=one5n1h5571ivib14gpb2pmsp5
+      - PHPSESSID=dbkqhn68mibg2gjg54j42ftfa5
       User-Agent:
       - Ruby
   response:
@@ -154,7 +197,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:37 GMT
+      - Sun, 05 Oct 2014 21:04:41 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -175,9 +218,9 @@ http_interactions:
       encoding: UTF-8
       string: '{"user":{"id":53,"idFacebook":0,"firstname":"Chris","lastname":"Masters","email":"email@address.com","idCity":0,"preference":"","acceptInfo":0,"phone":"","office":"","createDate":"2014-10-03
         17:53:26","idType":5,"lastUpdateDate":"2014-10-05 21:57:25","lastLoginDate":"2014-10-05
-        22:00:48","status":1},"error":0}'
+        22:56:42","status":1},"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:12 GMT
+  recorded_at: Sun, 05 Oct 2014 21:06:16 GMT
 - request:
     method: get
     uri: http://username:password@usernamepassword.uniteam.fr/api/getUser
@@ -190,7 +233,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - PHPSESSID=one5n1h5571ivib14gpb2pmsp5
+      - PHPSESSID=dbkqhn68mibg2gjg54j42ftfa5
       User-Agent:
       - Ruby
   response:
@@ -199,7 +242,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:37 GMT
+      - Sun, 05 Oct 2014 21:04:42 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -220,7 +263,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"user":{"id":53,"idFacebook":0,"firstname":"Chris","lastname":"Masters","email":"email@address.com","idCity":0,"preference":"","acceptInfo":0,"phone":"","office":"","createDate":"2014-10-03
         17:53:26","idType":5,"lastUpdateDate":"2014-10-05 21:57:25","lastLoginDate":"2014-10-05
-        22:00:48","status":1},"error":0}'
+        22:56:42","status":1},"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:12 GMT
+  recorded_at: Sun, 05 Oct 2014 21:06:17 GMT
 recorded_with: VCR 2.9.3

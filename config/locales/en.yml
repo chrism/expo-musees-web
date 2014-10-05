@@ -20,4 +20,19 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  sign-in: "Sign in"
+  sign-up: "Sign up"
+  signed-in-flash: "Signed in!"
+  sign-out: "Sign out"
+  welcome-message: "Hi,"
+  profile: "Profile"
+  sign-in-error-flash: "There was a problem signing in"
+  signed-up-flash: "Thank you for signing up!"
+  sign-up-error-flash: "Sorry, there was a problem signing up"
+  sign-up-error-form-flash: "Sorry, there is a problem with the form"
+  sign-up-error-existing-user-flash: "A user already exists with that email address"
+
+  user:
+    email_confirmation:
+      title: "Email Confirmation"
+      content: "You should receive shortly an email with a confirmation link, please check you email - including your spam folder."

@@ -7,6 +7,19 @@
 # Emended by Benjamin des Gachons and Patrick Chew : <http://www.fitima.org/docs/fiche.pdf>
 
 fr:
+  sign-in: "Se connecter"
+  sign-up: "S'inscrire"
+  signed-in-flash:
+  sign-out: "Se déconnecter"
+  welcome-message: "Bonjour"
+  profile: "Profil"
+  sign-in-error-flash:
+
+  user:
+    email_confirmation:
+      title: "Inscription en cours"
+      content: "Votre inscription a bien été enregistrée, veuillez consulter votre messagerie pour activer votre compte."
+
   date:
     abbr_day_names:
       - dim

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:41 GMT
+      - Sun, 05 Oct 2014 20:32:34 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,7 +35,7 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=6tans0f49i2s9lajdeht5jumb2; path=/
+      - PHPSESSID=almoofol6pdaso26li52doi4r3; path=/
       Via:
       - 1.1 usernamepassword.uniteam.fr
     body:
@@ -46,5 +46,5 @@ http_interactions:
         is the voice\"","imageUrl":"news-512c8b3510d4d.jpg","date":1362323471},{"type":"news","id":3,"name":"le
         Grand Versailles num\u00e9rique","imageUrl":"news-504602e63dd1e.jpg","date":1348823795}],"offset":0,"count":5,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:16 GMT
+  recorded_at: Sun, 05 Oct 2014 20:34:09 GMT
 recorded_with: VCR 2.9.3

@@ -6,7 +6,7 @@ class UserController < ApplicationController
     begin
       user_hash = User.add_user(params[:firstname], params[:lastname], params[:email], params[:password])
       if user_hash
-        flash.now[:notice] = 'Thank you for signing up!'
+        flash.now[:notice] = I18n.t('signed-up-flash')
         render "email_confirmation"
       end
     rescue ExpoMuseesWeb::AuthenticationError => e

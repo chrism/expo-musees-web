@@ -12,11 +12,11 @@
 <% end %>
 
 <% if signed_in? %>
-  Logged in as <%= current_username %>
-  <%= link_to "Profile", profil_path %>
-  <%= link_to "Sign out", se_deconnecter_path %>
+  <%= t('welcome-message') %> <%= current_username %>
+  <%= link_to t('profile'), profil_path %>
+  <%= link_to t('sign-out'), se_deconnecter_path %>
 <% else %>
-  <%= link_to "Sign in", se_connecter_path %> | <%= link_to "Sign up", inscription_path %>
+  <%= link_to t('sign-in'), se_connecter_path %> | <%= link_to t('sign-up'), inscription_path %>
 <% end %>
 
 <%= yield %>

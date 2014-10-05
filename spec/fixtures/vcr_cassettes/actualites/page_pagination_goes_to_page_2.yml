@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:26 GMT
+      - Sun, 05 Oct 2014 20:32:27 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -35,7 +35,7 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=7nelfuq7c7thmfbql57bp94ec5; path=/
+      - PHPSESSID=cs50lc8qtq4vci6lbhqi4l0jk7; path=/
       Via:
       - 1.1 usernamepassword.uniteam.fr
     body:
@@ -51,7 +51,7 @@ http_interactions:
         journ\u00e9es du patrimoine 2012","imageUrl":"news-50460e51561a5.jpg","date":1346677051},{"type":"news","id":5,"name":"Boh\u00e8mes,
         une bande son par B\u00e9atrice Ardisson","imageUrl":"news-504607f4df207.jpg","date":1346509616}],"offset":0,"count":10,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:01 GMT
+  recorded_at: Sun, 05 Oct 2014 20:34:02 GMT
 - request:
     method: get
     uri: http://username:password@usernamepassword.uniteam.fr/api/getSearchResults?count=10&offset=20&type=news
@@ -71,7 +71,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Oct 2014 20:08:27 GMT
+      - Sun, 05 Oct 2014 20:32:28 GMT
       Server:
       - Apache/2.2.16 (Debian)
       X-Powered-By:
@@ -87,12 +87,12 @@ http_interactions:
       Content-Type:
       - application/json
       Set-Cookie:
-      - PHPSESSID=uln5gq8e5ho1q1jmu2acg34l93; path=/
+      - PHPSESSID=t2tep9qblb6c8am8206n6mv1d4; path=/
       Via:
       - 1.1 usernamepassword.uniteam.fr
     body:
       encoding: UTF-8
       string: '{"keyword":null,"pois":[],"offset":20,"count":0,"totalCount":11,"error":0}'
     http_version: 
-  recorded_at: Sun, 05 Oct 2014 20:10:02 GMT
+  recorded_at: Sun, 05 Oct 2014 20:34:02 GMT
 recorded_with: VCR 2.9.3
